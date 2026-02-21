@@ -134,7 +134,21 @@ function MarksBadge({ marks }: { marks: number }) {
 }
 
 function YearBadge({ years }: { years: string[] }) {
-  if (!years || years.length === 0) return null;
+  if (!years || years.length === 0) {
+    return (
+      <span
+        className="meta-badge"
+        style={{
+          background: "rgba(100, 100, 120, 0.12)",
+          color: "rgba(180, 185, 210, 0.45)",
+          border: "1px solid rgba(150, 150, 180, 0.15)",
+        }}
+        title="Year not recorded"
+      >
+        N/A
+      </span>
+    );
+  }
   const first = years[0];
   const extra = years.length - 1;
   return (
