@@ -1,5 +1,5 @@
-// AUTO-GENERATED from ppl-question-bank HTML files
-// Do not edit manually — run convert-questions.js to regenerate
+// AUTO-GENERATED — do not edit manually
+// Regenerate by running: node convert-questions.js
 
 export interface Question {
   id: string;
@@ -7356,12 +7356,12 @@ export const pplQuestions: Question[] = [
 
 export const oopQuestions: Question[] = [
   {
-    "id": "oop-q1.1",
+    "id": "oop-q1.1.1",
     "unit": 1,
     "unitName": "INTRODUCTION & FUNDAMENTALS OF JAVA",
-    "topic": "Java Architecture & Platform Independence",
+    "topic": "Java Architecture, JVM & Platform Independence",
     "years": [
-      "2025"
+      "2025(AM)"
     ],
     "year": "2025",
     "marks": 4,
@@ -7371,10 +7371,55 @@ export const oopQuestions: Question[] = [
     "text": "Describe java architecture."
   },
   {
-    "id": "oop-q1.9",
+    "id": "oop-q1.1.2",
     "unit": 1,
     "unitName": "INTRODUCTION & FUNDAMENTALS OF JAVA",
-    "topic": "Java Architecture & Platform Independence",
+    "topic": "Java Architecture, JVM & Platform Independence",
+    "years": [
+      "2023(AM)"
+    ],
+    "year": "2023",
+    "marks": 8,
+    "frequency": 1,
+    "priority": "high",
+    "type": "theory",
+    "text": "What is Java Machine (JVM)? Explain its architecture."
+  },
+  {
+    "id": "oop-q1.1.3",
+    "unit": 1,
+    "unitName": "INTRODUCTION & FUNDAMENTALS OF JAVA",
+    "topic": "Java Architecture, JVM & Platform Independence",
+    "years": [
+      "2021(AM)"
+    ],
+    "year": "2021",
+    "marks": 8,
+    "frequency": 1,
+    "priority": "high",
+    "type": "application",
+    "text": "What is JVM? Also explain the role of Garbage Collector with suitable program."
+  },
+  {
+    "id": "oop-q1.1.4",
+    "unit": 1,
+    "unitName": "INTRODUCTION & FUNDAMENTALS OF JAVA",
+    "topic": "Java Architecture, JVM & Platform Independence",
+    "years": [
+      "2024(ND)"
+    ],
+    "year": "2024",
+    "marks": 8,
+    "frequency": 1,
+    "priority": "medium",
+    "type": "theory",
+    "text": "Explain the following: (a) JAVA Architecture (b) JAVA fundamental and background."
+  },
+  {
+    "id": "oop-q1.1.5",
+    "unit": 1,
+    "unitName": "INTRODUCTION & FUNDAMENTALS OF JAVA",
+    "topic": "Java Architecture, JVM & Platform Independence",
     "years": [
       "2024(AM)"
     ],
@@ -7386,43 +7431,27 @@ export const oopQuestions: Question[] = [
     "text": "How Java is platform independent?"
   },
   {
-    "id": "oop-q1.11",
+    "id": "oop-q1.1.6",
     "unit": 1,
     "unitName": "INTRODUCTION & FUNDAMENTALS OF JAVA",
-    "topic": "Java Architecture & Platform Independence",
+    "topic": "Java Architecture, JVM & Platform Independence",
     "years": [
-      "2024(AM)",
-      "2021"
+      "2021(AM)"
     ],
-    "year": "2024",
-    "marks": 8,
-    "frequency": 2,
-    "priority": "high",
-    "type": "theory",
-    "text": "Java is not 100% object oriented language. Comment with suitable example."
-  },
-  {
-    "id": "oop-q1.16",
-    "unit": 1,
-    "unitName": "INTRODUCTION & FUNDAMENTALS OF JAVA",
-    "topic": "Java Architecture & Platform Independence",
-    "years": [
-      "2023"
-    ],
-    "year": "2023",
-    "marks": 8,
+    "year": "2021",
+    "marks": 4,
     "frequency": 1,
-    "priority": "high",
+    "priority": "medium",
     "type": "theory",
-    "text": "What is Java Machine? Explain its architecture."
+    "text": "Give the name of top class of all the classes in Java and the top package which is the default package."
   },
   {
-    "id": "oop-q1.19",
+    "id": "oop-q1.2.1",
     "unit": 1,
     "unitName": "INTRODUCTION & FUNDAMENTALS OF JAVA",
-    "topic": "Java Architecture & Platform Independence",
+    "topic": "Java Features, Background & Java vs C++",
     "years": [
-      "2022"
+      "2022(AM)"
     ],
     "year": "2022",
     "marks": 8,
@@ -7432,100 +7461,71 @@ export const oopQuestions: Question[] = [
     "text": "Explain the features of Java."
   },
   {
-    "id": "oop-q1.23",
+    "id": "oop-q1.2.2",
     "unit": 1,
     "unitName": "INTRODUCTION & FUNDAMENTALS OF JAVA",
-    "topic": "Java Architecture & Platform Independence",
+    "topic": "Java Features, Background & Java vs C++",
     "years": [
-      "2021"
+      "2022(AM)"
+    ],
+    "year": "2022",
+    "marks": 4,
+    "frequency": 1,
+    "priority": "medium",
+    "type": "theory",
+    "text": "Compare Java and C++."
+  },
+  {
+    "id": "oop-q1.2.3",
+    "unit": 1,
+    "unitName": "INTRODUCTION & FUNDAMENTALS OF JAVA",
+    "topic": "Java Features, Background & Java vs C++",
+    "years": [
+      "2023(AM)"
+    ],
+    "year": "2023",
+    "marks": 4,
+    "frequency": 1,
+    "priority": "medium",
+    "type": "theory",
+    "text": "Give any 4 differences between C++ and Java."
+  },
+  {
+    "id": "oop-q1.2.4",
+    "unit": 1,
+    "unitName": "INTRODUCTION & FUNDAMENTALS OF JAVA",
+    "topic": "Java Features, Background & Java vs C++",
+    "years": [
+      "2021(AM)",
+      "2024(AM)"
     ],
     "year": "2021",
     "marks": 8,
-    "frequency": 1,
+    "frequency": 2,
     "priority": "high",
     "type": "application",
-    "text": "What is JVM? Also explain the role of Garbage Collector with suitable program."
+    "text": "Java is not a 100% pure object oriented programming language. Explain with suitable example."
   },
   {
-    "id": "oop-q1.8",
+    "id": "oop-q1.2.5",
     "unit": 1,
     "unitName": "INTRODUCTION & FUNDAMENTALS OF JAVA",
-    "topic": "Java Architecture & Platform Independence",
-    "years": [
-      "2024(ND)"
-    ],
-    "year": "2024",
-    "marks": 8,
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "Explain the following: (a) JAVA Architecture (b) JAVA fundamental and background"
-  },
-  {
-    "id": "oop-q1.2",
-    "unit": 1,
-    "unitName": "INTRODUCTION & FUNDAMENTALS OF JAVA",
-    "topic": "Java Syntax & Statements",
-    "years": [
-      "2025"
-    ],
-    "year": "2025",
-    "marks": 8,
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "Define java token. Explain various statements defined in java with example."
-  },
-  {
-    "id": "oop-q1.4",
-    "unit": 1,
-    "unitName": "INTRODUCTION & FUNDAMENTALS OF JAVA",
-    "topic": "Java Syntax & Statements",
-    "years": [
-      "2025"
-    ],
-    "year": "2025",
-    "marks": 8,
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "How to take reading from console inputs. Explain with example."
-  },
-  {
-    "id": "oop-q1.10",
-    "unit": 1,
-    "unitName": "INTRODUCTION & FUNDAMENTALS OF JAVA",
-    "topic": "Java Syntax & Statements",
+    "topic": "Java Features, Background & Java vs C++",
     "years": [
       "2024(AM)"
     ],
     "year": "2024",
     "marks": 8,
     "frequency": 1,
-    "priority": "medium",
+    "priority": "low",
     "type": "theory",
-    "text": "How do you set up the environment in java?"
+    "text": "How do you set up the environment in Java?"
   },
   {
-    "id": "oop-q1.3",
+    "id": "oop-q1.3.1",
     "unit": 1,
     "unitName": "INTRODUCTION & FUNDAMENTALS OF JAVA",
-    "topic": "Variables & Data Types",
-    "years": [
-      "2025"
-    ],
-    "year": "2025",
-    "marks": 8,
-    "frequency": 1,
-    "priority": "high",
-    "type": "theory",
-    "text": "Explain Local, Instance and static variable with suitable example."
-  },
-  {
-    "id": "oop-q1.5",
-    "unit": 1,
-    "unitName": "INTRODUCTION & FUNDAMENTALS OF JAVA",
-    "topic": "Variables & Data Types",
+    "topic": "Static Members & this Keyword",
     "years": [
       "2024(ND)"
     ],
@@ -7537,27 +7537,27 @@ export const oopQuestions: Question[] = [
     "text": "Describe the use of static member in JAVA."
   },
   {
-    "id": "oop-q1.15",
+    "id": "oop-q1.3.2",
     "unit": 1,
     "unitName": "INTRODUCTION & FUNDAMENTALS OF JAVA",
-    "topic": "Variables & Data Types",
+    "topic": "Static Members & this Keyword",
     "years": [
-      "2023"
+      "2023(AM)"
     ],
     "year": "2023",
     "marks": 8,
     "frequency": 1,
     "priority": "high",
     "type": "theory",
-    "text": "Explain static members in java with proper example."
+    "text": "Explain static members in Java with proper example."
   },
   {
-    "id": "oop-q1.18",
+    "id": "oop-q1.3.3",
     "unit": 1,
     "unitName": "INTRODUCTION & FUNDAMENTALS OF JAVA",
-    "topic": "Variables & Data Types",
+    "topic": "Static Members & this Keyword",
     "years": [
-      "2022"
+      "2022(AM)"
     ],
     "year": "2022",
     "marks": 8,
@@ -7567,7 +7567,82 @@ export const oopQuestions: Question[] = [
     "text": "Explain static and this keyword with suitable example."
   },
   {
-    "id": "oop-q1.6",
+    "id": "oop-q1.3.4",
+    "unit": 1,
+    "unitName": "INTRODUCTION & FUNDAMENTALS OF JAVA",
+    "topic": "Static Members & this Keyword",
+    "years": [
+      "2024(ND)"
+    ],
+    "year": "2024",
+    "marks": 8,
+    "frequency": 1,
+    "priority": "medium",
+    "type": "application",
+    "text": "Why we use this method and reference? Explain with suitable JAVA program."
+  },
+  {
+    "id": "oop-q1.4.1",
+    "unit": 1,
+    "unitName": "INTRODUCTION & FUNDAMENTALS OF JAVA",
+    "topic": "Java Tokens, Variables & Statements",
+    "years": [
+      "2025(AM)"
+    ],
+    "year": "2025",
+    "marks": 8,
+    "frequency": 1,
+    "priority": "medium",
+    "type": "theory",
+    "text": "Define java token. Explain various statements defined in Java with example."
+  },
+  {
+    "id": "oop-q1.4.2",
+    "unit": 1,
+    "unitName": "INTRODUCTION & FUNDAMENTALS OF JAVA",
+    "topic": "Java Tokens, Variables & Statements",
+    "years": [
+      "2025(AM)"
+    ],
+    "year": "2025",
+    "marks": 8,
+    "frequency": 1,
+    "priority": "medium",
+    "type": "theory",
+    "text": "Explain Local, Instance and static variable with suitable example."
+  },
+  {
+    "id": "oop-q1.5.1",
+    "unit": 1,
+    "unitName": "INTRODUCTION & FUNDAMENTALS OF JAVA",
+    "topic": "Constructors",
+    "years": [
+      "2023(AM)"
+    ],
+    "year": "2023",
+    "marks": 8,
+    "frequency": 1,
+    "priority": "high",
+    "type": "application",
+    "text": "Explain Constructors in Java with the help of example."
+  },
+  {
+    "id": "oop-q1.5.2",
+    "unit": 1,
+    "unitName": "INTRODUCTION & FUNDAMENTALS OF JAVA",
+    "topic": "Constructors",
+    "years": [
+      "2022(AM)"
+    ],
+    "year": "2022",
+    "marks": 8,
+    "frequency": 1,
+    "priority": "high",
+    "type": "application",
+    "text": "Define constructor. Explain types of constructor using example."
+  },
+  {
+    "id": "oop-q1.5.3",
     "unit": 1,
     "unitName": "INTRODUCTION & FUNDAMENTALS OF JAVA",
     "topic": "Constructors",
@@ -7582,7 +7657,7 @@ export const oopQuestions: Question[] = [
     "text": "Define and describe the role of constructor and also explain copy constructor."
   },
   {
-    "id": "oop-q1.12",
+    "id": "oop-q1.5.4",
     "unit": 1,
     "unitName": "INTRODUCTION & FUNDAMENTALS OF JAVA",
     "topic": "Constructors",
@@ -7592,122 +7667,47 @@ export const oopQuestions: Question[] = [
     "year": "2024",
     "marks": 8,
     "frequency": 1,
-    "priority": "medium",
-    "type": "application",
-    "text": "Write a program to implement constructor in java?"
-  },
-  {
-    "id": "oop-q1.14",
-    "unit": 1,
-    "unitName": "INTRODUCTION & FUNDAMENTALS OF JAVA",
-    "topic": "Constructors",
-    "years": [
-      "2023"
-    ],
-    "year": "2023",
-    "marks": 8,
-    "frequency": 1,
     "priority": "high",
     "type": "application",
-    "text": "Explain Constructors in Java with the help of example."
+    "text": "Write a program to implement a constructor in Java."
   },
   {
-    "id": "oop-q1.20",
+    "id": "oop-q1.5.5",
     "unit": 1,
     "unitName": "INTRODUCTION & FUNDAMENTALS OF JAVA",
     "topic": "Constructors",
     "years": [
-      "2022"
-    ],
-    "year": "2022",
-    "marks": 8,
-    "frequency": 1,
-    "priority": "high",
-    "type": "application",
-    "text": "Define constructor. Explain types of constructor using example."
-  },
-  {
-    "id": "oop-q1.22",
-    "unit": 1,
-    "unitName": "INTRODUCTION & FUNDAMENTALS OF JAVA",
-    "topic": "Constructors",
-    "years": [
-      "2021"
+      "2021(AM)"
     ],
     "year": "2021",
     "marks": 8,
     "frequency": 1,
     "priority": "medium",
     "type": "application",
-    "text": "Write a program taking input from user 1 to 3 and do the following: (i) If the input is 1 call the default constructor. (ii) If the input is 2 call the constructor with one integer parameter. (iii) If the input is 3 call the constructor with one string parameter."
+    "text": "Write a program taking input from user (1 to 3): (i) If input is 1, call the default constructor. (ii) If input is 2, call the constructor with one integer parameter. (iii) If input is 3, call the constructor with one String parameter."
   },
   {
-    "id": "oop-q1.7",
+    "id": "oop-q1.6.1",
     "unit": 1,
     "unitName": "INTRODUCTION & FUNDAMENTALS OF JAVA",
-    "topic": "This & Super Keywords",
+    "topic": "Arrays & Console Input",
     "years": [
-      "2024(ND)"
+      "2025(AM)"
     ],
-    "year": "2024",
+    "year": "2025",
     "marks": 8,
-    "frequency": 1,
-    "priority": "high",
-    "type": "application",
-    "text": "Why we use this method and reference? Explain with suitable JAVA program."
-  },
-  {
-    "id": "oop-q1.13",
-    "unit": 1,
-    "unitName": "INTRODUCTION & FUNDAMENTALS OF JAVA",
-    "topic": "Java vs C++ Comparison",
-    "years": [
-      "2023"
-    ],
-    "year": "2023",
-    "marks": 4,
-    "frequency": 1,
-    "priority": "high",
-    "type": "theory",
-    "text": "Give any 4 differences between C++ and Java."
-  },
-  {
-    "id": "oop-q1.17",
-    "unit": 1,
-    "unitName": "INTRODUCTION & FUNDAMENTALS OF JAVA",
-    "topic": "Java vs C++ Comparison",
-    "years": [
-      "2022"
-    ],
-    "year": "2022",
-    "marks": 4,
-    "frequency": 1,
-    "priority": "high",
-    "type": "theory",
-    "text": "Compare Java and C++."
-  },
-  {
-    "id": "oop-q1.21",
-    "unit": 1,
-    "unitName": "INTRODUCTION & FUNDAMENTALS OF JAVA",
-    "topic": "Packages & Classes",
-    "years": [
-      "2021"
-    ],
-    "year": "2021",
-    "marks": 4,
     "frequency": 1,
     "priority": "medium",
     "type": "theory",
-    "text": "Give the name of top class of all the classes in java and top package which is default package."
+    "text": "How to take reading from console inputs. Explain with example."
   },
   {
-    "id": "oop-q2.1",
+    "id": "oop-q2.1.1",
     "unit": 2,
-    "unitName": "CLASSES, INTERFACES & EXCEPTION HANDLING",
-    "topic": "Classes & Objects",
+    "unitName": "OOP CONCEPTS (Classes, Inheritance, Exception Handling, Packages)",
+    "topic": "Concrete Class, Abstract Class & Interface",
     "years": [
-      "2025"
+      "2025(AM)"
     ],
     "year": "2025",
     "marks": 4,
@@ -7717,10 +7717,10 @@ export const oopQuestions: Question[] = [
     "text": "Describe Concrete class."
   },
   {
-    "id": "oop-q2.5",
+    "id": "oop-q2.1.2",
     "unit": 2,
-    "unitName": "CLASSES, INTERFACES & EXCEPTION HANDLING",
-    "topic": "Classes & Objects",
+    "unitName": "OOP CONCEPTS (Classes, Inheritance, Exception Handling, Packages)",
+    "topic": "Concrete Class, Abstract Class & Interface",
     "years": [
       "2024(ND)"
     ],
@@ -7732,70 +7732,88 @@ export const oopQuestions: Question[] = [
     "text": "Compare concrete and abstract class."
   },
   {
-    "id": "oop-q2.9",
+    "id": "oop-q2.1.3",
     "unit": 2,
-    "unitName": "CLASSES, INTERFACES & EXCEPTION HANDLING",
-    "topic": "Classes & Objects",
+    "unitName": "OOP CONCEPTS (Classes, Inheritance, Exception Handling, Packages)",
+    "topic": "Concrete Class, Abstract Class & Interface",
     "years": [
       "2024(AM)"
-    ],
-    "year": "2024",
-    "marks": 4,
-    "frequency": 1,
-    "priority": "high",
-    "type": "theory",
-    "text": "What is singleton class in java?"
-  },
-  {
-    "id": "oop-q2.16",
-    "unit": 2,
-    "unitName": "CLASSES, INTERFACES & EXCEPTION HANDLING",
-    "topic": "Classes & Objects",
-    "years": [
-      "2023"
-    ],
-    "year": "2023",
-    "marks": 8,
-    "frequency": 1,
-    "priority": "high",
-    "type": "theory",
-    "text": "Discuss about Singleton Class in Java using example."
-  },
-  {
-    "id": "oop-q2.7",
-    "unit": 2,
-    "unitName": "CLASSES, INTERFACES & EXCEPTION HANDLING",
-    "topic": "Inheritance & Super Keyword",
-    "years": [
-      "2024(ND)"
     ],
     "year": "2024",
     "marks": 8,
     "frequency": 1,
     "priority": "high",
     "type": "application",
-    "text": "Write JAVA program to explain super method and reference."
+    "text": "What is abstract class? Write a program to implement abstract class in Java."
   },
   {
-    "id": "oop-q2.21",
+    "id": "oop-q2.1.4",
     "unit": 2,
-    "unitName": "CLASSES, INTERFACES & EXCEPTION HANDLING",
-    "topic": "Inheritance & Super Keyword",
+    "unitName": "OOP CONCEPTS (Classes, Inheritance, Exception Handling, Packages)",
+    "topic": "Concrete Class, Abstract Class & Interface",
     "years": [
-      "2021"
+      "2025(AM)",
+      "2022(AM)",
+      "2021(AM)",
+      "2023(AM)"
+    ],
+    "year": "2025",
+    "marks": 8,
+    "frequency": 4,
+    "priority": "high",
+    "type": "theory",
+    "text": "Differentiate interface and abstract class."
+  },
+  {
+    "id": "oop-q2.1.5",
+    "unit": 2,
+    "unitName": "OOP CONCEPTS (Classes, Inheritance, Exception Handling, Packages)",
+    "topic": "Concrete Class, Abstract Class & Interface",
+    "years": [
+      "2023(AM)"
+    ],
+    "year": "2023",
+    "marks": 8,
+    "frequency": 1,
+    "priority": "high",
+    "type": "theory",
+    "text": "Explain Abstract Class and Interface with suitable example."
+  },
+  {
+    "id": "oop-q2.1.6",
+    "unit": 2,
+    "unitName": "OOP CONCEPTS (Classes, Inheritance, Exception Handling, Packages)",
+    "topic": "Concrete Class, Abstract Class & Interface",
+    "years": [
+      "2024(ND)"
+    ],
+    "year": "2024",
+    "marks": 8,
+    "frequency": 1,
+    "priority": "medium",
+    "type": "theory",
+    "text": "Explain the following: (i) Inner Class (ii) Method overloading."
+  },
+  {
+    "id": "oop-q2.2.1",
+    "unit": 2,
+    "unitName": "OOP CONCEPTS (Classes, Inheritance, Exception Handling, Packages)",
+    "topic": "Inheritance, Aggregation & super Keyword",
+    "years": [
+      "2021(AM)"
     ],
     "year": "2021",
     "marks": 4,
     "frequency": 1,
-    "priority": "high",
+    "priority": "medium",
     "type": "theory",
     "text": "Give uses of super in Java."
   },
   {
-    "id": "oop-q2.8",
+    "id": "oop-q2.2.2",
     "unit": 2,
-    "unitName": "CLASSES, INTERFACES & EXCEPTION HANDLING",
-    "topic": "Method Overloading & Overriding",
+    "unitName": "OOP CONCEPTS (Classes, Inheritance, Exception Handling, Packages)",
+    "topic": "Inheritance, Aggregation & super Keyword",
     "years": [
       "2024(ND)"
     ],
@@ -7804,12 +7822,42 @@ export const oopQuestions: Question[] = [
     "frequency": 1,
     "priority": "medium",
     "type": "application",
-    "text": "Write JAVA program for: (i) Inner Class (ii) Method overloading"
+    "text": "Write a JAVA program to explain super method and reference."
   },
   {
-    "id": "oop-q2.11",
+    "id": "oop-q2.2.3",
     "unit": 2,
-    "unitName": "CLASSES, INTERFACES & EXCEPTION HANDLING",
+    "unitName": "OOP CONCEPTS (Classes, Inheritance, Exception Handling, Packages)",
+    "topic": "Inheritance, Aggregation & super Keyword",
+    "years": [
+      "2021(AM)"
+    ],
+    "year": "2021",
+    "marks": 8,
+    "frequency": 1,
+    "priority": "low",
+    "type": "numerical",
+    "text": "Find the output of the two following code snippets: (i) A class with try-catch-finally and arithmetic operations. (ii) A class using private methods m1(), m2(), m3() with try-catch-ArithmeticException."
+  },
+  {
+    "id": "oop-q2.3.1",
+    "unit": 2,
+    "unitName": "OOP CONCEPTS (Classes, Inheritance, Exception Handling, Packages)",
+    "topic": "Method Overloading & Overriding",
+    "years": [
+      "2023(AM)"
+    ],
+    "year": "2023",
+    "marks": 4,
+    "frequency": 1,
+    "priority": "high",
+    "type": "theory",
+    "text": "Write down any 4 differences between method overloading and overriding."
+  },
+  {
+    "id": "oop-q2.3.2",
+    "unit": 2,
+    "unitName": "OOP CONCEPTS (Classes, Inheritance, Exception Handling, Packages)",
     "topic": "Method Overloading & Overriding",
     "years": [
       "2024(AM)"
@@ -7822,27 +7870,12 @@ export const oopQuestions: Question[] = [
     "text": "What is the difference between method overloading and overriding?"
   },
   {
-    "id": "oop-q2.13",
+    "id": "oop-q2.3.3",
     "unit": 2,
-    "unitName": "CLASSES, INTERFACES & EXCEPTION HANDLING",
+    "unitName": "OOP CONCEPTS (Classes, Inheritance, Exception Handling, Packages)",
     "topic": "Method Overloading & Overriding",
     "years": [
-      "2023"
-    ],
-    "year": "2023",
-    "marks": 4,
-    "frequency": 1,
-    "priority": "high",
-    "type": "theory",
-    "text": "Write down any 4 differences between method overloading and overriding."
-  },
-  {
-    "id": "oop-q2.20",
-    "unit": 2,
-    "unitName": "CLASSES, INTERFACES & EXCEPTION HANDLING",
-    "topic": "Method Overloading & Overriding",
-    "years": [
-      "2022"
+      "2022(AM)"
     ],
     "year": "2022",
     "marks": 8,
@@ -7852,130 +7885,40 @@ export const oopQuestions: Question[] = [
     "text": "Differentiate between method overloading and method overriding with example."
   },
   {
-    "id": "oop-q2.12",
+    "id": "oop-q2.4.1",
     "unit": 2,
-    "unitName": "CLASSES, INTERFACES & EXCEPTION HANDLING",
-    "topic": "Abstract Classes",
+    "unitName": "OOP CONCEPTS (Classes, Inheritance, Exception Handling, Packages)",
+    "topic": "Exception Handling (try, catch, throws, finally)",
     "years": [
-      "2024(AM)"
-    ],
-    "year": "2024",
-    "marks": 8,
-    "frequency": 1,
-    "priority": "high",
-    "type": "application",
-    "text": "What is abstract class? Write a program to implement abstract class in java?"
-  },
-  {
-    "id": "oop-q2.15",
-    "unit": 2,
-    "unitName": "CLASSES, INTERFACES & EXCEPTION HANDLING",
-    "topic": "Abstract Classes",
-    "years": [
-      "2023"
-    ],
-    "year": "2023",
-    "marks": 8,
-    "frequency": 1,
-    "priority": "high",
-    "type": "theory",
-    "text": "Explain Abstract Class and Interface with suitable example."
-  },
-  {
-    "id": "oop-q2.4",
-    "unit": 2,
-    "unitName": "CLASSES, INTERFACES & EXCEPTION HANDLING",
-    "topic": "Interfaces",
-    "years": [
-      "2025"
-    ],
-    "year": "2025",
-    "marks": 8,
-    "frequency": 1,
-    "priority": "high",
-    "type": "theory",
-    "text": "Differentiate interface and abstract class."
-  },
-  {
-    "id": "oop-q2.17",
-    "unit": 2,
-    "unitName": "CLASSES, INTERFACES & EXCEPTION HANDLING",
-    "topic": "Interfaces",
-    "years": [
-      "2022"
-    ],
-    "year": "2022",
-    "marks": 4,
-    "frequency": 1,
-    "priority": "high",
-    "type": "theory",
-    "text": "Differentiate between interface and abstract class."
-  },
-  {
-    "id": "oop-q2.22",
-    "unit": 2,
-    "unitName": "CLASSES, INTERFACES & EXCEPTION HANDLING",
-    "topic": "Interfaces",
-    "years": [
-      "2021"
-    ],
-    "year": "2021",
-    "marks": 8,
-    "frequency": 1,
-    "priority": "high",
-    "type": "theory",
-    "text": "Differentiate between Abstract class and Interface with example."
-  },
-  {
-    "id": "oop-q2.18",
-    "unit": 2,
-    "unitName": "CLASSES, INTERFACES & EXCEPTION HANDLING",
-    "topic": "Packages",
-    "years": [
-      "2022"
-    ],
-    "year": "2022",
-    "marks": 8,
-    "frequency": 1,
-    "priority": "medium",
-    "type": "application",
-    "text": "Write a Java Program to demonstrate how packages can be created, imported and used."
-  },
-  {
-    "id": "oop-q2.2",
-    "unit": 2,
-    "unitName": "CLASSES, INTERFACES & EXCEPTION HANDLING",
-    "topic": "Exception Handling Basics",
-    "years": [
-      "2025"
+      "2025(AM)"
     ],
     "year": "2025",
     "marks": 8,
     "frequency": 1,
     "priority": "high",
     "type": "application",
-    "text": "Explain checked and unchecked exceptions in Java and demonstrate them, using a Java program."
+    "text": "Explain checked and unchecked exceptions in Java and demonstrate them using a Java program."
   },
   {
-    "id": "oop-q2.3",
+    "id": "oop-q2.4.2",
     "unit": 2,
-    "unitName": "CLASSES, INTERFACES & EXCEPTION HANDLING",
-    "topic": "Exception Handling Basics",
+    "unitName": "OOP CONCEPTS (Classes, Inheritance, Exception Handling, Packages)",
+    "topic": "Exception Handling (try, catch, throws, finally)",
     "years": [
-      "2025"
+      "2025(AM)"
     ],
     "year": "2025",
     "marks": 8,
     "frequency": 1,
     "priority": "high",
     "type": "theory",
-    "text": "Explain the use try, catch, throws and finally with proper example."
+    "text": "Explain the use of try, catch, throws and finally with proper example."
   },
   {
-    "id": "oop-q2.6",
+    "id": "oop-q2.4.3",
     "unit": 2,
-    "unitName": "CLASSES, INTERFACES & EXCEPTION HANDLING",
-    "topic": "Exception Handling Basics",
+    "unitName": "OOP CONCEPTS (Classes, Inheritance, Exception Handling, Packages)",
+    "topic": "Exception Handling (try, catch, throws, finally)",
     "years": [
       "2024(ND)"
     ],
@@ -7987,10 +7930,25 @@ export const oopQuestions: Question[] = [
     "text": "Explain the concept of exception handling with suitable JAVA program."
   },
   {
-    "id": "oop-q2.10",
+    "id": "oop-q2.4.4",
     "unit": 2,
-    "unitName": "CLASSES, INTERFACES & EXCEPTION HANDLING",
-    "topic": "Exception Handling Basics",
+    "unitName": "OOP CONCEPTS (Classes, Inheritance, Exception Handling, Packages)",
+    "topic": "Exception Handling (try, catch, throws, finally)",
+    "years": [
+      "2023(AM)"
+    ],
+    "year": "2023",
+    "marks": 8,
+    "frequency": 1,
+    "priority": "high",
+    "type": "theory",
+    "text": "Explain Exception-Handling in Java. Give one example for user defined exception."
+  },
+  {
+    "id": "oop-q2.4.5",
+    "unit": 2,
+    "unitName": "OOP CONCEPTS (Classes, Inheritance, Exception Handling, Packages)",
+    "topic": "Exception Handling (try, catch, throws, finally)",
     "years": [
       "2024(AM)"
     ],
@@ -8002,42 +7960,12 @@ export const oopQuestions: Question[] = [
     "text": "Demonstrate arithmetic exception in Java."
   },
   {
-    "id": "oop-q2.14",
+    "id": "oop-q2.4.6",
     "unit": 2,
-    "unitName": "CLASSES, INTERFACES & EXCEPTION HANDLING",
-    "topic": "Exception Handling Basics",
+    "unitName": "OOP CONCEPTS (Classes, Inheritance, Exception Handling, Packages)",
+    "topic": "Exception Handling (try, catch, throws, finally)",
     "years": [
-      "2023"
-    ],
-    "year": "2023",
-    "marks": 8,
-    "frequency": 1,
-    "priority": "high",
-    "type": "theory",
-    "text": "Explain Exception-Handling in Java. Give one example for user defined exception."
-  },
-  {
-    "id": "oop-q2.23",
-    "unit": 2,
-    "unitName": "CLASSES, INTERFACES & EXCEPTION HANDLING",
-    "topic": "Exception Handling Basics",
-    "years": [
-      "2021"
-    ],
-    "year": "2021",
-    "marks": 8,
-    "frequency": 1,
-    "priority": "medium",
-    "type": "numerical",
-    "text": "Find the output of the following code: public class test { public static void main (String [] args) { try { System.out.printf(\"1\"); int sum = 9/0; System.out.printf(\"2\"); } catch (ArithmeticException e) { System.out.printf(\"3\"); } catch (Exception e) { System.out.printf(\"4\"); } finally { System.out.printf(\"5\"); } } }"
-  },
-  {
-    "id": "oop-q2.24",
-    "unit": 2,
-    "unitName": "CLASSES, INTERFACES & EXCEPTION HANDLING",
-    "topic": "Exception Handling Basics",
-    "years": [
-      "2021"
+      "2021(AM)"
     ],
     "year": "2021",
     "marks": 8,
@@ -8047,102 +7975,147 @@ export const oopQuestions: Question[] = [
     "text": "Write a program in Java to demonstrate user throw. Also explain checked and unchecked exception."
   },
   {
-    "id": "oop-q2.19",
+    "id": "oop-q2.4.7",
     "unit": 2,
-    "unitName": "CLASSES, INTERFACES & EXCEPTION HANDLING",
-    "topic": "User-Defined Exceptions",
+    "unitName": "OOP CONCEPTS (Classes, Inheritance, Exception Handling, Packages)",
+    "topic": "Exception Handling (try, catch, throws, finally)",
     "years": [
-      "2022"
+      "2022(AM)"
     ],
     "year": "2022",
     "marks": 8,
     "frequency": 1,
     "priority": "high",
     "type": "theory",
-    "text": "Create a user defined exception class which throws exception when the user input marks greater than 100."
+    "text": "Create a user defined exception class which throws an exception when the user inputs marks greater than 100."
   },
   {
-    "id": "oop-q3.4",
-    "unit": 3,
-    "unitName": "STRING, WRAPPER CLASSES & MULTI-THREADING",
-    "topic": "String Classes",
+    "id": "oop-q2.4.8",
+    "unit": 2,
+    "unitName": "OOP CONCEPTS (Classes, Inheritance, Exception Handling, Packages)",
+    "topic": "Exception Handling (try, catch, throws, finally)",
     "years": [
-      "2025"
+      "2021(AM)"
+    ],
+    "year": "2021",
+    "marks": 4,
+    "frequency": 1,
+    "priority": "medium",
+    "type": "theory",
+    "text": "Which one is the master class of exceptions?"
+  },
+  {
+    "id": "oop-q2.5.1",
+    "unit": 2,
+    "unitName": "OOP CONCEPTS (Classes, Inheritance, Exception Handling, Packages)",
+    "topic": "Singleton Class",
+    "years": [
+      "2023(AM)"
+    ],
+    "year": "2023",
+    "marks": 8,
+    "frequency": 1,
+    "priority": "medium",
+    "type": "theory",
+    "text": "Discuss about Singleton Class in Java using example."
+  },
+  {
+    "id": "oop-q2.5.2",
+    "unit": 2,
+    "unitName": "OOP CONCEPTS (Classes, Inheritance, Exception Handling, Packages)",
+    "topic": "Singleton Class",
+    "years": [
+      "2024(AM)"
+    ],
+    "year": "2024",
+    "marks": 4,
+    "frequency": 1,
+    "priority": "medium",
+    "type": "theory",
+    "text": "What is singleton class in Java?"
+  },
+  {
+    "id": "oop-q2.6.1",
+    "unit": 2,
+    "unitName": "OOP CONCEPTS (Classes, Inheritance, Exception Handling, Packages)",
+    "topic": "Packages",
+    "years": [
+      "2022(AM)"
+    ],
+    "year": "2022",
+    "marks": 8,
+    "frequency": 1,
+    "priority": "medium",
+    "type": "application",
+    "text": "Write a Java Program to demonstrate how packages can be created, imported and used."
+  },
+  {
+    "id": "oop-q3.1.1",
+    "unit": 3,
+    "unitName": "STRING, WRAPPER CLASSES, MULTI-THREADING & JAVA I/O",
+    "topic": "String, StringBuffer & StringBuilder",
+    "years": [
+      "2025(AM)"
     ],
     "year": "2025",
     "marks": 8,
     "frequency": 1,
     "priority": "high",
-    "type": "application",
-    "text": "Differentiate between string and string builder. Briefly explain string class methods."
-  },
-  {
-    "id": "oop-q3.8",
-    "unit": 3,
-    "unitName": "STRING, WRAPPER CLASSES & MULTI-THREADING",
-    "topic": "String Classes",
-    "years": [
-      "2024(ND)"
-    ],
-    "year": "2024",
-    "marks": 8,
-    "frequency": 1,
-    "priority": "high",
-    "type": "application",
-    "text": "Define and explain Wrapper class and string class with JAVA program."
-  },
-  {
-    "id": "oop-q3.16",
-    "unit": 3,
-    "unitName": "STRING, WRAPPER CLASSES & MULTI-THREADING",
-    "topic": "String Classes",
-    "years": [
-      "2023"
-    ],
-    "year": "2023",
-    "marks": 8,
-    "frequency": 1,
-    "priority": "high",
     "type": "theory",
-    "text": "What is mutable and immutable in Java. Also explain string and string buffer class."
+    "text": "Differentiate between String and StringBuilder. Briefly explain String class methods."
   },
   {
-    "id": "oop-q3.17",
+    "id": "oop-q3.1.2",
     "unit": 3,
-    "unitName": "STRING, WRAPPER CLASSES & MULTI-THREADING",
-    "topic": "String Classes",
+    "unitName": "STRING, WRAPPER CLASSES, MULTI-THREADING & JAVA I/O",
+    "topic": "String, StringBuffer & StringBuilder",
     "years": [
-      "2022"
+      "2022(AM)"
     ],
     "year": "2022",
     "marks": 4,
     "frequency": 1,
     "priority": "high",
     "type": "theory",
-    "text": "Compare string and stringbuilder."
+    "text": "Compare String and StringBuilder."
   },
   {
-    "id": "oop-q3.23",
+    "id": "oop-q3.1.3",
     "unit": 3,
-    "unitName": "STRING, WRAPPER CLASSES & MULTI-THREADING",
-    "topic": "String Classes",
+    "unitName": "STRING, WRAPPER CLASSES, MULTI-THREADING & JAVA I/O",
+    "topic": "String, StringBuffer & StringBuilder",
     "years": [
-      "2021"
+      "2021(AM)"
     ],
     "year": "2021",
     "marks": 8,
     "frequency": 1,
     "priority": "high",
     "type": "theory",
-    "text": "Explain string and string buffer class. What is mutable and immutable in java?"
+    "text": "Explain String and StringBuffer class. What is mutable and immutable in Java?"
   },
   {
-    "id": "oop-q3.1",
+    "id": "oop-q3.1.4",
     "unit": 3,
-    "unitName": "STRING, WRAPPER CLASSES & MULTI-THREADING",
+    "unitName": "STRING, WRAPPER CLASSES, MULTI-THREADING & JAVA I/O",
+    "topic": "String, StringBuffer & StringBuilder",
+    "years": [
+      "2023(AM)"
+    ],
+    "year": "2023",
+    "marks": 8,
+    "frequency": 1,
+    "priority": "high",
+    "type": "theory",
+    "text": "What is mutable and immutable in Java? Also explain String and StringBuffer class."
+  },
+  {
+    "id": "oop-q3.2.1",
+    "unit": 3,
+    "unitName": "STRING, WRAPPER CLASSES, MULTI-THREADING & JAVA I/O",
     "topic": "Wrapper Classes",
     "years": [
-      "2025"
+      "2025(AM)"
     ],
     "year": "2025",
     "marks": 4,
@@ -8152,9 +8125,9 @@ export const oopQuestions: Question[] = [
     "text": "What are the different types of wrapper classes in Java?"
   },
   {
-    "id": "oop-q3.9",
+    "id": "oop-q3.2.2",
     "unit": 3,
-    "unitName": "STRING, WRAPPER CLASSES & MULTI-THREADING",
+    "unitName": "STRING, WRAPPER CLASSES, MULTI-THREADING & JAVA I/O",
     "topic": "Wrapper Classes",
     "years": [
       "2024(AM)"
@@ -8167,10 +8140,55 @@ export const oopQuestions: Question[] = [
     "text": "What is a wrapper class?"
   },
   {
-    "id": "oop-q3.10",
+    "id": "oop-q3.2.3",
     "unit": 3,
-    "unitName": "STRING, WRAPPER CLASSES & MULTI-THREADING",
-    "topic": "Multi-threading Basics",
+    "unitName": "STRING, WRAPPER CLASSES, MULTI-THREADING & JAVA I/O",
+    "topic": "Wrapper Classes",
+    "years": [
+      "2024(ND)"
+    ],
+    "year": "2024",
+    "marks": 8,
+    "frequency": 1,
+    "priority": "high",
+    "type": "application",
+    "text": "Define and explain Wrapper class and String class with JAVA program."
+  },
+  {
+    "id": "oop-q3.3.1",
+    "unit": 3,
+    "unitName": "STRING, WRAPPER CLASSES, MULTI-THREADING & JAVA I/O",
+    "topic": "Multi-threading (Thread Creation & Lifecycle)",
+    "years": [
+      "2023(AM)"
+    ],
+    "year": "2023",
+    "marks": 4,
+    "frequency": 1,
+    "priority": "medium",
+    "type": "theory",
+    "text": "What is multithreading?"
+  },
+  {
+    "id": "oop-q3.3.2",
+    "unit": 3,
+    "unitName": "STRING, WRAPPER CLASSES, MULTI-THREADING & JAVA I/O",
+    "topic": "Multi-threading (Thread Creation & Lifecycle)",
+    "years": [
+      "2022(AM)"
+    ],
+    "year": "2022",
+    "marks": 8,
+    "frequency": 1,
+    "priority": "high",
+    "type": "theory",
+    "text": "Explain the life cycle of a thread. In how many ways can a thread be created in Java? Explain with example."
+  },
+  {
+    "id": "oop-q3.3.3",
+    "unit": 3,
+    "unitName": "STRING, WRAPPER CLASSES, MULTI-THREADING & JAVA I/O",
+    "topic": "Multi-threading (Thread Creation & Lifecycle)",
     "years": [
       "2024(AM)"
     ],
@@ -8179,75 +8197,15 @@ export const oopQuestions: Question[] = [
     "frequency": 1,
     "priority": "high",
     "type": "application",
-    "text": "Write a program to create a thread using runnable interface."
+    "text": "Write a program to create a thread using Runnable interface."
   },
   {
-    "id": "oop-q3.13",
+    "id": "oop-q3.4.1",
     "unit": 3,
-    "unitName": "STRING, WRAPPER CLASSES & MULTI-THREADING",
-    "topic": "Multi-threading Basics",
+    "unitName": "STRING, WRAPPER CLASSES, MULTI-THREADING & JAVA I/O",
+    "topic": "Thread Synchronization & Thread Class Methods",
     "years": [
-      "2023"
-    ],
-    "year": "2023",
-    "marks": 4,
-    "frequency": 1,
-    "priority": "high",
-    "type": "theory",
-    "text": "What is multithreading?"
-  },
-  {
-    "id": "oop-q3.18",
-    "unit": 3,
-    "unitName": "STRING, WRAPPER CLASSES & MULTI-THREADING",
-    "topic": "Multi-threading Basics",
-    "years": [
-      "2022"
-    ],
-    "year": "2022",
-    "marks": 8,
-    "frequency": 1,
-    "priority": "high",
-    "type": "theory",
-    "text": "Explain the life cycle of thread. In How many ways can a thread be created in Java? Explain with example."
-  },
-  {
-    "id": "oop-q3.22",
-    "unit": 3,
-    "unitName": "STRING, WRAPPER CLASSES & MULTI-THREADING",
-    "topic": "Multi-threading Basics",
-    "years": [
-      "2021"
-    ],
-    "year": "2021",
-    "marks": 8,
-    "frequency": 1,
-    "priority": "high",
-    "type": "theory",
-    "text": "Explain the concept of Lock in java. Also explain Thread Priority."
-  },
-  {
-    "id": "oop-q3.24",
-    "unit": 3,
-    "unitName": "STRING, WRAPPER CLASSES & MULTI-THREADING",
-    "topic": "Multi-threading Basics",
-    "years": [
-      "2021"
-    ],
-    "year": "2021",
-    "marks": 8,
-    "frequency": 1,
-    "priority": "high",
-    "type": "theory",
-    "text": "Explain Inter Thread Communication. What is Daemon Thread?"
-  },
-  {
-    "id": "oop-q3.2",
-    "unit": 3,
-    "unitName": "STRING, WRAPPER CLASSES & MULTI-THREADING",
-    "topic": "Thread Synchronization",
-    "years": [
-      "2025"
+      "2025(AM)"
     ],
     "year": "2025",
     "marks": 8,
@@ -8257,10 +8215,40 @@ export const oopQuestions: Question[] = [
     "text": "Explain thread synchronization with example."
   },
   {
-    "id": "oop-q3.6",
+    "id": "oop-q3.4.2",
     "unit": 3,
-    "unitName": "STRING, WRAPPER CLASSES & MULTI-THREADING",
-    "topic": "Thread Synchronization",
+    "unitName": "STRING, WRAPPER CLASSES, MULTI-THREADING & JAVA I/O",
+    "topic": "Thread Synchronization & Thread Class Methods",
+    "years": [
+      "2023(AM)"
+    ],
+    "year": "2023",
+    "marks": 8,
+    "frequency": 1,
+    "priority": "high",
+    "type": "theory",
+    "text": "What is synchronization in Java? Explain using suitable examples."
+  },
+  {
+    "id": "oop-q3.4.3",
+    "unit": 3,
+    "unitName": "STRING, WRAPPER CLASSES, MULTI-THREADING & JAVA I/O",
+    "topic": "Thread Synchronization & Thread Class Methods",
+    "years": [
+      "2022(AM)"
+    ],
+    "year": "2022",
+    "marks": 8,
+    "frequency": 1,
+    "priority": "high",
+    "type": "theory",
+    "text": "Define synchronization. Explain the use of synchronization method with example."
+  },
+  {
+    "id": "oop-q3.4.4",
+    "unit": 3,
+    "unitName": "STRING, WRAPPER CLASSES, MULTI-THREADING & JAVA I/O",
+    "topic": "Thread Synchronization & Thread Class Methods",
     "years": [
       "2024(ND)"
     ],
@@ -8272,42 +8260,42 @@ export const oopQuestions: Question[] = [
     "text": "Describe Thread Synchronization and Thread class methods using suitable example."
   },
   {
-    "id": "oop-q3.14",
+    "id": "oop-q3.5.1",
     "unit": 3,
-    "unitName": "STRING, WRAPPER CLASSES & MULTI-THREADING",
-    "topic": "Thread Synchronization",
+    "unitName": "STRING, WRAPPER CLASSES, MULTI-THREADING & JAVA I/O",
+    "topic": "Thread Priority, Lock, Daemon & Inter-Thread Communication",
     "years": [
-      "2023"
+      "2021(AM)"
     ],
-    "year": "2023",
+    "year": "2021",
     "marks": 8,
     "frequency": 1,
-    "priority": "high",
+    "priority": "medium",
     "type": "theory",
-    "text": "What is synchronization in Java? Explain using suitable examples."
+    "text": "Explain the concept of Lock in Java. Also explain Thread Priority."
   },
   {
-    "id": "oop-q3.19",
+    "id": "oop-q3.5.2",
     "unit": 3,
-    "unitName": "STRING, WRAPPER CLASSES & MULTI-THREADING",
-    "topic": "Thread Synchronization",
+    "unitName": "STRING, WRAPPER CLASSES, MULTI-THREADING & JAVA I/O",
+    "topic": "Thread Priority, Lock, Daemon & Inter-Thread Communication",
     "years": [
-      "2022"
+      "2021(AM)"
     ],
-    "year": "2022",
+    "year": "2021",
     "marks": 8,
     "frequency": 1,
-    "priority": "high",
+    "priority": "medium",
     "type": "theory",
-    "text": "Define synchronization. Explain the use of synchronization method with example."
+    "text": "Explain Inter Thread Communication. What is Daemon Thread?"
   },
   {
-    "id": "oop-q3.3",
+    "id": "oop-q3.6.1",
     "unit": 3,
-    "unitName": "STRING, WRAPPER CLASSES & MULTI-THREADING",
-    "topic": "File I/O Streams",
+    "unitName": "STRING, WRAPPER CLASSES, MULTI-THREADING & JAVA I/O",
+    "topic": "Java I/O (InputStream, OutputStream, Reader, Writer)",
     "years": [
-      "2025"
+      "2025(AM)"
     ],
     "year": "2025",
     "marks": 8,
@@ -8317,10 +8305,10 @@ export const oopQuestions: Question[] = [
     "text": "Show the use of InputStream and OutputStream classes."
   },
   {
-    "id": "oop-q3.5",
+    "id": "oop-q3.6.2",
     "unit": 3,
-    "unitName": "STRING, WRAPPER CLASSES & MULTI-THREADING",
-    "topic": "File I/O Streams",
+    "unitName": "STRING, WRAPPER CLASSES, MULTI-THREADING & JAVA I/O",
+    "topic": "Java I/O (InputStream, OutputStream, Reader, Writer)",
     "years": [
       "2024(ND)"
     ],
@@ -8329,13 +8317,43 @@ export const oopQuestions: Question[] = [
     "frequency": 1,
     "priority": "high",
     "type": "theory",
-    "text": "Compare the use of Input Stream and Output Stream."
+    "text": "Compare the use of InputStream and OutputStream."
   },
   {
-    "id": "oop-q3.7",
+    "id": "oop-q3.6.3",
     "unit": 3,
-    "unitName": "STRING, WRAPPER CLASSES & MULTI-THREADING",
-    "topic": "File I/O Streams",
+    "unitName": "STRING, WRAPPER CLASSES, MULTI-THREADING & JAVA I/O",
+    "topic": "Java I/O (InputStream, OutputStream, Reader, Writer)",
+    "years": [
+      "2024(AM)"
+    ],
+    "year": "2024",
+    "marks": 8,
+    "frequency": 1,
+    "priority": "high",
+    "type": "theory",
+    "text": "Explain InputStream and OutputStream in detail with suitable example."
+  },
+  {
+    "id": "oop-q3.6.4",
+    "unit": 3,
+    "unitName": "STRING, WRAPPER CLASSES, MULTI-THREADING & JAVA I/O",
+    "topic": "Java I/O (InputStream, OutputStream, Reader, Writer)",
+    "years": [
+      "2022(AM)"
+    ],
+    "year": "2022",
+    "marks": 8,
+    "frequency": 1,
+    "priority": "medium",
+    "type": "application",
+    "text": "Explain Byte streams and Character streams with suitable Java program."
+  },
+  {
+    "id": "oop-q3.6.5",
+    "unit": 3,
+    "unitName": "STRING, WRAPPER CLASSES, MULTI-THREADING & JAVA I/O",
+    "topic": "Java I/O (InputStream, OutputStream, Reader, Writer)",
     "years": [
       "2024(ND)"
     ],
@@ -8347,10 +8365,10 @@ export const oopQuestions: Question[] = [
     "text": "Write a JAVA program to explain the concept of reading and writing data from/to disk."
   },
   {
-    "id": "oop-q3.11",
+    "id": "oop-q3.6.6",
     "unit": 3,
-    "unitName": "STRING, WRAPPER CLASSES & MULTI-THREADING",
-    "topic": "File I/O Streams",
+    "unitName": "STRING, WRAPPER CLASSES, MULTI-THREADING & JAVA I/O",
+    "topic": "Java I/O (InputStream, OutputStream, Reader, Writer)",
     "years": [
       "2024(AM)"
     ],
@@ -8359,73 +8377,73 @@ export const oopQuestions: Question[] = [
     "frequency": 1,
     "priority": "medium",
     "type": "application",
-    "text": "Write a program to demonstrate reading and writing to files in java."
+    "text": "Write a program to demonstrate reading and writing to files in Java."
   },
   {
-    "id": "oop-q3.12",
+    "id": "oop-q3.6.7",
     "unit": 3,
-    "unitName": "STRING, WRAPPER CLASSES & MULTI-THREADING",
-    "topic": "File I/O Streams",
+    "unitName": "STRING, WRAPPER CLASSES, MULTI-THREADING & JAVA I/O",
+    "topic": "Java I/O (InputStream, OutputStream, Reader, Writer)",
     "years": [
-      "2024(AM)"
-    ],
-    "year": "2024",
-    "marks": 8,
-    "frequency": 1,
-    "priority": "high",
-    "type": "theory",
-    "text": "Explain inputstream and outputstream in detail with suitable example."
-  },
-  {
-    "id": "oop-q3.15",
-    "unit": 3,
-    "unitName": "STRING, WRAPPER CLASSES & MULTI-THREADING",
-    "topic": "File I/O Streams",
-    "years": [
-      "2023"
+      "2023(AM)"
     ],
     "year": "2023",
     "marks": 8,
     "frequency": 1,
     "priority": "medium",
     "type": "theory",
-    "text": "Explain following: (i) Reader Class (ii) Writer Class"
+    "text": "Explain the following: (i) Reader Class (ii) Writer Class."
   },
   {
-    "id": "oop-q3.20",
-    "unit": 3,
-    "unitName": "STRING, WRAPPER CLASSES & MULTI-THREADING",
-    "topic": "File I/O Streams",
+    "id": "oop-q4.1.1",
+    "unit": 4,
+    "unitName": "AWT, SWING, APPLETS, JDBC & JAVA NETWORKING",
+    "topic": "AWT & Swing Components",
     "years": [
-      "2022"
+      "2022(AM)"
     ],
     "year": "2022",
-    "marks": 8,
+    "marks": 4,
     "frequency": 1,
-    "priority": "medium",
-    "type": "application",
-    "text": "Explain Byte streams and Character streams with suitable Java program."
+    "priority": "high",
+    "type": "theory",
+    "text": "Write the differences between Swing and AWT components."
   },
   {
-    "id": "oop-q3.21",
-    "unit": 3,
-    "unitName": "STRING, WRAPPER CLASSES & MULTI-THREADING",
-    "topic": "Exception Classes",
+    "id": "oop-q4.1.2",
+    "unit": 4,
+    "unitName": "AWT, SWING, APPLETS, JDBC & JAVA NETWORKING",
+    "topic": "AWT & Swing Components",
     "years": [
-      "2021"
+      "2023(AM)"
+    ],
+    "year": "2023",
+    "marks": 4,
+    "frequency": 1,
+    "priority": "high",
+    "type": "theory",
+    "text": "Explain AWT in Java."
+  },
+  {
+    "id": "oop-q4.1.3",
+    "unit": 4,
+    "unitName": "AWT, SWING, APPLETS, JDBC & JAVA NETWORKING",
+    "topic": "AWT & Swing Components",
+    "years": [
+      "2021(AM)"
     ],
     "year": "2021",
     "marks": 4,
     "frequency": 1,
     "priority": "medium",
     "type": "theory",
-    "text": "Which one is the master class of exceptions?"
+    "text": "What is AWT?"
   },
   {
-    "id": "oop-q4.7",
+    "id": "oop-q4.1.4",
     "unit": 4,
-    "unitName": "AWT, SWING, APPLETS, JDBC & NETWORKING",
-    "topic": "AWT Components",
+    "unitName": "AWT, SWING, APPLETS, JDBC & JAVA NETWORKING",
+    "topic": "AWT & Swing Components",
     "years": [
       "2024(ND)"
     ],
@@ -8437,42 +8455,60 @@ export const oopQuestions: Question[] = [
     "text": "Explain different AWT and SWING tools with suitable example."
   },
   {
-    "id": "oop-q4.13",
+    "id": "oop-q4.2.1",
     "unit": 4,
-    "unitName": "AWT, SWING, APPLETS, JDBC & NETWORKING",
-    "topic": "AWT Components",
+    "unitName": "AWT, SWING, APPLETS, JDBC & JAVA NETWORKING",
+    "topic": "Event Delegation Model & Listeners",
     "years": [
-      "2023"
+      "2025(AM)",
+      "2022(AM)",
+      "2023(AM)",
+      "2021(AM)"
     ],
-    "year": "2023",
-    "marks": 4,
+    "year": "2025",
+    "marks": 8,
+    "frequency": 4,
+    "priority": "high",
+    "type": "theory",
+    "text": "Explain Event Delegation Model in Java with suitable example."
+  },
+  {
+    "id": "oop-q4.2.2",
+    "unit": 4,
+    "unitName": "AWT, SWING, APPLETS, JDBC & JAVA NETWORKING",
+    "topic": "Event Delegation Model & Listeners",
+    "years": [
+      "2024(AM)"
+    ],
+    "year": "2024",
+    "marks": 8,
     "frequency": 1,
     "priority": "medium",
     "type": "theory",
-    "text": "Explain AWT in Java."
+    "text": "Explain the following listeners in Java: (i) ActionListener (ii) ContainerListener (iii) FocusListener (iv) ItemListener."
   },
   {
-    "id": "oop-q4.17",
+    "id": "oop-q4.2.3",
     "unit": 4,
-    "unitName": "AWT, SWING, APPLETS, JDBC & NETWORKING",
-    "topic": "AWT Components",
+    "unitName": "AWT, SWING, APPLETS, JDBC & JAVA NETWORKING",
+    "topic": "Event Delegation Model & Listeners",
     "years": [
-      "2022"
+      "2024(ND)"
     ],
-    "year": "2022",
+    "year": "2024",
     "marks": 4,
     "frequency": 1,
-    "priority": "high",
-    "type": "theory",
-    "text": "Write the differences between Swing and AWT components."
+    "priority": "medium",
+    "type": "application",
+    "text": "Write a JAVA program demonstrating: (ii) ActionListener and ContainerListener."
   },
   {
-    "id": "oop-q4.4",
+    "id": "oop-q4.3.1",
     "unit": 4,
-    "unitName": "AWT, SWING, APPLETS, JDBC & NETWORKING",
-    "topic": "Layout Managers",
+    "unitName": "AWT, SWING, APPLETS, JDBC & JAVA NETWORKING",
+    "topic": "Layout Manager",
     "years": [
-      "2025"
+      "2025(AM)"
     ],
     "year": "2025",
     "marks": 8,
@@ -8482,84 +8518,24 @@ export const oopQuestions: Question[] = [
     "text": "Explain layout manager. Also give example of any one layout."
   },
   {
-    "id": "oop-q4.3",
+    "id": "oop-q4.4.1",
     "unit": 4,
-    "unitName": "AWT, SWING, APPLETS, JDBC & NETWORKING",
-    "topic": "Event Handling",
-    "years": [
-      "2025"
-    ],
-    "year": "2025",
-    "marks": 8,
-    "frequency": 1,
-    "priority": "high",
-    "type": "theory",
-    "text": "Explain Event Delegation Model in Java with suitable example."
-  },
-  {
-    "id": "oop-q4.8",
-    "unit": 4,
-    "unitName": "AWT, SWING, APPLETS, JDBC & NETWORKING",
-    "topic": "Event Handling",
-    "years": [
-      "2024(ND)"
-    ],
-    "year": "2024",
-    "marks": 8,
-    "frequency": 1,
-    "priority": "high",
-    "type": "theory",
-    "text": "Explain the following: (i) Type I to Type 4 drivers (ii) Action Listener and Container Listener"
-  },
-  {
-    "id": "oop-q4.12",
-    "unit": 4,
-    "unitName": "AWT, SWING, APPLETS, JDBC & NETWORKING",
-    "topic": "Event Handling",
+    "unitName": "AWT, SWING, APPLETS, JDBC & JAVA NETWORKING",
+    "topic": "Applets",
     "years": [
       "2024(AM)"
     ],
     "year": "2024",
-    "marks": 8,
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "Explain the following in nutshell: i. ActionListener ii. ContainerListener iii. FocusListener iv. ItemListener"
-  },
-  {
-    "id": "oop-q4.19",
-    "unit": 4,
-    "unitName": "AWT, SWING, APPLETS, JDBC & NETWORKING",
-    "topic": "Event Handling",
-    "years": [
-      "2022"
-    ],
-    "year": "2022",
-    "marks": 8,
+    "marks": 4,
     "frequency": 1,
     "priority": "high",
-    "type": "theory",
-    "text": "Explain Event delegation model in Java with suitable example."
-  },
-  {
-    "id": "oop-q4.10",
-    "unit": 4,
-    "unitName": "AWT, SWING, APPLETS, JDBC & NETWORKING",
-    "topic": "SWING Components",
-    "years": [
-      "2024(AM)"
-    ],
-    "year": "2024",
-    "marks": 8,
-    "frequency": 1,
-    "priority": "medium",
     "type": "application",
-    "text": "Write a program in java to create user form?"
+    "text": "Explain applet tag with all its attributes in detail. Write a program in Java to create a user form."
   },
   {
-    "id": "oop-q4.5",
+    "id": "oop-q4.4.2",
     "unit": 4,
-    "unitName": "AWT, SWING, APPLETS, JDBC & NETWORKING",
+    "unitName": "AWT, SWING, APPLETS, JDBC & JAVA NETWORKING",
     "topic": "Applets",
     "years": [
       "2024(ND)"
@@ -8567,47 +8543,32 @@ export const oopQuestions: Question[] = [
     "year": "2024",
     "marks": 4,
     "frequency": 1,
-    "priority": "medium",
+    "priority": "high",
     "type": "theory",
     "text": "Define and describe Applet."
   },
   {
-    "id": "oop-q4.9",
+    "id": "oop-q4.4.3",
     "unit": 4,
-    "unitName": "AWT, SWING, APPLETS, JDBC & NETWORKING",
+    "unitName": "AWT, SWING, APPLETS, JDBC & JAVA NETWORKING",
     "topic": "Applets",
     "years": [
-      "2024(AM)"
-    ],
-    "year": "2024",
-    "marks": 4,
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "Explain applet tag with all its attribute in detail."
-  },
-  {
-    "id": "oop-q4.14",
-    "unit": 4,
-    "unitName": "AWT, SWING, APPLETS, JDBC & NETWORKING",
-    "topic": "Applets",
-    "years": [
-      "2023"
+      "2023(AM)"
     ],
     "year": "2023",
     "marks": 8,
     "frequency": 1,
     "priority": "high",
     "type": "theory",
-    "text": "Explain the life cycle of Applet using figure."
+    "text": "Explain the life cycle of Applet using diagram."
   },
   {
-    "id": "oop-q4.22",
+    "id": "oop-q4.4.4",
     "unit": 4,
-    "unitName": "AWT, SWING, APPLETS, JDBC & NETWORKING",
+    "unitName": "AWT, SWING, APPLETS, JDBC & JAVA NETWORKING",
     "topic": "Applets",
     "years": [
-      "2021"
+      "2021(AM)"
     ],
     "year": "2021",
     "marks": 8,
@@ -8617,85 +8578,88 @@ export const oopQuestions: Question[] = [
     "text": "Write a program to add 2 numbers using Applet."
   },
   {
-    "id": "oop-q4.2",
+    "id": "oop-q4.5.1",
     "unit": 4,
-    "unitName": "AWT, SWING, APPLETS, JDBC & NETWORKING",
-    "topic": "JDBC Drivers",
+    "unitName": "AWT, SWING, APPLETS, JDBC & JAVA NETWORKING",
+    "topic": "JDBC (Types of Drivers)",
     "years": [
-      "2025"
+      "2025(AM)",
+      "2022(AM)",
+      "2023(AM)",
+      "2021(AM)"
     ],
     "year": "2025",
     "marks": 8,
-    "frequency": 1,
+    "frequency": 4,
     "priority": "high",
     "type": "theory",
-    "text": "What is JDBC? Explain the types of Drivers in JDBC."
+    "text": "What is JDBC? Explain the types of Drivers in JDBC (Type 1 to Type 4)."
   },
   {
-    "id": "oop-q4.15",
+    "id": "oop-q4.5.2",
     "unit": 4,
-    "unitName": "AWT, SWING, APPLETS, JDBC & NETWORKING",
-    "topic": "JDBC Drivers",
+    "unitName": "AWT, SWING, APPLETS, JDBC & JAVA NETWORKING",
+    "topic": "JDBC (Types of Drivers)",
     "years": [
-      "2023"
+      "2024(ND)"
+    ],
+    "year": "2024",
+    "marks": 4,
+    "frequency": 1,
+    "priority": "medium",
+    "type": "application",
+    "text": "Write a JAVA program for Type 1 to Type 4 JDBC Drivers."
+  },
+  {
+    "id": "oop-q4.6.1",
+    "unit": 4,
+    "unitName": "AWT, SWING, APPLETS, JDBC & JAVA NETWORKING",
+    "topic": "Java Networking (Sockets, RMI, URL)",
+    "years": [
+      "2025(AM)"
+    ],
+    "year": "2025",
+    "marks": 4,
+    "frequency": 1,
+    "priority": "low",
+    "type": "theory",
+    "text": "What is RMI?"
+  },
+  {
+    "id": "oop-q4.6.2",
+    "unit": 4,
+    "unitName": "AWT, SWING, APPLETS, JDBC & JAVA NETWORKING",
+    "topic": "Java Networking (Sockets, RMI, URL)",
+    "years": [
+      "2024(ND)"
+    ],
+    "year": "2024",
+    "marks": 8,
+    "frequency": 1,
+    "priority": "high",
+    "type": "application",
+    "text": "Write a JAVA program to explain ServerSocket."
+  },
+  {
+    "id": "oop-q4.6.3",
+    "unit": 4,
+    "unitName": "AWT, SWING, APPLETS, JDBC & JAVA NETWORKING",
+    "topic": "Java Networking (Sockets, RMI, URL)",
+    "years": [
+      "2023(AM)"
     ],
     "year": "2023",
     "marks": 8,
     "frequency": 1,
     "priority": "high",
     "type": "theory",
-    "text": "Explain JDBC drivers available in Java."
+    "text": "Explain Server Socket with the help of example."
   },
   {
-    "id": "oop-q4.20",
+    "id": "oop-q4.6.4",
     "unit": 4,
-    "unitName": "AWT, SWING, APPLETS, JDBC & NETWORKING",
-    "topic": "JDBC Drivers",
-    "years": [
-      "2022"
-    ],
-    "year": "2022",
-    "marks": 8,
-    "frequency": 1,
-    "priority": "high",
-    "type": "theory",
-    "text": "What is JDBC? Explain the types of JDBC."
-  },
-  {
-    "id": "oop-q4.23",
-    "unit": 4,
-    "unitName": "AWT, SWING, APPLETS, JDBC & NETWORKING",
-    "topic": "JDBC Drivers",
-    "years": [
-      "2021"
-    ],
-    "year": "2021",
-    "marks": 8,
-    "frequency": 1,
-    "priority": "high",
-    "type": "theory",
-    "text": "Explain all types of JDBC Bridge drivers."
-  },
-  {
-    "id": "oop-q4.1",
-    "unit": 4,
-    "unitName": "AWT, SWING, APPLETS, JDBC & NETWORKING",
-    "topic": "Networking Basics",
-    "years": [
-      "2025"
-    ],
-    "year": "2025",
-    "marks": 4,
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "What is RMI?"
-  },
-  {
-    "id": "oop-q4.11",
-    "unit": 4,
-    "unitName": "AWT, SWING, APPLETS, JDBC & NETWORKING",
-    "topic": "Networking Basics",
+    "unitName": "AWT, SWING, APPLETS, JDBC & JAVA NETWORKING",
+    "topic": "Java Networking (Sockets, RMI, URL)",
     "years": [
       "2024(AM)"
     ],
@@ -8707,42 +8671,42 @@ export const oopQuestions: Question[] = [
     "text": "Define sockets. Write a program to demonstrate simple TCP client-server interaction."
   },
   {
-    "id": "oop-q4.16",
+    "id": "oop-q4.6.5",
     "unit": 4,
-    "unitName": "AWT, SWING, APPLETS, JDBC & NETWORKING",
-    "topic": "Networking Basics",
+    "unitName": "AWT, SWING, APPLETS, JDBC & JAVA NETWORKING",
+    "topic": "Java Networking (Sockets, RMI, URL)",
     "years": [
-      "2023"
-    ],
-    "year": "2023",
-    "marks": 8,
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "Explain Server Socket with the help of example."
-  },
-  {
-    "id": "oop-q4.18",
-    "unit": 4,
-    "unitName": "AWT, SWING, APPLETS, JDBC & NETWORKING",
-    "topic": "Networking Basics",
-    "years": [
-      "2022"
+      "2022(AM)"
     ],
     "year": "2022",
     "marks": 8,
     "frequency": 1,
     "priority": "medium",
     "type": "application",
-    "text": "Write a Java Program to see the port number, protocol name of given URL."
+    "text": "Write a Java Program to see the port number and protocol name of a given URL."
   },
   {
-    "id": "oop-q4.21",
+    "id": "oop-q4.6.6",
     "unit": 4,
-    "unitName": "AWT, SWING, APPLETS, JDBC & NETWORKING",
-    "topic": "Networking Basics",
+    "unitName": "AWT, SWING, APPLETS, JDBC & JAVA NETWORKING",
+    "topic": "Java Networking (Sockets, RMI, URL)",
     "years": [
-      "2021"
+      "2021(AM)"
+    ],
+    "year": "2021",
+    "marks": 8,
+    "frequency": 1,
+    "priority": "medium",
+    "type": "application",
+    "text": "Write a program using InetAddress class and show the utility of URL and URLConnection classes."
+  },
+  {
+    "id": "oop-q4.6.7",
+    "unit": 4,
+    "unitName": "AWT, SWING, APPLETS, JDBC & JAVA NETWORKING",
+    "topic": "Java Networking (Sockets, RMI, URL)",
+    "years": [
+      "2021(AM)"
     ],
     "year": "2021",
     "marks": 4,
@@ -8752,40 +8716,25 @@ export const oopQuestions: Question[] = [
     "text": "What is the functioning of whois?"
   },
   {
-    "id": "oop-q4.24",
-    "unit": 4,
-    "unitName": "AWT, SWING, APPLETS, JDBC & NETWORKING",
-    "topic": "Networking Basics",
-    "years": [
-      "2021"
-    ],
-    "year": "2021",
-    "marks": 8,
-    "frequency": 1,
-    "priority": "medium",
-    "type": "application",
-    "text": "Write a program using internet address class and show the utility of URL and URL connection classes."
-  },
-  {
-    "id": "oop-q4.6",
-    "unit": 4,
-    "unitName": "AWT, SWING, APPLETS, JDBC & NETWORKING",
-    "topic": "Server Socket",
-    "years": [
-      "2024(ND)"
-    ],
-    "year": "2024",
-    "marks": 8,
-    "frequency": 1,
-    "priority": "medium",
-    "type": "application",
-    "text": "Write a JAVA program to explain Server Socket."
-  },
-  {
-    "id": "oop-q5.7",
+    "id": "oop-q5.1.1",
     "unit": 5,
-    "unitName": "COLLECTIONS FRAMEWORK & GENERICS",
-    "topic": "Collections Framework Basics",
+    "unitName": "COLLECTIONS FRAMEWORK, GENERICS & JAR",
+    "topic": "Collections Framework Overview",
+    "years": [
+      "2023(AM)"
+    ],
+    "year": "2023",
+    "marks": 4,
+    "frequency": 1,
+    "priority": "high",
+    "type": "theory",
+    "text": "What do you understand by Java Collection Framework?"
+  },
+  {
+    "id": "oop-q5.1.2",
+    "unit": 5,
+    "unitName": "COLLECTIONS FRAMEWORK, GENERICS & JAR",
+    "topic": "Collections Framework Overview",
     "years": [
       "2024(ND)"
     ],
@@ -8797,55 +8746,55 @@ export const oopQuestions: Question[] = [
     "text": "Explain the collection framework with suitable examples."
   },
   {
-    "id": "oop-q5.13",
+    "id": "oop-q5.2.1",
     "unit": 5,
-    "unitName": "COLLECTIONS FRAMEWORK & GENERICS",
-    "topic": "Collections Framework Basics",
+    "unitName": "COLLECTIONS FRAMEWORK, GENERICS & JAR",
+    "topic": "List Interface (ArrayList, LinkedList, Vector)",
     "years": [
-      "2023"
-    ],
-    "year": "2023",
-    "marks": 4,
-    "frequency": 1,
-    "priority": "high",
-    "type": "theory",
-    "text": "What do you understand by Java Collection Framework?"
-  },
-  {
-    "id": "oop-q5.1",
-    "unit": 5,
-    "unitName": "COLLECTIONS FRAMEWORK & GENERICS",
-    "topic": "List Implementations",
-    "years": [
-      "2025"
+      "2025(AM)"
     ],
     "year": "2025",
     "marks": 4,
     "frequency": 1,
     "priority": "high",
     "type": "theory",
-    "text": "Describe Array list with example."
+    "text": "Describe ArrayList with example."
   },
   {
-    "id": "oop-q5.2",
+    "id": "oop-q5.2.2",
     "unit": 5,
-    "unitName": "COLLECTIONS FRAMEWORK & GENERICS",
-    "topic": "List Implementations",
+    "unitName": "COLLECTIONS FRAMEWORK, GENERICS & JAR",
+    "topic": "List Interface (ArrayList, LinkedList, Vector)",
     "years": [
-      "2025"
+      "2025(AM)"
     ],
     "year": "2025",
     "marks": 8,
     "frequency": 1,
     "priority": "high",
     "type": "theory",
-    "text": "What is Linkedlist? Give difference between Arraylist and Linkedlist?"
+    "text": "What is LinkedList? Give the difference between ArrayList and LinkedList."
   },
   {
-    "id": "oop-q5.12",
+    "id": "oop-q5.2.3",
     "unit": 5,
-    "unitName": "COLLECTIONS FRAMEWORK & GENERICS",
-    "topic": "List Implementations",
+    "unitName": "COLLECTIONS FRAMEWORK, GENERICS & JAR",
+    "topic": "List Interface (ArrayList, LinkedList, Vector)",
+    "years": [
+      "2023(AM)"
+    ],
+    "year": "2023",
+    "marks": 8,
+    "frequency": 1,
+    "priority": "high",
+    "type": "theory",
+    "text": "Explain: (i) ArrayList (ii) LinkedList."
+  },
+  {
+    "id": "oop-q5.2.4",
+    "unit": 5,
+    "unitName": "COLLECTIONS FRAMEWORK, GENERICS & JAR",
+    "topic": "List Interface (ArrayList, LinkedList, Vector)",
     "years": [
       "2024(AM)"
     ],
@@ -8854,58 +8803,73 @@ export const oopQuestions: Question[] = [
     "frequency": 1,
     "priority": "high",
     "type": "theory",
-    "text": "Explain the following in nutshell: i. HashSet ii. TreeSet iii. ArrayList iv. LinkedList"
+    "text": "Explain the following in nutshell: (i) HashSet (ii) TreeSet (iii) ArrayList (iv) LinkedList."
   },
   {
-    "id": "oop-q5.14",
+    "id": "oop-q5.3.1",
     "unit": 5,
-    "unitName": "COLLECTIONS FRAMEWORK & GENERICS",
-    "topic": "List Implementations",
+    "unitName": "COLLECTIONS FRAMEWORK, GENERICS & JAR",
+    "topic": "Set Interface (HashSet, TreeSet)",
     "years": [
-      "2023"
+      "2022(AM)"
     ],
-    "year": "2023",
-    "marks": 8,
+    "year": "2022",
+    "marks": 4,
     "frequency": 1,
-    "priority": "high",
+    "priority": "medium",
     "type": "theory",
-    "text": "Explain the following: (i) Array List (ii) Linked List"
+    "text": "Define HashSet and TreeSet."
   },
   {
-    "id": "oop-q5.5",
+    "id": "oop-q5.3.2",
     "unit": 5,
-    "unitName": "COLLECTIONS FRAMEWORK & GENERICS",
-    "topic": "Set Implementations",
+    "unitName": "COLLECTIONS FRAMEWORK, GENERICS & JAR",
+    "topic": "Set Interface (HashSet, TreeSet)",
     "years": [
       "2024(ND)"
     ],
     "year": "2024",
     "marks": 4,
     "frequency": 1,
-    "priority": "high",
+    "priority": "medium",
     "type": "theory",
-    "text": "Write the use of Hashset and Hashtable class."
+    "text": "Write the use of HashSet and Hashtable class."
   },
   {
-    "id": "oop-q5.17",
+    "id": "oop-q5.4.1",
     "unit": 5,
-    "unitName": "COLLECTIONS FRAMEWORK & GENERICS",
-    "topic": "Set Implementations",
+    "unitName": "COLLECTIONS FRAMEWORK, GENERICS & JAR",
+    "topic": "Map Interface (HashMap, Hashtable, TreeMap)",
     "years": [
-      "2022"
+      "2022(AM)"
     ],
     "year": "2022",
-    "marks": 4,
+    "marks": 8,
     "frequency": 1,
     "priority": "high",
-    "type": "theory",
-    "text": "Define Hashset and TreeSet."
+    "type": "application",
+    "text": "Write a program using the concept of HashMap."
   },
   {
-    "id": "oop-q5.10",
+    "id": "oop-q5.4.2",
     "unit": 5,
-    "unitName": "COLLECTIONS FRAMEWORK & GENERICS",
-    "topic": "Map Implementations",
+    "unitName": "COLLECTIONS FRAMEWORK, GENERICS & JAR",
+    "topic": "Map Interface (HashMap, Hashtable, TreeMap)",
+    "years": [
+      "2022(AM)"
+    ],
+    "year": "2022",
+    "marks": 8,
+    "frequency": 1,
+    "priority": "medium",
+    "type": "theory",
+    "text": "Explain Hashtable class in Java with example."
+  },
+  {
+    "id": "oop-q5.4.3",
+    "unit": 5,
+    "unitName": "COLLECTIONS FRAMEWORK, GENERICS & JAR",
+    "topic": "Map Interface (HashMap, Hashtable, TreeMap)",
     "years": [
       "2024(AM)"
     ],
@@ -8917,72 +8881,28 @@ export const oopQuestions: Question[] = [
     "text": "Differentiate between HashMap and Hashtable."
   },
   {
-    "id": "oop-q5.15",
+    "id": "oop-q5.4.4",
     "unit": 5,
-    "unitName": "COLLECTIONS FRAMEWORK & GENERICS",
-    "topic": "Map Implementations",
+    "unitName": "COLLECTIONS FRAMEWORK, GENERICS & JAR",
+    "topic": "Map Interface (HashMap, Hashtable, TreeMap)",
     "years": [
-      "2023"
-    ],
-    "year": "2023",
-    "marks": 8,
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "How do you get all the keys present in a Hash Map?"
-  },
-  {
-    "id": "oop-q5.19",
-    "unit": 5,
-    "unitName": "COLLECTIONS FRAMEWORK & GENERICS",
-    "topic": "Map Implementations",
-    "years": [
-      "2022"
-    ],
-    "year": "2022",
-    "marks": 8,
-    "frequency": 1,
-    "priority": "medium",
-    "type": "application",
-    "text": "Write a program using the concept of HashMap."
-  },
-  {
-    "id": "oop-q5.20",
-    "unit": 5,
-    "unitName": "COLLECTIONS FRAMEWORK & GENERICS",
-    "topic": "Map Implementations",
-    "years": [
-      "2022"
-    ],
-    "year": "2022",
-    "marks": 8,
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "Explain Hashtable classes in java with example."
-  },
-  {
-    "id": "oop-q5.23",
-    "unit": 5,
-    "unitName": "COLLECTIONS FRAMEWORK & GENERICS",
-    "topic": "Map Implementations",
-    "years": [
-      "2021"
+      "2021(AM)",
+      "2023(AM)"
     ],
     "year": "2021",
     "marks": 8,
-    "frequency": 1,
-    "priority": "medium",
+    "frequency": 2,
+    "priority": "high",
     "type": "theory",
-    "text": "How do you retrieve all keys present in a Hash Map?"
+    "text": "How do you retrieve all keys present in a HashMap?"
   },
   {
-    "id": "oop-q5.4",
+    "id": "oop-q5.5.1",
     "unit": 5,
-    "unitName": "COLLECTIONS FRAMEWORK & GENERICS",
-    "topic": "Generics",
+    "unitName": "COLLECTIONS FRAMEWORK, GENERICS & JAR",
+    "topic": "Generics in Java",
     "years": [
-      "2025"
+      "2025(AM)"
     ],
     "year": "2025",
     "marks": 8,
@@ -8992,42 +8912,12 @@ export const oopQuestions: Question[] = [
     "text": "Explain Generics class in Java."
   },
   {
-    "id": "oop-q5.8",
+    "id": "oop-q5.5.2",
     "unit": 5,
-    "unitName": "COLLECTIONS FRAMEWORK & GENERICS",
-    "topic": "Generics",
+    "unitName": "COLLECTIONS FRAMEWORK, GENERICS & JAR",
+    "topic": "Generics in Java",
     "years": [
-      "2024(ND)"
-    ],
-    "year": "2024",
-    "marks": 8,
-    "frequency": 1,
-    "priority": "high",
-    "type": "application",
-    "text": "Explain with code the concept of Generic classes & methods."
-  },
-  {
-    "id": "oop-q5.9",
-    "unit": 5,
-    "unitName": "COLLECTIONS FRAMEWORK & GENERICS",
-    "topic": "Generics",
-    "years": [
-      "2024(AM)"
-    ],
-    "year": "2024",
-    "marks": 4,
-    "frequency": 1,
-    "priority": "high",
-    "type": "theory",
-    "text": "What are generic classes? What is the purpose of generic classes in java?"
-  },
-  {
-    "id": "oop-q5.18",
-    "unit": 5,
-    "unitName": "COLLECTIONS FRAMEWORK & GENERICS",
-    "topic": "Generics",
-    "years": [
-      "2022"
+      "2022(AM)"
     ],
     "year": "2022",
     "marks": 8,
@@ -9037,109 +8927,94 @@ export const oopQuestions: Question[] = [
     "text": "Explain generic using classes and generic types in Java."
   },
   {
-    "id": "oop-q5.3",
+    "id": "oop-q5.5.3",
     "unit": 5,
-    "unitName": "COLLECTIONS FRAMEWORK & GENERICS",
-    "topic": "JAR Files",
+    "unitName": "COLLECTIONS FRAMEWORK, GENERICS & JAR",
+    "topic": "Generics in Java",
     "years": [
-      "2025"
+      "2024(AM)"
     ],
-    "year": "2025",
-    "marks": 8,
+    "year": "2024",
+    "marks": 4,
     "frequency": 1,
-    "priority": "medium",
+    "priority": "high",
     "type": "theory",
-    "text": "What are the steps to creating and running executable JAR?"
+    "text": "What are generic classes? What is the purpose of generic classes in Java?"
   },
   {
-    "id": "oop-q5.6",
+    "id": "oop-q5.5.4",
     "unit": 5,
-    "unitName": "COLLECTIONS FRAMEWORK & GENERICS",
-    "topic": "JAR Files",
+    "unitName": "COLLECTIONS FRAMEWORK, GENERICS & JAR",
+    "topic": "Generics in Java",
     "years": [
       "2024(ND)"
     ],
     "year": "2024",
     "marks": 8,
     "frequency": 1,
-    "priority": "medium",
+    "priority": "high",
     "type": "application",
-    "text": "Write JAVA program to create and execute JAVA Archives."
+    "text": "Explain with code the concept of Generic classes and methods."
   },
   {
-    "id": "oop-q5.11",
+    "id": "oop-q5.6.1",
     "unit": 5,
-    "unitName": "COLLECTIONS FRAMEWORK & GENERICS",
-    "topic": "JAR Files",
+    "unitName": "COLLECTIONS FRAMEWORK, GENERICS & JAR",
+    "topic": "Executable JAR Files (Java Archives)",
+    "years": [
+      "2025(AM)"
+    ],
+    "year": "2025",
+    "marks": 8,
+    "frequency": 1,
+    "priority": "high",
+    "type": "theory",
+    "text": "What are the steps to creating and running an executable JAR?"
+  },
+  {
+    "id": "oop-q5.6.2",
+    "unit": 5,
+    "unitName": "COLLECTIONS FRAMEWORK, GENERICS & JAR",
+    "topic": "Executable JAR Files (Java Archives)",
+    "years": [
+      "2024(ND)"
+    ],
+    "year": "2024",
+    "marks": 8,
+    "frequency": 1,
+    "priority": "high",
+    "type": "application",
+    "text": "Write a JAVA program to create and execute JAVA Archives (JAR)."
+  },
+  {
+    "id": "oop-q5.6.3",
+    "unit": 5,
+    "unitName": "COLLECTIONS FRAMEWORK, GENERICS & JAR",
+    "topic": "Executable JAR Files (Java Archives)",
     "years": [
       "2024(AM)"
     ],
     "year": "2024",
     "marks": 8,
     "frequency": 1,
-    "priority": "medium",
+    "priority": "high",
     "type": "theory",
-    "text": "What is JAR file? How to create and execute JAR file in Java."
+    "text": "What is a JAR file? How to create and execute a JAR file in Java."
   },
   {
-    "id": "oop-q5.24",
+    "id": "oop-q5.6.4",
     "unit": 5,
-    "unitName": "COLLECTIONS FRAMEWORK & GENERICS",
-    "topic": "JAR Files",
+    "unitName": "COLLECTIONS FRAMEWORK, GENERICS & JAR",
+    "topic": "Executable JAR Files (Java Archives)",
     "years": [
-      "2021"
-    ],
-    "year": "2021",
-    "marks": 8,
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "Write the steps of creating and running executable JAR files in java."
-  },
-  {
-    "id": "oop-q5.16",
-    "unit": 5,
-    "unitName": "COLLECTIONS FRAMEWORK & GENERICS",
-    "topic": "Event Delegation Model",
-    "years": [
-      "2023"
-    ],
-    "year": "2023",
-    "marks": 8,
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "Explain Event Delegation Model (EDM)."
-  },
-  {
-    "id": "oop-q5.21",
-    "unit": 5,
-    "unitName": "COLLECTIONS FRAMEWORK & GENERICS",
-    "topic": "Event Delegation Model",
-    "years": [
-      "2021"
-    ],
-    "year": "2021",
-    "marks": 4,
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "What is AWT?"
-  },
-  {
-    "id": "oop-q5.22",
-    "unit": 5,
-    "unitName": "COLLECTIONS FRAMEWORK & GENERICS",
-    "topic": "Event Delegation Model",
-    "years": [
-      "2021"
+      "2021(AM)"
     ],
     "year": "2021",
     "marks": 8,
     "frequency": 1,
     "priority": "high",
     "type": "theory",
-    "text": "Explain Event Delegation Model."
+    "text": "Write the steps of creating and running executable JAR files in Java."
   }
 ];
 
