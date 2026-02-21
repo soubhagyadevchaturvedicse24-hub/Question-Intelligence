@@ -33,8 +33,14 @@ export interface Subject {
   color: string;
 }
 
-// TODO: update BASE_URL after creating the new Vercel project
-const BASE_URL = "https://question-bank.vercel.app";
+// Resolve the deployed origin + base for external question-bank links.
+// Works both locally (dev server) and on GitHub Pages / Vercel.
+const _origin =
+  typeof window !== "undefined"
+    ? window.location.origin +
+      (import.meta.env.BASE_URL ?? "/").replace(/\/$/, "")
+    : "https://soubhagyadevchaturvedicse24-hub.github.io/Question-Intelligence";
+const BASE_URL = _origin;
 
 const _rawSubjects3rd: Subject[] = [
   {

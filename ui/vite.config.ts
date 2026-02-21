@@ -17,6 +17,11 @@ export default defineConfig({
     },
   },
 
+  // Base path for GitHub Pages (repo name as sub-path).
+  // GitHub Actions sets VITE_BASE_PATH=/Question-Intelligence/ at build time.
+  // Locally it defaults to '/' so localhost:5173 works normally.
+  base: process.env.VITE_BASE_PATH ?? '/',
+
   // File types to support raw imports. Never add .css, .tsx, or .ts files to this.
   assetsInclude: ['**/*.svg', '**/*.csv'],
 })
