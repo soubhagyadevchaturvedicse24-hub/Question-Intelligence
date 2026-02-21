@@ -4822,2535 +4822,2262 @@ export const osQuestions: Question[] = [
 export const pplQuestions: Question[] = [
   {
     "id": "ppl-q1.1.1",
-    "unit": null,
-    "unitName": "UNIT I: PROGRAM DESIGN",
-    "topic": "Introduction - Fundamental Design Concepts",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
+    "unit": 1,
+    "unitName": "PROGRAM DESIGN",
+    "topic": "Modules & Modularization",
+    "years": [
+      "2021(AM)",
+      "2021(ND)"
+    ],
+    "year": "2021",
+    "marks": 4,
+    "frequency": 4,
+    "priority": "high",
     "type": "application",
-    "text": "Define software design and explain its importance in software engineering."
+    "text": "What are the modules and modularization criteria for a programming language?"
   },
   {
     "id": "ppl-q1.1.2",
-    "unit": null,
-    "unitName": "UNIT I: PROGRAM DESIGN",
-    "topic": "Introduction - Fundamental Design Concepts",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "application",
-    "text": "What are the fundamental design concepts in programming languages?"
+    "unit": 1,
+    "unitName": "PROGRAM DESIGN",
+    "topic": "Modules & Modularization",
+    "years": [
+      "2022(AM)"
+    ],
+    "year": "2022",
+    "marks": 10,
+    "frequency": 4,
+    "priority": "high",
+    "type": "theory",
+    "text": "Describe modules and modularization criteria in detail."
   },
   {
     "id": "ppl-q1.1.3",
-    "unit": null,
-    "unitName": "UNIT I: PROGRAM DESIGN",
-    "topic": "Introduction - Fundamental Design Concepts",
-    "years": [],
-    "year": "",
+    "unit": 1,
+    "unitName": "PROGRAM DESIGN",
+    "topic": "Modules & Modularization",
+    "years": [
+      "2024(AM)"
+    ],
+    "year": "2024",
+    "marks": 8,
+    "frequency": 4,
+    "priority": "high",
+    "type": "theory",
+    "text": "Explain module and modularization criteria in brief."
+  },
+  {
+    "id": "ppl-q1.1.4",
+    "unit": 1,
+    "unitName": "PROGRAM DESIGN",
+    "topic": "Modules & Modularization",
+    "years": [
+      "2024(ND)"
+    ],
+    "year": "2024",
+    "marks": 8,
+    "frequency": 1,
+    "priority": "high",
+    "type": "application",
+    "text": "Discuss various modularization criteria for breaking down a program into modules. Provide examples to illustrate your points."
+  },
+  {
+    "id": "ppl-q1.1.5",
+    "unit": 1,
+    "unitName": "PROGRAM DESIGN",
+    "topic": "Modules & Modularization",
+    "years": [
+      "2023(ND)"
+    ],
+    "year": "2023",
+    "marks": 8,
+    "frequency": 1,
+    "priority": "high",
+    "type": "theory",
+    "text": "Define modularity. Explain cohesion with diagram."
+  },
+  {
+    "id": "ppl-q1.1.6",
+    "unit": 1,
+    "unitName": "PROGRAM DESIGN",
+    "topic": "Modules & Modularization",
+    "years": [
+      "2022(ND)"
+    ],
+    "year": "2022",
+    "marks": 8,
     "frequency": 1,
     "priority": "medium",
-    "type": "theory",
-    "text": "Explain about: (i) Abstraction (ii) Refinement (iii) Modularity (iv) Software Architecture"
+    "type": "application",
+    "text": "Write about various program designing concepts in detail."
+  },
+  {
+    "id": "ppl-q1.1.7",
+    "unit": 1,
+    "unitName": "PROGRAM DESIGN",
+    "topic": "Modules & Modularization",
+    "years": [
+      "2023(ND)"
+    ],
+    "year": "2023",
+    "marks": 8,
+    "frequency": 1,
+    "priority": "medium",
+    "type": "application",
+    "text": "Explain fundamentals of design concepts in detail."
   },
   {
     "id": "ppl-q1.2.1",
-    "unit": null,
-    "unitName": "UNIT I: PROGRAM DESIGN",
-    "topic": "Modules and Modularization Criteria",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
+    "unit": 1,
+    "unitName": "PROGRAM DESIGN",
+    "topic": "Design Notation, Pseudo Code & Flowcharts",
+    "years": [
+      "2021(ND)",
+      "2023(ND)"
+    ],
+    "year": "2021",
+    "marks": 8,
+    "frequency": 2,
+    "priority": "high",
     "type": "application",
-    "text": "Define modules and modularization criteria. Explain the criteria for breaking down a program into modules."
+    "text": "Explain Pseudo code and flow chart with example."
   },
   {
     "id": "ppl-q1.2.2",
-    "unit": null,
-    "unitName": "UNIT I: PROGRAM DESIGN",
-    "topic": "Modules and Modularization Criteria",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
+    "unit": 1,
+    "unitName": "PROGRAM DESIGN",
+    "topic": "Design Notation, Pseudo Code & Flowcharts",
+    "years": [
+      "2024(AM)"
+    ],
+    "year": "2024",
+    "marks": 4,
+    "frequency": 2,
+    "priority": "high",
     "type": "application",
-    "text": "What are the modules and modularization criteria for programming language?"
+    "text": "Define pseudo code with example."
   },
   {
     "id": "ppl-q1.2.3",
-    "unit": null,
-    "unitName": "UNIT I: PROGRAM DESIGN",
-    "topic": "Modules and Modularization Criteria",
-    "years": [],
-    "year": "",
+    "unit": 1,
+    "unitName": "PROGRAM DESIGN",
+    "topic": "Design Notation, Pseudo Code & Flowcharts",
+    "years": [
+      "2023(ND)"
+    ],
+    "year": "2023",
+    "marks": 8,
     "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "Explain module and modularization criteria in brief with examples."
+    "priority": "high",
+    "type": "application",
+    "text": "What do you mean by design notation? Explain Pseudo code with example."
   },
   {
     "id": "ppl-q1.2.4",
-    "unit": null,
-    "unitName": "UNIT I: PROGRAM DESIGN",
-    "topic": "Modules and Modularization Criteria",
-    "years": [],
-    "year": "",
+    "unit": 1,
+    "unitName": "PROGRAM DESIGN",
+    "topic": "Design Notation, Pseudo Code & Flowcharts",
+    "years": [
+      "2023(AM)"
+    ],
+    "year": "2023",
+    "marks": 8,
     "frequency": 1,
-    "priority": "medium",
+    "priority": "high",
     "type": "application",
-    "text": "List and explain the modularization criteria for effective program design."
+    "text": "What is Flowchart? Explain flowchart in detail with suitable diagram."
   },
   {
     "id": "ppl-q1.2.5",
-    "unit": null,
-    "unitName": "UNIT I: PROGRAM DESIGN",
-    "topic": "Modules and Modularization Criteria",
-    "years": [],
-    "year": "",
+    "unit": 1,
+    "unitName": "PROGRAM DESIGN",
+    "topic": "Design Notation, Pseudo Code & Flowcharts",
+    "years": [
+      "2021(AM)"
+    ],
+    "year": "2021",
+    "marks": 8,
     "frequency": 1,
     "priority": "medium",
     "type": "application",
-    "text": "How do you decide if a design is well-modularized? What are the key indicators?"
+    "text": "What are structured flow chart decisions? Do they differ from pseudo code?"
   },
   {
-    "id": "ppl-q1.3.1",
-    "unit": null,
-    "unitName": "UNIT I: PROGRAM DESIGN",
-    "topic": "Design Notation - Procedure Template",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "application",
-    "text": "Explain procedure template notation and its use in design documentation."
-  },
-  {
-    "id": "ppl-q1.3.2",
-    "unit": null,
-    "unitName": "UNIT I: PROGRAM DESIGN",
-    "topic": "Design Notation - Procedure Template",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "application",
-    "text": "What is the role of procedure templates in program design?"
-  },
-  {
-    "id": "ppl-q1.4.1",
-    "unit": null,
-    "unitName": "UNIT I: PROGRAM DESIGN",
-    "topic": "Design Notation - Pseudo Code",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "application",
-    "text": "Define pseudo code with example. Explain flowchart in detail with suitable diagram."
-  },
-  {
-    "id": "ppl-q1.4.2",
-    "unit": null,
-    "unitName": "UNIT I: PROGRAM DESIGN",
-    "topic": "Design Notation - Pseudo Code",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "application",
-    "text": "Write short notes on: (i) Structured flowchart (ii) Decision table"
-  },
-  {
-    "id": "ppl-q1.4.3",
-    "unit": null,
-    "unitName": "UNIT I: PROGRAM DESIGN",
-    "topic": "Design Notation - Pseudo Code",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "application",
-    "text": "What is the difference between pseudo code and actual code? When should you use each?"
-  },
-  {
-    "id": "ppl-q1.4.4",
-    "unit": null,
-    "unitName": "UNIT I: PROGRAM DESIGN",
-    "topic": "Design Notation - Pseudo Code",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "application",
-    "text": "Do structured flowchart decisions differ from pseudo code?"
-  },
-  {
-    "id": "ppl-q1.5.1",
-    "unit": null,
-    "unitName": "UNIT I: PROGRAM DESIGN",
-    "topic": "Design Notation - Structured Flowchart",
-    "years": [],
-    "year": "",
+    "id": "ppl-q1.2.6",
+    "unit": 1,
+    "unitName": "PROGRAM DESIGN",
+    "topic": "Design Notation, Pseudo Code & Flowcharts",
+    "years": [
+      "2024(ND)"
+    ],
+    "year": "2024",
+    "marks": 8,
     "frequency": 1,
     "priority": "medium",
     "type": "application",
     "text": "What is structured flowchart? Briefly explain the logic behind each step."
   },
   {
-    "id": "ppl-q1.5.2",
-    "unit": null,
-    "unitName": "UNIT I: PROGRAM DESIGN",
-    "topic": "Design Notation - Structured Flowchart",
-    "years": [],
-    "year": "",
+    "id": "ppl-q1.2.7",
+    "unit": 1,
+    "unitName": "PROGRAM DESIGN",
+    "topic": "Design Notation, Pseudo Code & Flowcharts",
+    "years": [
+      "2024(AM)"
+    ],
+    "year": "2024",
+    "marks": 8,
     "frequency": 1,
     "priority": "medium",
-    "type": "application",
-    "text": "Define flowchart and explain how it represents program logic."
+    "type": "theory",
+    "text": "Write short notes on: Structured flow chart and Decision table."
   },
   {
-    "id": "ppl-q1.5.3",
-    "unit": null,
-    "unitName": "UNIT I: PROGRAM DESIGN",
-    "topic": "Design Notation - Structured Flowchart",
-    "years": [],
-    "year": "",
+    "id": "ppl-q1.3.1",
+    "unit": 1,
+    "unitName": "PROGRAM DESIGN",
+    "topic": "Levels of Abstraction & Stepwise Refinement",
+    "years": [
+      "2021(AM)",
+      "2021(ND)"
+    ],
+    "year": "2021",
+    "marks": 8,
+    "frequency": 2,
+    "priority": "high",
+    "type": "theory",
+    "text": "Explain levels of abstraction."
+  },
+  {
+    "id": "ppl-q1.3.2",
+    "unit": 1,
+    "unitName": "PROGRAM DESIGN",
+    "topic": "Levels of Abstraction & Stepwise Refinement",
+    "years": [
+      "2022(AM)"
+    ],
+    "year": "2022",
+    "marks": 10,
     "frequency": 1,
-    "priority": "medium",
-    "type": "application",
-    "text": "Compare structured flowcharts with unstructured flowcharts."
+    "priority": "high",
+    "type": "theory",
+    "text": "Define abstraction along with its levels."
   },
   {
-    "id": "ppl-q1.6.1",
-    "unit": null,
-    "unitName": "UNIT I: PROGRAM DESIGN",
-    "topic": "Design Notation - Decision Tables",
-    "years": [],
-    "year": "",
+    "id": "ppl-q1.3.3",
+    "unit": 1,
+    "unitName": "PROGRAM DESIGN",
+    "topic": "Levels of Abstraction & Stepwise Refinement",
+    "years": [
+      "2024(ND)"
+    ],
+    "year": "2024",
+    "marks": 8,
     "frequency": 1,
-    "priority": "medium",
+    "priority": "high",
     "type": "application",
-    "text": "Explain decision tables and their role in program design."
+    "text": "Explain the concept of levels of abstraction in program design and illustrate how it contributes to maintainability and flexibility. Provide an example."
   },
   {
-    "id": "ppl-q1.6.2",
-    "unit": null,
-    "unitName": "UNIT I: PROGRAM DESIGN",
-    "topic": "Design Notation - Decision Tables",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "application",
-    "text": "How are decision tables useful in testing and design?"
-  },
-  {
-    "id": "ppl-q1.7.1",
-    "unit": null,
-    "unitName": "UNIT I: PROGRAM DESIGN",
-    "topic": "Design Techniques - Stepwise Refinement",
-    "years": [],
-    "year": "",
+    "id": "ppl-q1.3.4",
+    "unit": 1,
+    "unitName": "PROGRAM DESIGN",
+    "topic": "Levels of Abstraction & Stepwise Refinement",
+    "years": [
+      "2021(ND)"
+    ],
+    "year": "2021",
+    "marks": 8,
     "frequency": 1,
     "priority": "medium",
     "type": "application",
     "text": "Explain stepwise refinement design technique."
   },
   {
-    "id": "ppl-q1.7.2",
-    "unit": null,
-    "unitName": "UNIT I: PROGRAM DESIGN",
-    "topic": "Design Techniques - Stepwise Refinement",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "application",
-    "text": "How does stepwise refinement improve program design quality?"
-  },
-  {
-    "id": "ppl-q1.7.3",
-    "unit": null,
-    "unitName": "UNIT I: PROGRAM DESIGN",
-    "topic": "Design Techniques - Stepwise Refinement",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "numerical",
-    "text": "Provide an example of stepwise refinement in solving a complex problem."
-  },
-  {
-    "id": "ppl-q1.8.1",
-    "unit": null,
-    "unitName": "UNIT I: PROGRAM DESIGN",
-    "topic": "Design Techniques - Levels of Abstraction",
-    "years": [],
-    "year": "",
+    "id": "ppl-q1.3.5",
+    "unit": 1,
+    "unitName": "PROGRAM DESIGN",
+    "topic": "Levels of Abstraction & Stepwise Refinement",
+    "years": [
+      "2020(ND)"
+    ],
+    "year": "2020",
+    "marks": 8,
     "frequency": 1,
     "priority": "medium",
     "type": "theory",
-    "text": "Define different levels of abstraction and illustrate how it contributes to maintainability and flexibility with examples."
+    "text": "Explain: (i) Abstraction (ii) Refinement (iii) Modularity (iv) Software Architecture."
   },
   {
-    "id": "ppl-q1.8.2",
-    "unit": null,
-    "unitName": "UNIT I: PROGRAM DESIGN",
-    "topic": "Design Techniques - Levels of Abstraction",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "Explain about abstraction, refinement, modularity and software architecture."
-  },
-  {
-    "id": "ppl-q1.8.3",
-    "unit": null,
-    "unitName": "UNIT I: PROGRAM DESIGN",
-    "topic": "Design Techniques - Levels of Abstraction",
-    "years": [],
-    "year": "",
-    "frequency": 1,
+    "id": "ppl-q1.3.6",
+    "unit": 1,
+    "unitName": "PROGRAM DESIGN",
+    "topic": "Levels of Abstraction & Stepwise Refinement",
+    "years": [
+      "2023(AM)",
+      "2024(AM)"
+    ],
+    "year": "2023",
+    "marks": 8,
+    "frequency": 2,
     "priority": "medium",
     "type": "application",
-    "text": "How does abstraction help in designing large programs?"
+    "text": "What are the design techniques for programming language?"
   },
   {
-    "id": "ppl-q1.9.1",
-    "unit": null,
-    "unitName": "UNIT I: PROGRAM DESIGN",
-    "topic": "Design Techniques - Top-Down Approach",
-    "years": [],
-    "year": "",
+    "id": "ppl-q1.3.7",
+    "unit": 1,
+    "unitName": "PROGRAM DESIGN",
+    "topic": "Levels of Abstraction & Stepwise Refinement",
+    "years": [
+      "2024(ND)"
+    ],
+    "year": "2024",
+    "marks": 4,
     "frequency": 1,
     "priority": "medium",
     "type": "application",
     "text": "Compare top-down and bottom-up approaches in program design."
   },
   {
-    "id": "ppl-q1.9.2",
-    "unit": null,
-    "unitName": "UNIT I: PROGRAM DESIGN",
-    "topic": "Design Techniques - Top-Down Approach",
-    "years": [],
-    "year": "",
+    "id": "ppl-q1.4.1",
+    "unit": 1,
+    "unitName": "PROGRAM DESIGN",
+    "topic": "DFD & Program Design Techniques",
+    "years": [
+      "2020(ND)",
+      "2022(ND)"
+    ],
+    "year": "2020",
+    "marks": 8,
+    "frequency": 2,
+    "priority": "medium",
+    "type": "theory",
+    "text": "Explain DFD: (i) Definition, purpose and symbols used. (ii) Purpose of Level-0 and Level-1 DFD."
+  },
+  {
+    "id": "ppl-q1.4.2",
+    "unit": 1,
+    "unitName": "PROGRAM DESIGN",
+    "topic": "DFD & Program Design Techniques",
+    "years": [
+      "2023(ND)"
+    ],
+    "year": "2023",
+    "marks": 4,
+    "frequency": 1,
+    "priority": "low",
+    "type": "application",
+    "text": "Define external design and explain it in brief."
+  },
+  {
+    "id": "ppl-q1.4.3",
+    "unit": 1,
+    "unitName": "PROGRAM DESIGN",
+    "topic": "DFD & Program Design Techniques",
+    "years": [
+      "2023(AM)"
+    ],
+    "year": "2023",
+    "marks": 4,
+    "frequency": 1,
+    "priority": "low",
+    "type": "application",
+    "text": "What is a Program and Algorithm?"
+  },
+  {
+    "id": "ppl-q1.4.4",
+    "unit": 1,
+    "unitName": "PROGRAM DESIGN",
+    "topic": "DFD & Program Design Techniques",
+    "years": [
+      "2022(ND)"
+    ],
+    "year": "2022",
+    "marks": 8,
     "frequency": 1,
     "priority": "medium",
     "type": "application",
-    "text": "Explain top-down design approach with example."
+    "text": "Describe various program design techniques."
   },
   {
-    "id": "ppl-q1.9.3",
-    "unit": null,
-    "unitName": "UNIT I: PROGRAM DESIGN",
-    "topic": "Design Techniques - Top-Down Approach",
-    "years": [],
-    "year": "",
+    "id": "ppl-q1.5.1",
+    "unit": 1,
+    "unitName": "PROGRAM DESIGN",
+    "topic": "Test Plans & Software Testing",
+    "years": [
+      "2021(AM)"
+    ],
+    "year": "2021",
+    "marks": 4,
     "frequency": 1,
-    "priority": "medium",
-    "type": "application",
-    "text": "What are advantages and disadvantages of top-down design?"
+    "priority": "high",
+    "type": "theory",
+    "text": "What are test plans? Also write its types."
   },
   {
-    "id": "ppl-q1.10.1",
-    "unit": null,
-    "unitName": "UNIT I: PROGRAM DESIGN",
-    "topic": "Program Verification",
-    "years": [],
-    "year": "",
+    "id": "ppl-q1.5.2",
+    "unit": 1,
+    "unitName": "PROGRAM DESIGN",
+    "topic": "Test Plans & Software Testing",
+    "years": [
+      "2022(AM)"
+    ],
+    "year": "2022",
+    "marks": 10,
     "frequency": 1,
-    "priority": "medium",
+    "priority": "high",
     "type": "application",
-    "text": "What is program verification? Explain program proving with example."
+    "text": "Describe the test plan design guidelines."
   },
   {
-    "id": "ppl-q1.10.2",
-    "unit": null,
-    "unitName": "UNIT I: PROGRAM DESIGN",
-    "topic": "Program Verification",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "application",
-    "text": "Explain correctness proofs and their importance in program design."
-  },
-  {
-    "id": "ppl-q1.11.1",
-    "unit": null,
-    "unitName": "UNIT I: PROGRAM DESIGN",
-    "topic": "Software Reliability & Quality",
-    "years": [],
-    "year": "",
+    "id": "ppl-q1.5.3",
+    "unit": 1,
+    "unitName": "PROGRAM DESIGN",
+    "topic": "Test Plans & Software Testing",
+    "years": [
+      "2023(AM)"
+    ],
+    "year": "2023",
+    "marks": 8,
     "frequency": 1,
     "priority": "medium",
     "type": "theory",
-    "text": "Define software quality and explain various quality metrics."
+    "text": "Write short notes on (any two): (i) Unit test (ii) Module test (iii) Sub-system test."
   },
   {
-    "id": "ppl-q1.11.2",
-    "unit": null,
-    "unitName": "UNIT I: PROGRAM DESIGN",
-    "topic": "Software Reliability & Quality",
-    "years": [],
-    "year": "",
+    "id": "ppl-q1.5.4",
+    "unit": 1,
+    "unitName": "PROGRAM DESIGN",
+    "topic": "Test Plans & Software Testing",
+    "years": [
+      "2022(ND)"
+    ],
+    "year": "2022",
+    "marks": 4,
     "frequency": 1,
     "priority": "medium",
     "type": "theory",
-    "text": "What is software reliability? How is it measured?"
+    "text": "Define software testing and its types."
   },
   {
-    "id": "ppl-q1.12.1",
-    "unit": null,
-    "unitName": "UNIT I: PROGRAM DESIGN",
-    "topic": "Design Patterns",
-    "years": [],
-    "year": "",
+    "id": "ppl-q1.5.5",
+    "unit": 1,
+    "unitName": "PROGRAM DESIGN",
+    "topic": "Test Plans & Software Testing",
+    "years": [
+      "2020(ND)"
+    ],
+    "year": "2020",
+    "marks": 8,
     "frequency": 1,
-    "priority": "medium",
-    "type": "application",
-    "text": "What are design patterns? Explain with examples."
+    "priority": "low",
+    "type": "theory",
+    "text": "Explain: (i) Operational Acceptance Testing (ii) Alpha Testing (iii) Beta Testing (iv) Software Maintenance phase."
   },
   {
-    "id": "ppl-q1.12.2",
-    "unit": null,
-    "unitName": "UNIT I: PROGRAM DESIGN",
-    "topic": "Design Patterns",
-    "years": [],
-    "year": "",
+    "id": "ppl-q1.6.1",
+    "unit": 1,
+    "unitName": "PROGRAM DESIGN",
+    "topic": "Software Development Models",
+    "years": [
+      "2020(ND)"
+    ],
+    "year": "2020",
+    "marks": 8,
     "frequency": 1,
-    "priority": "medium",
+    "priority": "low",
     "type": "application",
-    "text": "Discuss common design patterns used in software development."
+    "text": "(i) Draw the diagram of Waterfall model and Prototyping model. (ii) Compare Waterfall model and Prototyping model."
   },
   {
-    "id": "ppl-q1.13.1",
-    "unit": null,
-    "unitName": "UNIT I: PROGRAM DESIGN",
-    "topic": "General Program Design",
-    "years": [],
-    "year": "",
+    "id": "ppl-q1.6.2",
+    "unit": 1,
+    "unitName": "PROGRAM DESIGN",
+    "topic": "Software Development Models",
+    "years": [
+      "2020(ND)"
+    ],
+    "year": "2020",
+    "marks": 8,
     "frequency": 1,
-    "priority": "medium",
+    "priority": "low",
     "type": "application",
-    "text": "Explain various program design methodologies."
-  },
-  {
-    "id": "ppl-q1.13.2",
-    "unit": null,
-    "unitName": "UNIT I: PROGRAM DESIGN",
-    "topic": "General Program Design",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "application",
-    "text": "What factors should be considered when designing a program?"
+    "text": "(i) Draw the Scrum Development Model. (ii) Explain the components of Scrum Development Model."
   },
   {
     "id": "ppl-q2.1.1",
-    "unit": null,
-    "unitName": "UNIT II: LANGUAGE CHARACTERISTICS",
-    "topic": "Programming Language Characteristics",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
+    "unit": 2,
+    "unitName": "PROGRAMMING LANGUAGE PROCESSORS",
+    "topic": "Characteristics & Evolution of Programming Languages",
+    "years": [
+      "2021(AM)",
+      "2021(ND)"
+    ],
+    "year": "2021",
+    "marks": 4,
+    "frequency": 3,
+    "priority": "high",
     "type": "application",
-    "text": "List and explain the characteristics of programming languages with examples."
+    "text": "What are the characteristics of a good programming language?"
   },
   {
     "id": "ppl-q2.1.2",
-    "unit": null,
-    "unitName": "UNIT II: LANGUAGE CHARACTERISTICS",
-    "topic": "Programming Language Characteristics",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
+    "unit": 2,
+    "unitName": "PROGRAMMING LANGUAGE PROCESSORS",
+    "topic": "Characteristics & Evolution of Programming Languages",
+    "years": [
+      "2022(AM)"
+    ],
+    "year": "2022",
+    "marks": 10,
+    "frequency": 3,
+    "priority": "high",
     "type": "application",
-    "text": "What are the key features that distinguish different programming paradigms?"
+    "text": "Describe the various characteristics of programming languages."
   },
   {
     "id": "ppl-q2.1.3",
-    "unit": null,
-    "unitName": "UNIT II: LANGUAGE CHARACTERISTICS",
-    "topic": "Programming Language Characteristics",
-    "years": [],
-    "year": "",
+    "unit": 2,
+    "unitName": "PROGRAMMING LANGUAGE PROCESSORS",
+    "topic": "Characteristics & Evolution of Programming Languages",
+    "years": [
+      "2024(AM)"
+    ],
+    "year": "2024",
+    "marks": 8,
+    "frequency": 3,
+    "priority": "high",
+    "type": "application",
+    "text": "Write and explain eight characteristics of programming language."
+  },
+  {
+    "id": "ppl-q2.1.4",
+    "unit": 2,
+    "unitName": "PROGRAMMING LANGUAGE PROCESSORS",
+    "topic": "Characteristics & Evolution of Programming Languages",
+    "years": [
+      "2022(ND)"
+    ],
+    "year": "2022",
+    "marks": 8,
+    "frequency": 3,
+    "priority": "high",
+    "type": "application",
+    "text": "Explain various characteristics of a programming language in detail."
+  },
+  {
+    "id": "ppl-q2.1.5",
+    "unit": 2,
+    "unitName": "PROGRAMMING LANGUAGE PROCESSORS",
+    "topic": "Characteristics & Evolution of Programming Languages",
+    "years": [
+      "2021(AM)",
+      "2021(ND)",
+      "2022(ND)"
+    ],
+    "year": "2021",
+    "marks": 8,
+    "frequency": 3,
+    "priority": "high",
+    "type": "application",
+    "text": "Discuss the factors influencing the evolution of programming languages."
+  },
+  {
+    "id": "ppl-q2.1.6",
+    "unit": 2,
+    "unitName": "PROGRAMMING LANGUAGE PROCESSORS",
+    "topic": "Characteristics & Evolution of Programming Languages",
+    "years": [
+      "2024(ND)"
+    ],
+    "year": "2024",
+    "marks": 8,
+    "frequency": 3,
+    "priority": "high",
+    "type": "application",
+    "text": "Explain the factors influencing the evaluation of programming languages."
+  },
+  {
+    "id": "ppl-q2.1.7",
+    "unit": 2,
+    "unitName": "PROGRAMMING LANGUAGE PROCESSORS",
+    "topic": "Characteristics & Evolution of Programming Languages",
+    "years": [
+      "2024(ND)"
+    ],
+    "year": "2024",
+    "marks": 8,
     "frequency": 1,
     "priority": "medium",
     "type": "application",
-    "text": "Explain the evolution of programming languages."
+    "text": "Discuss the challenges and benefits of developing new programming languages in an existing landscape dominated by established languages."
+  },
+  {
+    "id": "ppl-q2.1.8",
+    "unit": 2,
+    "unitName": "PROGRAMMING LANGUAGE PROCESSORS",
+    "topic": "Characteristics & Evolution of Programming Languages",
+    "years": [
+      "2024(ND)"
+    ],
+    "year": "2024",
+    "marks": 4,
+    "frequency": 1,
+    "priority": "medium",
+    "type": "application",
+    "text": "Compare major paradigms of programming languages. Also provide an example of each."
+  },
+  {
+    "id": "ppl-q2.1.9",
+    "unit": 2,
+    "unitName": "PROGRAMMING LANGUAGE PROCESSORS",
+    "topic": "Characteristics & Evolution of Programming Languages",
+    "years": [
+      "2022(ND)"
+    ],
+    "year": "2022",
+    "marks": 8,
+    "frequency": 1,
+    "priority": "medium",
+    "type": "application",
+    "text": "Describe various desirable features and design issues related with programming language processors."
   },
   {
     "id": "ppl-q2.2.1",
-    "unit": null,
-    "unitName": "UNIT II: LANGUAGE CHARACTERISTICS",
-    "topic": "Regular Expressions",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "What is regular expressions with examples? Explain in detail."
+    "unit": 2,
+    "unitName": "PROGRAMMING LANGUAGE PROCESSORS",
+    "topic": "Translators (Compiler, Interpreter, Assembler, Linker, Loader)",
+    "years": [
+      "2021(ND)",
+      "2024(AM)"
+    ],
+    "year": "2021",
+    "marks": 8,
+    "frequency": 3,
+    "priority": "high",
+    "type": "application",
+    "text": "Explain structure and operations of translators in programming language."
   },
   {
     "id": "ppl-q2.2.2",
-    "unit": null,
-    "unitName": "UNIT II: LANGUAGE CHARACTERISTICS",
-    "topic": "Regular Expressions",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
+    "unit": 2,
+    "unitName": "PROGRAMMING LANGUAGE PROCESSORS",
+    "topic": "Translators (Compiler, Interpreter, Assembler, Linker, Loader)",
+    "years": [
+      "2022(AM)"
+    ],
+    "year": "2022",
+    "marks": 10,
+    "frequency": 3,
+    "priority": "high",
     "type": "theory",
-    "text": "Write regular expressions for common patterns (email, phone, etc.)."
+    "text": "Describe the working principles of translators with an example."
   },
   {
     "id": "ppl-q2.2.3",
-    "unit": null,
-    "unitName": "UNIT II: LANGUAGE CHARACTERISTICS",
-    "topic": "Regular Expressions",
-    "years": [],
-    "year": "",
+    "unit": 2,
+    "unitName": "PROGRAMMING LANGUAGE PROCESSORS",
+    "topic": "Translators (Compiler, Interpreter, Assembler, Linker, Loader)",
+    "years": [
+      "2024(AM)"
+    ],
+    "year": "2024",
+    "marks": 8,
+    "frequency": 3,
+    "priority": "high",
+    "type": "application",
+    "text": "Draw structure and explain the operation of translator."
+  },
+  {
+    "id": "ppl-q2.2.4",
+    "unit": 2,
+    "unitName": "PROGRAMMING LANGUAGE PROCESSORS",
+    "topic": "Translators (Compiler, Interpreter, Assembler, Linker, Loader)",
+    "years": [
+      "2023(ND)"
+    ],
+    "year": "2023",
+    "marks": 4,
+    "frequency": 3,
+    "priority": "high",
+    "type": "theory",
+    "text": "Explain the operations of translator in brief."
+  },
+  {
+    "id": "ppl-q2.2.5",
+    "unit": 2,
+    "unitName": "PROGRAMMING LANGUAGE PROCESSORS",
+    "topic": "Translators (Compiler, Interpreter, Assembler, Linker, Loader)",
+    "years": [
+      "2020(ND)"
+    ],
+    "year": "2020",
+    "marks": 8,
     "frequency": 1,
     "priority": "medium",
     "type": "theory",
-    "text": "Explain the use of regular expressions in language processing."
+    "text": "Answer the following: (i) What is the need of Assembler? (ii) Compare Compiler and Interpreter."
+  },
+  {
+    "id": "ppl-q2.2.6",
+    "unit": 2,
+    "unitName": "PROGRAMMING LANGUAGE PROCESSORS",
+    "topic": "Translators (Compiler, Interpreter, Assembler, Linker, Loader)",
+    "years": [
+      "2023(AM)"
+    ],
+    "year": "2023",
+    "marks": 8,
+    "frequency": 1,
+    "priority": "medium",
+    "type": "theory",
+    "text": "Write short notes on (any two): (i) Translator (ii) Compiler (iii) Linker & Loader."
   },
   {
     "id": "ppl-q2.3.1",
-    "unit": null,
-    "unitName": "UNIT II: LANGUAGE CHARACTERISTICS",
-    "topic": "Syntax and Semantics",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "application",
-    "text": "Define syntax and semantics. Explain their importance in programming languages."
+    "unit": 2,
+    "unitName": "PROGRAMMING LANGUAGE PROCESSORS",
+    "topic": "Virtual & Simulated Computers",
+    "years": [
+      "2021(AM)"
+    ],
+    "year": "2021",
+    "marks": 8,
+    "frequency": 2,
+    "priority": "high",
+    "type": "numerical",
+    "text": "What are virtual computers? Also write its advantages."
   },
   {
     "id": "ppl-q2.3.2",
-    "unit": null,
-    "unitName": "UNIT II: LANGUAGE CHARACTERISTICS",
-    "topic": "Syntax and Semantics",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "What is the difference between syntax and semantics?"
+    "unit": 2,
+    "unitName": "PROGRAMMING LANGUAGE PROCESSORS",
+    "topic": "Virtual & Simulated Computers",
+    "years": [
+      "2024(AM)"
+    ],
+    "year": "2024",
+    "marks": 4,
+    "frequency": 2,
+    "priority": "high",
+    "type": "numerical",
+    "text": "Explain virtual computer."
   },
   {
     "id": "ppl-q2.3.3",
-    "unit": null,
-    "unitName": "UNIT II: LANGUAGE CHARACTERISTICS",
-    "topic": "Syntax and Semantics",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "Explain syntax-directed translation."
+    "unit": 2,
+    "unitName": "PROGRAMMING LANGUAGE PROCESSORS",
+    "topic": "Virtual & Simulated Computers",
+    "years": [
+      "2022(AM)",
+      "2023(ND)"
+    ],
+    "year": "2022",
+    "marks": 8,
+    "frequency": 2,
+    "priority": "high",
+    "type": "numerical",
+    "text": "Write short notes on: (i) Virtual Computer (ii) Simulated Computer."
   },
   {
     "id": "ppl-q2.4.1",
-    "unit": null,
-    "unitName": "UNIT II: LANGUAGE CHARACTERISTICS",
-    "topic": "BNF (Backus-Naur Form)",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "Define BNF and explain its use in syntax specification. Provide examples."
+    "unit": 2,
+    "unitName": "PROGRAMMING LANGUAGE PROCESSORS",
+    "topic": "Syntax & Semantics",
+    "years": [
+      "2023(AM)"
+    ],
+    "year": "2023",
+    "marks": 8,
+    "frequency": 2,
+    "priority": "high",
+    "type": "application",
+    "text": "What is difference between syntax and semantics of programming language?"
   },
   {
     "id": "ppl-q2.4.2",
-    "unit": null,
-    "unitName": "UNIT II: LANGUAGE CHARACTERISTICS",
-    "topic": "BNF (Backus-Naur Form)",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
+    "unit": 2,
+    "unitName": "PROGRAMMING LANGUAGE PROCESSORS",
+    "topic": "Syntax & Semantics",
+    "years": [
+      "2024(AM)"
+    ],
+    "year": "2024",
+    "marks": 8,
+    "frequency": 2,
+    "priority": "high",
     "type": "theory",
-    "text": "Write BNF grammars for simple arithmetic expressions."
-  },
-  {
-    "id": "ppl-q2.4.3",
-    "unit": null,
-    "unitName": "UNIT II: LANGUAGE CHARACTERISTICS",
-    "topic": "BNF (Backus-Naur Form)",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "What is EBNF? How does it differ from BNF?"
+    "text": "Explain syntax and semantics with its types."
   },
   {
     "id": "ppl-q2.5.1",
-    "unit": null,
-    "unitName": "UNIT II: LANGUAGE CHARACTERISTICS",
-    "topic": "Ambiguity in Grammars",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
+    "unit": 2,
+    "unitName": "PROGRAMMING LANGUAGE PROCESSORS",
+    "topic": "Binding & Binding Times",
+    "years": [
+      "2021(ND)"
+    ],
+    "year": "2021",
+    "marks": 8,
+    "frequency": 2,
+    "priority": "high",
     "type": "theory",
-    "text": "What is ambiguity in grammars? How can it be resolved?"
+    "text": "Explain Early binding and late binding in language."
   },
   {
     "id": "ppl-q2.5.2",
-    "unit": null,
-    "unitName": "UNIT II: LANGUAGE CHARACTERISTICS",
-    "topic": "Ambiguity in Grammars",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
+    "unit": 2,
+    "unitName": "PROGRAMMING LANGUAGE PROCESSORS",
+    "topic": "Binding & Binding Times",
+    "years": [
+      "2023(ND)"
+    ],
+    "year": "2023",
+    "marks": 8,
+    "frequency": 2,
+    "priority": "high",
     "type": "theory",
-    "text": "Provide examples of ambiguous and unambiguous grammars."
+    "text": "What do you mean by binding? Explain compile-time and run-time binding in detail."
   },
   {
     "id": "ppl-q2.5.3",
-    "unit": null,
-    "unitName": "UNIT II: LANGUAGE CHARACTERISTICS",
-    "topic": "Ambiguity in Grammars",
-    "years": [],
-    "year": "",
+    "unit": 2,
+    "unitName": "PROGRAMMING LANGUAGE PROCESSORS",
+    "topic": "Binding & Binding Times",
+    "years": [
+      "2022(AM)"
+    ],
+    "year": "2022",
+    "marks": 10,
+    "frequency": 2,
+    "priority": "high",
+    "type": "theory",
+    "text": "Write short notes on: Binding and Binding times."
+  },
+  {
+    "id": "ppl-q2.5.4",
+    "unit": 2,
+    "unitName": "PROGRAMMING LANGUAGE PROCESSORS",
+    "topic": "Binding & Binding Times",
+    "years": [
+      "2023(AM)"
+    ],
+    "year": "2023",
+    "marks": 8,
     "frequency": 1,
     "priority": "medium",
     "type": "theory",
-    "text": "Explain operator precedence and associativity in resolving ambiguity."
+    "text": "Explain briefly about storage management and data binding."
   },
   {
     "id": "ppl-q2.6.1",
-    "unit": null,
-    "unitName": "UNIT II: LANGUAGE CHARACTERISTICS",
-    "topic": "Parsing Techniques",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
+    "unit": 2,
+    "unitName": "PROGRAMMING LANGUAGE PROCESSORS",
+    "topic": "Storage Management",
+    "years": [
+      "2021(AM)"
+    ],
+    "year": "2021",
+    "marks": 8,
+    "frequency": 2,
+    "priority": "high",
     "type": "theory",
-    "text": "Explain top-down and bottom-up parsing approaches."
+    "text": "Write short note on: Storage management."
   },
   {
     "id": "ppl-q2.6.2",
-    "unit": null,
-    "unitName": "UNIT II: LANGUAGE CHARACTERISTICS",
-    "topic": "Parsing Techniques",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
+    "unit": 2,
+    "unitName": "PROGRAMMING LANGUAGE PROCESSORS",
+    "topic": "Storage Management",
+    "years": [
+      "2022(ND)"
+    ],
+    "year": "2022",
+    "marks": 8,
+    "frequency": 2,
+    "priority": "high",
     "type": "theory",
-    "text": "What is recursive descent parsing?"
-  },
-  {
-    "id": "ppl-q2.6.3",
-    "unit": null,
-    "unitName": "UNIT II: LANGUAGE CHARACTERISTICS",
-    "topic": "Parsing Techniques",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "numerical",
-    "text": "Explain shift-reduce parsing with example."
-  },
-  {
-    "id": "ppl-q2.7.1",
-    "unit": null,
-    "unitName": "UNIT II: LANGUAGE CHARACTERISTICS",
-    "topic": "Symbol Table",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "What is a symbol table? Explain its role in compilation."
-  },
-  {
-    "id": "ppl-q2.7.2",
-    "unit": null,
-    "unitName": "UNIT II: LANGUAGE CHARACTERISTICS",
-    "topic": "Symbol Table",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "application",
-    "text": "Describe the data structures used for implementing symbol tables."
-  },
-  {
-    "id": "ppl-q2.7.3",
-    "unit": null,
-    "unitName": "UNIT II: LANGUAGE CHARACTERISTICS",
-    "topic": "Symbol Table",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "Explain the operations performed on symbol tables."
-  },
-  {
-    "id": "ppl-q2.8.1",
-    "unit": null,
-    "unitName": "UNIT II: LANGUAGE CHARACTERISTICS",
-    "topic": "Type Checking",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "application",
-    "text": "Explain type checking and type conversion in programming languages."
-  },
-  {
-    "id": "ppl-q2.8.2",
-    "unit": null,
-    "unitName": "UNIT II: LANGUAGE CHARACTERISTICS",
-    "topic": "Type Checking",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "What is the difference between static and dynamic type checking?"
-  },
-  {
-    "id": "ppl-q2.8.3",
-    "unit": null,
-    "unitName": "UNIT II: LANGUAGE CHARACTERISTICS",
-    "topic": "Type Checking",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "Explain type coercion with examples."
-  },
-  {
-    "id": "ppl-q2.9.1",
-    "unit": null,
-    "unitName": "UNIT II: LANGUAGE CHARACTERISTICS",
-    "topic": "Binding and Scope",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "application",
-    "text": "Explain binding time and scope rules in programming languages."
-  },
-  {
-    "id": "ppl-q2.9.2",
-    "unit": null,
-    "unitName": "UNIT II: LANGUAGE CHARACTERISTICS",
-    "topic": "Binding and Scope",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "What is the difference between static and dynamic scoping?"
-  },
-  {
-    "id": "ppl-q2.9.3",
-    "unit": null,
-    "unitName": "UNIT II: LANGUAGE CHARACTERISTICS",
-    "topic": "Binding and Scope",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "Explain lexical scoping with examples."
-  },
-  {
-    "id": "ppl-q2.10.1",
-    "unit": null,
-    "unitName": "UNIT II: LANGUAGE CHARACTERISTICS",
-    "topic": "Memory Management",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "application",
-    "text": "Explain memory allocation strategies in programming languages."
-  },
-  {
-    "id": "ppl-q2.10.2",
-    "unit": null,
-    "unitName": "UNIT II: LANGUAGE CHARACTERISTICS",
-    "topic": "Memory Management",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "What is garbage collection? Explain different garbage collection techniques."
-  },
-  {
-    "id": "ppl-q2.10.3",
-    "unit": null,
-    "unitName": "UNIT II: LANGUAGE CHARACTERISTICS",
-    "topic": "Memory Management",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "Describe stack and heap memory management."
-  },
-  {
-    "id": "ppl-q2.11.1",
-    "unit": null,
-    "unitName": "UNIT II: LANGUAGE CHARACTERISTICS",
-    "topic": "Runtime Environment",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "application",
-    "text": "Explain the runtime environment of a programming language."
-  },
-  {
-    "id": "ppl-q2.11.2",
-    "unit": null,
-    "unitName": "UNIT II: LANGUAGE CHARACTERISTICS",
-    "topic": "Runtime Environment",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "What is an activation record? Describe its structure."
-  },
-  {
-    "id": "ppl-q2.11.3",
-    "unit": null,
-    "unitName": "UNIT II: LANGUAGE CHARACTERISTICS",
-    "topic": "Runtime Environment",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "Explain parameter passing mechanisms (call by value, call by reference)."
+    "text": "Explain various storage management techniques and compare them."
   },
   {
     "id": "ppl-q3.1.1",
-    "unit": null,
-    "unitName": "UNIT III: FUNCTIONAL & LOGIC PROGRAMMING",
-    "topic": "LISP - Introduction & Fundamentals",
-    "years": [],
-    "year": "",
+    "unit": 3,
+    "unitName": "FUNCTIONAL & LOGIC PROGRAMMING",
+    "topic": "Functional Programming",
+    "years": [
+      "2021(AM)"
+    ],
+    "year": "2021",
+    "marks": 4,
     "frequency": 1,
-    "priority": "medium",
+    "priority": "high",
     "type": "application",
-    "text": "Explain LISP programming language with examples. What are its key features?"
+    "text": "What are the applications of functional programming languages?"
   },
   {
     "id": "ppl-q3.1.2",
-    "unit": null,
-    "unitName": "UNIT III: FUNCTIONAL & LOGIC PROGRAMMING",
-    "topic": "LISP - Introduction & Fundamentals",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
+    "unit": 3,
+    "unitName": "FUNCTIONAL & LOGIC PROGRAMMING",
+    "topic": "Functional Programming",
+    "years": [
+      "2020(ND)",
+      "2021(ND)"
+    ],
+    "year": "2020",
+    "marks": 8,
+    "frequency": 2,
+    "priority": "high",
     "type": "application",
-    "text": "What is functional programming? Explain with LISP examples."
+    "text": "Explain Functional programming."
   },
   {
     "id": "ppl-q3.1.3",
-    "unit": null,
-    "unitName": "UNIT III: FUNCTIONAL & LOGIC PROGRAMMING",
-    "topic": "LISP - Introduction & Fundamentals",
-    "years": [],
-    "year": "",
+    "unit": 3,
+    "unitName": "FUNCTIONAL & LOGIC PROGRAMMING",
+    "topic": "Functional Programming",
+    "years": [
+      "2024(AM)"
+    ],
+    "year": "2024",
+    "marks": 8,
+    "frequency": 1,
+    "priority": "high",
+    "type": "application",
+    "text": "What is functional programming language? Explain its characteristics in brief."
+  },
+  {
+    "id": "ppl-q3.1.4",
+    "unit": 3,
+    "unitName": "FUNCTIONAL & LOGIC PROGRAMMING",
+    "topic": "Functional Programming",
+    "years": [
+      "2024(AM)"
+    ],
+    "year": "2024",
+    "marks": 4,
     "frequency": 1,
     "priority": "medium",
-    "type": "theory",
-    "text": "Describe the history and evolution of LISP."
+    "type": "application",
+    "text": "Explain Imperative programming language."
+  },
+  {
+    "id": "ppl-q3.1.5",
+    "unit": 3,
+    "unitName": "FUNCTIONAL & LOGIC PROGRAMMING",
+    "topic": "Functional Programming",
+    "years": [
+      "2021(ND)"
+    ],
+    "year": "2021",
+    "marks": 8,
+    "frequency": 1,
+    "priority": "medium",
+    "type": "application",
+    "text": "Explain Imperative programming."
+  },
+  {
+    "id": "ppl-q3.1.6",
+    "unit": 3,
+    "unitName": "FUNCTIONAL & LOGIC PROGRAMMING",
+    "topic": "Functional Programming",
+    "years": [
+      "2023(AM)"
+    ],
+    "year": "2023",
+    "marks": 4,
+    "frequency": 1,
+    "priority": "low",
+    "type": "application",
+    "text": "What is function and pseudo code?"
   },
   {
     "id": "ppl-q3.2.1",
-    "unit": null,
-    "unitName": "UNIT III: FUNCTIONAL & LOGIC PROGRAMMING",
-    "topic": "LISP - Data Structures & S-expressions",
-    "years": [],
-    "year": "",
+    "unit": 3,
+    "unitName": "FUNCTIONAL & LOGIC PROGRAMMING",
+    "topic": "LISP",
+    "years": [
+      "2020(ND)"
+    ],
+    "year": "2020",
+    "marks": 8,
     "frequency": 1,
-    "priority": "medium",
+    "priority": "high",
     "type": "theory",
-    "text": "Explain atoms and lists in LISP. What are S-expressions?"
+    "text": "Explain following about LISP: (i) Executor (ii) Atoms (iii) Lists (iv) Strings."
   },
   {
     "id": "ppl-q3.2.2",
-    "unit": null,
-    "unitName": "UNIT III: FUNCTIONAL & LOGIC PROGRAMMING",
-    "topic": "LISP - Data Structures & S-expressions",
-    "years": [],
-    "year": "",
+    "unit": 3,
+    "unitName": "FUNCTIONAL & LOGIC PROGRAMMING",
+    "topic": "LISP",
+    "years": [
+      "2021(ND)"
+    ],
+    "year": "2021",
+    "marks": 8,
     "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "How are data structures represented in LISP?"
+    "priority": "high",
+    "type": "application",
+    "text": "Explain the programming structure for LISP."
   },
   {
     "id": "ppl-q3.2.3",
-    "unit": null,
-    "unitName": "UNIT III: FUNCTIONAL & LOGIC PROGRAMMING",
-    "topic": "LISP - Data Structures & S-expressions",
-    "years": [],
-    "year": "",
+    "unit": 3,
+    "unitName": "FUNCTIONAL & LOGIC PROGRAMMING",
+    "topic": "LISP",
+    "years": [
+      "2023(ND)"
+    ],
+    "year": "2023",
+    "marks": 8,
+    "frequency": 1,
+    "priority": "high",
+    "type": "theory",
+    "text": "What is LISP? Explain the fundamentals of LISP."
+  },
+  {
+    "id": "ppl-q3.2.4",
+    "unit": 3,
+    "unitName": "FUNCTIONAL & LOGIC PROGRAMMING",
+    "topic": "LISP",
+    "years": [
+      "2022(ND)"
+    ],
+    "year": "2022",
+    "marks": 8,
+    "frequency": 1,
+    "priority": "high",
+    "type": "theory",
+    "text": "Give detailed description about LISP."
+  },
+  {
+    "id": "ppl-q3.2.5",
+    "unit": 3,
+    "unitName": "FUNCTIONAL & LOGIC PROGRAMMING",
+    "topic": "LISP",
+    "years": [
+      "2024(AM)"
+    ],
+    "year": "2024",
+    "marks": 8,
+    "frequency": 1,
+    "priority": "high",
+    "type": "application",
+    "text": "Explain LISP programming in terms of definition, control structure and functions."
+  },
+  {
+    "id": "ppl-q3.2.6",
+    "unit": 3,
+    "unitName": "FUNCTIONAL & LOGIC PROGRAMMING",
+    "topic": "LISP",
+    "years": [
+      "2024(ND)"
+    ],
+    "year": "2024",
+    "marks": 8,
+    "frequency": 1,
+    "priority": "high",
+    "type": "theory",
+    "text": "Discuss the advantages and disadvantages of using LISP for symbolic computing and artificial intelligence applications. Provide specific examples of its use in these domains."
+  },
+  {
+    "id": "ppl-q3.2.7",
+    "unit": 3,
+    "unitName": "FUNCTIONAL & LOGIC PROGRAMMING",
+    "topic": "LISP",
+    "years": [
+      "2021(ND)"
+    ],
+    "year": "2021",
+    "marks": 4,
     "frequency": 1,
     "priority": "medium",
     "type": "theory",
-    "text": "Explain the concept of symbolic expressions."
+    "text": "What is meant by symbolic expression in LISP?"
+  },
+  {
+    "id": "ppl-q3.2.8",
+    "unit": 3,
+    "unitName": "FUNCTIONAL & LOGIC PROGRAMMING",
+    "topic": "LISP",
+    "years": [
+      "2023(AM)"
+    ],
+    "year": "2023",
+    "marks": 8,
+    "frequency": 1,
+    "priority": "medium",
+    "type": "theory",
+    "text": "LISP began as a pure functional language but gradually acquired more imperative features. Why?"
+  },
+  {
+    "id": "ppl-q3.2.9",
+    "unit": 3,
+    "unitName": "FUNCTIONAL & LOGIC PROGRAMMING",
+    "topic": "LISP",
+    "years": [
+      "2022(AM)"
+    ],
+    "year": "2022",
+    "marks": 10,
+    "frequency": 1,
+    "priority": "low",
+    "type": "theory",
+    "text": "How are list functions expressed in SML? Explain with suitable examples."
+  },
+  {
+    "id": "ppl-q3.2.10",
+    "unit": 3,
+    "unitName": "FUNCTIONAL & LOGIC PROGRAMMING",
+    "topic": "LISP",
+    "years": [
+      "2022(AM)"
+    ],
+    "year": "2022",
+    "marks": 10,
+    "frequency": 1,
+    "priority": "low",
+    "type": "application",
+    "text": "Explain Haskell programming language and its features."
   },
   {
     "id": "ppl-q3.3.1",
-    "unit": null,
-    "unitName": "UNIT III: FUNCTIONAL & LOGIC PROGRAMMING",
-    "topic": "LISP - Basic Operations (CAR, CDR, CONS)",
-    "years": [],
-    "year": "",
+    "unit": 3,
+    "unitName": "FUNCTIONAL & LOGIC PROGRAMMING",
+    "topic": "Logic Programming & PROLOG",
+    "years": [
+      "2023(ND)"
+    ],
+    "year": "2023",
+    "marks": 4,
     "frequency": 1,
-    "priority": "medium",
+    "priority": "high",
     "type": "application",
-    "text": "Write LISP programs to demonstrate list operations (CAR, CDR, CONS)."
+    "text": "Explain logic programming language in brief."
   },
   {
     "id": "ppl-q3.3.2",
-    "unit": null,
-    "unitName": "UNIT III: FUNCTIONAL & LOGIC PROGRAMMING",
-    "topic": "LISP - Basic Operations (CAR, CDR, CONS)",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "Explain the purpose of CAR and CDR functions with examples."
+    "unit": 3,
+    "unitName": "FUNCTIONAL & LOGIC PROGRAMMING",
+    "topic": "Logic Programming & PROLOG",
+    "years": [
+      "2021(AM)",
+      "2023(ND)"
+    ],
+    "year": "2021",
+    "marks": 8,
+    "frequency": 2,
+    "priority": "high",
+    "type": "application",
+    "text": "How do the control constructs in PROLOG function?"
   },
   {
     "id": "ppl-q3.3.3",
-    "unit": null,
-    "unitName": "UNIT III: FUNCTIONAL & LOGIC PROGRAMMING",
-    "topic": "LISP - Basic Operations (CAR, CDR, CONS)",
-    "years": [],
-    "year": "",
+    "unit": 3,
+    "unitName": "FUNCTIONAL & LOGIC PROGRAMMING",
+    "topic": "Logic Programming & PROLOG",
+    "years": [
+      "2021(AM)"
+    ],
+    "year": "2021",
+    "marks": 8,
+    "frequency": 1,
+    "priority": "high",
+    "type": "theory",
+    "text": "What are Lists? How do they operate?"
+  },
+  {
+    "id": "ppl-q3.3.4",
+    "unit": 3,
+    "unitName": "FUNCTIONAL & LOGIC PROGRAMMING",
+    "topic": "Logic Programming & PROLOG",
+    "years": [
+      "2021(ND)"
+    ],
+    "year": "2021",
+    "marks": 8,
+    "frequency": 1,
+    "priority": "high",
+    "type": "application",
+    "text": "Explain different datatypes available in PROLOG programming language."
+  },
+  {
+    "id": "ppl-q3.3.5",
+    "unit": 3,
+    "unitName": "FUNCTIONAL & LOGIC PROGRAMMING",
+    "topic": "Logic Programming & PROLOG",
+    "years": [
+      "2024(ND)"
+    ],
+    "year": "2024",
+    "marks": 8,
+    "frequency": 1,
+    "priority": "high",
+    "type": "application",
+    "text": "Explain the syntax and structure of PROLOG clauses and goals, including the use of variables, predicates, and unification. How do they contribute to logic program execution?"
+  },
+  {
+    "id": "ppl-q3.3.6",
+    "unit": 3,
+    "unitName": "FUNCTIONAL & LOGIC PROGRAMMING",
+    "topic": "Logic Programming & PROLOG",
+    "years": [
+      "2020(ND)"
+    ],
+    "year": "2020",
+    "marks": 8,
     "frequency": 1,
     "priority": "medium",
-    "type": "application",
-    "text": "Write a LISP program to reverse a list using CAR, CDR, and CONS."
+    "type": "theory",
+    "text": "Explain following about PROLOG: (i) Variable and Atom (ii) Clause or rule."
+  },
+  {
+    "id": "ppl-q3.3.7",
+    "unit": 3,
+    "unitName": "FUNCTIONAL & LOGIC PROGRAMMING",
+    "topic": "Logic Programming & PROLOG",
+    "years": [
+      "2022(ND)"
+    ],
+    "year": "2022",
+    "marks": 8,
+    "frequency": 1,
+    "priority": "medium",
+    "type": "theory",
+    "text": "What is PROLOG? Explain in detail."
+  },
+  {
+    "id": "ppl-q3.3.8",
+    "unit": 3,
+    "unitName": "FUNCTIONAL & LOGIC PROGRAMMING",
+    "topic": "Logic Programming & PROLOG",
+    "years": [
+      "2024(AM)"
+    ],
+    "year": "2024",
+    "marks": 8,
+    "frequency": 1,
+    "priority": "medium",
+    "type": "theory",
+    "text": "Explain PROLOG on the basis of lists and operators in brief."
+  },
+  {
+    "id": "ppl-q3.3.9",
+    "unit": 3,
+    "unitName": "FUNCTIONAL & LOGIC PROGRAMMING",
+    "topic": "Logic Programming & PROLOG",
+    "years": [
+      "2023(AM)"
+    ],
+    "year": "2023",
+    "marks": 8,
+    "frequency": 1,
+    "priority": "medium",
+    "type": "theory",
+    "text": "What is Operators? Explain different types of operators."
   },
   {
     "id": "ppl-q3.4.1",
-    "unit": null,
-    "unitName": "UNIT III: FUNCTIONAL & LOGIC PROGRAMMING",
-    "topic": "LISP - Functions & Recursion",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "Explain function definition in LISP using DEFUN."
+    "unit": 3,
+    "unitName": "FUNCTIONAL & LOGIC PROGRAMMING",
+    "topic": "Comparison & Applications of Functional vs Logic PLs",
+    "years": [
+      "2021(AM)",
+      "2023(AM)",
+      "2022(ND)"
+    ],
+    "year": "2021",
+    "marks": 8,
+    "frequency": 3,
+    "priority": "high",
+    "type": "application",
+    "text": "Compare: Functional and Logic programming language."
   },
   {
     "id": "ppl-q3.4.2",
-    "unit": null,
-    "unitName": "UNIT III: FUNCTIONAL & LOGIC PROGRAMMING",
-    "topic": "LISP - Functions & Recursion",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "Write recursive LISP functions for factorial, fibonacci, etc."
+    "unit": 3,
+    "unitName": "FUNCTIONAL & LOGIC PROGRAMMING",
+    "topic": "Comparison & Applications of Functional vs Logic PLs",
+    "years": [
+      "2023(ND)"
+    ],
+    "year": "2023",
+    "marks": 8,
+    "frequency": 3,
+    "priority": "high",
+    "type": "application",
+    "text": "Explain comparison & applications of functional and logic programming languages."
   },
   {
     "id": "ppl-q3.4.3",
-    "unit": null,
-    "unitName": "UNIT III: FUNCTIONAL & LOGIC PROGRAMMING",
-    "topic": "LISP - Functions & Recursion",
-    "years": [],
-    "year": "",
+    "unit": 3,
+    "unitName": "FUNCTIONAL & LOGIC PROGRAMMING",
+    "topic": "Comparison & Applications of Functional vs Logic PLs",
+    "years": [
+      "2024(ND)"
+    ],
+    "year": "2024",
+    "marks": 4,
     "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "Explain lambda expressions in LISP."
-  },
-  {
-    "id": "ppl-q3.5.1",
-    "unit": null,
-    "unitName": "UNIT III: FUNCTIONAL & LOGIC PROGRAMMING",
-    "topic": "LISP - Predicates",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "Explain LISP predicates: NULL, ATOM, EQ, EQUAL, LISTP."
-  },
-  {
-    "id": "ppl-q3.5.2",
-    "unit": null,
-    "unitName": "UNIT III: FUNCTIONAL & LOGIC PROGRAMMING",
-    "topic": "LISP - Predicates",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
+    "priority": "high",
     "type": "application",
-    "text": "Write LISP programs using predicates for list checking."
+    "text": "Compare and contrast the main principles of functional and logic programming. Provide one example of each."
   },
   {
-    "id": "ppl-q3.5.3",
-    "unit": null,
-    "unitName": "UNIT III: FUNCTIONAL & LOGIC PROGRAMMING",
-    "topic": "LISP - Predicates",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "What is the difference between EQ and EQUAL in LISP?"
-  },
-  {
-    "id": "ppl-q3.6.1",
-    "unit": null,
-    "unitName": "UNIT III: FUNCTIONAL & LOGIC PROGRAMMING",
-    "topic": "LISP - Control Constructs",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "application",
-    "text": "Explain control constructs in LISP: COND, IF."
-  },
-  {
-    "id": "ppl-q3.6.2",
-    "unit": null,
-    "unitName": "UNIT III: FUNCTIONAL & LOGIC PROGRAMMING",
-    "topic": "LISP - Control Constructs",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "What is COND in LISP and how is it used?"
-  },
-  {
-    "id": "ppl-q3.6.3",
-    "unit": null,
-    "unitName": "UNIT III: FUNCTIONAL & LOGIC PROGRAMMING",
-    "topic": "LISP - Control Constructs",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "application",
-    "text": "Write a simple LISP program using control constructs."
-  },
-  {
-    "id": "ppl-q3.7.1",
-    "unit": null,
-    "unitName": "UNIT III: FUNCTIONAL & LOGIC PROGRAMMING",
-    "topic": "LISP - List Processing",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "Explain list processing functions in LISP: APPEND, LENGTH, REVERSE."
-  },
-  {
-    "id": "ppl-q3.7.2",
-    "unit": null,
-    "unitName": "UNIT III: FUNCTIONAL & LOGIC PROGRAMMING",
-    "topic": "LISP - List Processing",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "application",
-    "text": "Write LISP programs for common list operations."
-  },
-  {
-    "id": "ppl-q3.7.3",
-    "unit": null,
-    "unitName": "UNIT III: FUNCTIONAL & LOGIC PROGRAMMING",
-    "topic": "LISP - List Processing",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "Explain MAP functions in LISP (MAPCAR, MAPLIST)."
-  },
-  {
-    "id": "ppl-q3.8.1",
-    "unit": null,
-    "unitName": "UNIT III: FUNCTIONAL & LOGIC PROGRAMMING",
-    "topic": "PROLOG - Introduction",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "application",
-    "text": "Define PROLOG and explain its significance as a logic programming language."
-  },
-  {
-    "id": "ppl-q3.8.2",
-    "unit": null,
-    "unitName": "UNIT III: FUNCTIONAL & LOGIC PROGRAMMING",
-    "topic": "PROLOG - Introduction",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "What are the key features and principles of PROLOG?"
-  },
-  {
-    "id": "ppl-q3.8.3",
-    "unit": null,
-    "unitName": "UNIT III: FUNCTIONAL & LOGIC PROGRAMMING",
-    "topic": "PROLOG - Introduction",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "application",
-    "text": "Explain the declarative programming paradigm."
-  },
-  {
-    "id": "ppl-q3.9.1",
-    "unit": null,
-    "unitName": "UNIT III: FUNCTIONAL & LOGIC PROGRAMMING",
-    "topic": "PROLOG - Facts, Rules & Queries",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "application",
-    "text": "Explain PROLOG programming language with examples. Discuss facts, rules, and queries."
-  },
-  {
-    "id": "ppl-q3.9.2",
-    "unit": null,
-    "unitName": "UNIT III: FUNCTIONAL & LOGIC PROGRAMMING",
-    "topic": "PROLOG - Facts, Rules & Queries",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "application",
-    "text": "Write PROLOG programs for: (i) Facts (ii) Rules (iii) Queries"
-  },
-  {
-    "id": "ppl-q3.9.3",
-    "unit": null,
-    "unitName": "UNIT III: FUNCTIONAL & LOGIC PROGRAMMING",
-    "topic": "PROLOG - Facts, Rules & Queries",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "application",
-    "text": "Explain the structure of PROLOG programs."
-  },
-  {
-    "id": "ppl-q3.10.1",
-    "unit": null,
-    "unitName": "UNIT III: FUNCTIONAL & LOGIC PROGRAMMING",
-    "topic": "PROLOG - Lists",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "application",
-    "text": "Explain list operations in PROLOG. Write programs for common list operations."
-  },
-  {
-    "id": "ppl-q3.10.2",
-    "unit": null,
-    "unitName": "UNIT III: FUNCTIONAL & LOGIC PROGRAMMING",
-    "topic": "PROLOG - Lists",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "How are lists represented in PROLOG? Give examples."
-  },
-  {
-    "id": "ppl-q3.10.3",
-    "unit": null,
-    "unitName": "UNIT III: FUNCTIONAL & LOGIC PROGRAMMING",
-    "topic": "PROLOG - Lists",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "application",
-    "text": "Write PROLOG programs for list manipulation (append, reverse, member)."
-  },
-  {
-    "id": "ppl-q3.11.1",
-    "unit": null,
-    "unitName": "UNIT III: FUNCTIONAL & LOGIC PROGRAMMING",
-    "topic": "PROLOG - Family Tree & Relations",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "application",
-    "text": "Write PROLOG programs for family tree relations and queries."
-  },
-  {
-    "id": "ppl-q3.11.2",
-    "unit": null,
-    "unitName": "UNIT III: FUNCTIONAL & LOGIC PROGRAMMING",
-    "topic": "PROLOG - Family Tree & Relations",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "Explain how to define relationships in PROLOG."
-  },
-  {
-    "id": "ppl-q3.11.3",
-    "unit": null,
-    "unitName": "UNIT III: FUNCTIONAL & LOGIC PROGRAMMING",
-    "topic": "PROLOG - Family Tree & Relations",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "Write PROLOG rules for ancestor, descendant, sibling relationships."
-  },
-  {
-    "id": "ppl-q3.12.1",
-    "unit": null,
-    "unitName": "UNIT III: FUNCTIONAL & LOGIC PROGRAMMING",
-    "topic": "PROLOG - Operators & Arithmetic",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "Explain operators and arithmetic operations in PROLOG with examples."
-  },
-  {
-    "id": "ppl-q3.12.2",
-    "unit": null,
-    "unitName": "UNIT III: FUNCTIONAL & LOGIC PROGRAMMING",
-    "topic": "PROLOG - Operators & Arithmetic",
-    "years": [],
-    "year": "",
+    "id": "ppl-q3.4.4",
+    "unit": 3,
+    "unitName": "FUNCTIONAL & LOGIC PROGRAMMING",
+    "topic": "Comparison & Applications of Functional vs Logic PLs",
+    "years": [
+      "2024(ND)"
+    ],
+    "year": "2024",
+    "marks": 8,
     "frequency": 1,
     "priority": "medium",
     "type": "numerical",
-    "text": "Write PROLOG programs to perform arithmetic calculations."
+    "text": "Compare and contrast the expressive power and problem-solving approaches of LISP and PROLOG. In which situations might one language be more suitable than the other?"
   },
   {
-    "id": "ppl-q3.12.3",
-    "unit": null,
-    "unitName": "UNIT III: FUNCTIONAL & LOGIC PROGRAMMING",
-    "topic": "PROLOG - Operators & Arithmetic",
-    "years": [],
-    "year": "",
+    "id": "ppl-q3.4.5",
+    "unit": 3,
+    "unitName": "FUNCTIONAL & LOGIC PROGRAMMING",
+    "topic": "Comparison & Applications of Functional vs Logic PLs",
+    "years": [
+      "2022(AM)"
+    ],
+    "year": "2022",
+    "marks": 10,
     "frequency": 1,
     "priority": "medium",
     "type": "theory",
-    "text": "Explain the 'is' operator in PROLOG."
+    "text": "Differentiate between functional and imperative language."
   },
   {
-    "id": "ppl-q3.13.1",
-    "unit": null,
-    "unitName": "UNIT III: FUNCTIONAL & LOGIC PROGRAMMING",
-    "topic": "PROLOG - Control & Backtracking",
-    "years": [],
-    "year": "",
+    "id": "ppl-q3.4.6",
+    "unit": 3,
+    "unitName": "FUNCTIONAL & LOGIC PROGRAMMING",
+    "topic": "Comparison & Applications of Functional vs Logic PLs",
+    "years": [
+      "2023(AM)"
+    ],
+    "year": "2023",
+    "marks": 8,
     "frequency": 1,
     "priority": "medium",
     "type": "application",
-    "text": "Explain control constructs in PROLOG: (i) Cut (!) (ii) Fail (iii) Backtracking"
-  },
-  {
-    "id": "ppl-q3.13.2",
-    "unit": null,
-    "unitName": "UNIT III: FUNCTIONAL & LOGIC PROGRAMMING",
-    "topic": "PROLOG - Control & Backtracking",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "What is backtracking in PROLOG and how does it work?"
-  },
-  {
-    "id": "ppl-q3.13.3",
-    "unit": null,
-    "unitName": "UNIT III: FUNCTIONAL & LOGIC PROGRAMMING",
-    "topic": "PROLOG - Control & Backtracking",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "Explain the use of cut operator with examples."
-  },
-  {
-    "id": "ppl-q3.14.1",
-    "unit": null,
-    "unitName": "UNIT III: FUNCTIONAL & LOGIC PROGRAMMING",
-    "topic": "PROLOG - Unification",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "Explain unification and pattern matching in PROLOG."
-  },
-  {
-    "id": "ppl-q3.14.2",
-    "unit": null,
-    "unitName": "UNIT III: FUNCTIONAL & LOGIC PROGRAMMING",
-    "topic": "PROLOG - Unification",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "numerical",
-    "text": "How does PROLOG use unification to solve queries?"
-  },
-  {
-    "id": "ppl-q3.14.3",
-    "unit": null,
-    "unitName": "UNIT III: FUNCTIONAL & LOGIC PROGRAMMING",
-    "topic": "PROLOG - Unification",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "Provide examples of unification in PROLOG."
-  },
-  {
-    "id": "ppl-q3.15.1",
-    "unit": null,
-    "unitName": "UNIT III: FUNCTIONAL & LOGIC PROGRAMMING",
-    "topic": "Comparison - LISP vs PROLOG",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "application",
-    "text": "Compare LISP and PROLOG programming paradigms. Explain their differences."
-  },
-  {
-    "id": "ppl-q3.15.2",
-    "unit": null,
-    "unitName": "UNIT III: FUNCTIONAL & LOGIC PROGRAMMING",
-    "topic": "Comparison - LISP vs PROLOG",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "application",
-    "text": "Discuss the advantages and disadvantages of functional and logic programming languages."
-  },
-  {
-    "id": "ppl-q3.15.3",
-    "unit": null,
-    "unitName": "UNIT III: FUNCTIONAL & LOGIC PROGRAMMING",
-    "topic": "Comparison - LISP vs PROLOG",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "When would you choose LISP over PROLOG and vice versa?"
+    "text": "Comparison of functional and logical programming language."
   },
   {
     "id": "ppl-q4.1.1",
-    "unit": null,
-    "unitName": "UNIT IV: OOP CONCEPTS-I",
-    "topic": "OOP Concepts Introduction",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "Define and explain basic OOP concepts: Object, Class, Encapsulation, Abstraction, Data Hiding, Inheritance, Polymorphism, Message Passing."
+    "unit": 4,
+    "unitName": "OOP CONCEPTS-I (C++)",
+    "topic": "OOP Fundamentals — Object, Class & Encapsulation",
+    "years": [
+      "2020(ND)",
+      "2022(ND)"
+    ],
+    "year": "2020",
+    "marks": 4,
+    "frequency": 2,
+    "priority": "high",
+    "type": "application",
+    "text": "Write down various object oriented programming concepts."
   },
   {
     "id": "ppl-q4.1.2",
-    "unit": null,
-    "unitName": "UNIT IV: OOP CONCEPTS-I",
-    "topic": "OOP Concepts Introduction",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "What is the difference between a class and an object?"
+    "unit": 4,
+    "unitName": "OOP CONCEPTS-I (C++)",
+    "topic": "OOP Fundamentals — Object, Class & Encapsulation",
+    "years": [
+      "2023(AM)",
+      "2024(AM)"
+    ],
+    "year": "2023",
+    "marks": 8,
+    "frequency": 2,
+    "priority": "high",
+    "type": "application",
+    "text": "Explain the basic concepts of Object Oriented Programming."
   },
   {
     "id": "ppl-q4.1.3",
-    "unit": null,
-    "unitName": "UNIT IV: OOP CONCEPTS-I",
-    "topic": "OOP Concepts Introduction",
-    "years": [],
-    "year": "",
+    "unit": 4,
+    "unitName": "OOP CONCEPTS-I (C++)",
+    "topic": "OOP Fundamentals — Object, Class & Encapsulation",
+    "years": [
+      "2023(ND)"
+    ],
+    "year": "2023",
+    "marks": 8,
+    "frequency": 1,
+    "priority": "high",
+    "type": "application",
+    "text": "Explain the features of object-oriented programming language in detail."
+  },
+  {
+    "id": "ppl-q4.1.4",
+    "unit": 4,
+    "unitName": "OOP CONCEPTS-I (C++)",
+    "topic": "OOP Fundamentals — Object, Class & Encapsulation",
+    "years": [
+      "2023(ND)"
+    ],
+    "year": "2023",
+    "marks": 4,
+    "frequency": 1,
+    "priority": "high",
+    "type": "theory",
+    "text": "What do you mean by object? Explain Encapsulation in brief with example."
+  },
+  {
+    "id": "ppl-q4.1.5",
+    "unit": 4,
+    "unitName": "OOP CONCEPTS-I (C++)",
+    "topic": "OOP Fundamentals — Object, Class & Encapsulation",
+    "years": [
+      "2024(ND)"
+    ],
+    "year": "2024",
+    "marks": 4,
+    "frequency": 1,
+    "priority": "high",
+    "type": "theory",
+    "text": "Explain the principle of encapsulation and its benefits in protecting data and promoting information hiding within a class."
+  },
+  {
+    "id": "ppl-q4.1.6",
+    "unit": 4,
+    "unitName": "OOP CONCEPTS-I (C++)",
+    "topic": "OOP Fundamentals — Object, Class & Encapsulation",
+    "years": [
+      "2021(ND)"
+    ],
+    "year": "2021",
+    "marks": 4,
     "frequency": 1,
     "priority": "medium",
     "type": "theory",
-    "text": "Explain encapsulation and data hiding with example."
+    "text": "Explain following: (i) Abstraction (ii) Polymorphism."
+  },
+  {
+    "id": "ppl-q4.1.7",
+    "unit": 4,
+    "unitName": "OOP CONCEPTS-I (C++)",
+    "topic": "OOP Fundamentals — Object, Class & Encapsulation",
+    "years": [
+      "2024(ND)"
+    ],
+    "year": "2024",
+    "marks": 8,
+    "frequency": 1,
+    "priority": "medium",
+    "type": "application",
+    "text": "Discuss the concept of message passing in object-oriented programming and its role in communication between objects."
   },
   {
     "id": "ppl-q4.2.1",
-    "unit": null,
-    "unitName": "UNIT IV: OOP CONCEPTS-I",
-    "topic": "C++ Program Structure",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
+    "unit": 4,
+    "unitName": "OOP CONCEPTS-I (C++)",
+    "topic": "C++ Program Structure & Classes",
+    "years": [
+      "2022(AM)"
+    ],
+    "year": "2022",
+    "marks": 10,
+    "frequency": 2,
+    "priority": "high",
     "type": "application",
-    "text": "Explain the basic structure of a C++ program with examples."
+    "text": "Explain the basic structure of C++ program with an example."
   },
   {
     "id": "ppl-q4.2.2",
-    "unit": null,
-    "unitName": "UNIT IV: OOP CONCEPTS-I",
-    "topic": "C++ Program Structure",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
+    "unit": 4,
+    "unitName": "OOP CONCEPTS-I (C++)",
+    "topic": "C++ Program Structure & Classes",
+    "years": [
+      "2024(AM)"
+    ],
+    "year": "2024",
+    "marks": 8,
+    "frequency": 2,
+    "priority": "high",
     "type": "application",
-    "text": "What are the main components of a C++ program?"
+    "text": "Explain basic structure of C++ programming with example."
   },
   {
     "id": "ppl-q4.2.3",
-    "unit": null,
-    "unitName": "UNIT IV: OOP CONCEPTS-I",
-    "topic": "C++ Program Structure",
-    "years": [],
-    "year": "",
+    "unit": 4,
+    "unitName": "OOP CONCEPTS-I (C++)",
+    "topic": "C++ Program Structure & Classes",
+    "years": [
+      "2023(ND)"
+    ],
+    "year": "2023",
+    "marks": 8,
+    "frequency": 1,
+    "priority": "high",
+    "type": "application",
+    "text": "What is the basic structure of C++ program? Write a simple C++ program that demonstrates class and object."
+  },
+  {
+    "id": "ppl-q4.2.4",
+    "unit": 4,
+    "unitName": "OOP CONCEPTS-I (C++)",
+    "topic": "C++ Program Structure & Classes",
+    "years": [
+      "2024(ND)"
+    ],
+    "year": "2024",
+    "marks": 8,
+    "frequency": 1,
+    "priority": "high",
+    "type": "application",
+    "text": "Write a simple C++ program demonstrating the creation and use of a class with member variables, methods, and constructors. Briefly explain your code."
+  },
+  {
+    "id": "ppl-q4.2.5",
+    "unit": 4,
+    "unitName": "OOP CONCEPTS-I (C++)",
+    "topic": "C++ Program Structure & Classes",
+    "years": [
+      "2022(AM)"
+    ],
+    "year": "2022",
+    "marks": 10,
     "frequency": 1,
     "priority": "medium",
     "type": "application",
-    "text": "Write a simple C++ program that demonstrates basic structure."
+    "text": "Write a C++ program to perform arithmetic operations."
+  },
+  {
+    "id": "ppl-q4.2.6",
+    "unit": 4,
+    "unitName": "OOP CONCEPTS-I (C++)",
+    "topic": "C++ Program Structure & Classes",
+    "years": [
+      "2024(ND)"
+    ],
+    "year": "2024",
+    "marks": 8,
+    "frequency": 1,
+    "priority": "medium",
+    "type": "theory",
+    "text": "Compare compile-time and run-time polymorphism mechanisms in C++. Provide examples of each type and discuss their respective applications."
   },
   {
     "id": "ppl-q4.3.1",
-    "unit": null,
-    "unitName": "UNIT IV: OOP CONCEPTS-I",
-    "topic": "Classes and Objects",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "What are classes and objects? Explain with C++ examples."
+    "unit": 4,
+    "unitName": "OOP CONCEPTS-I (C++)",
+    "topic": "Static Members & this Pointer",
+    "years": [
+      "2021(AM)",
+      "2021(ND)",
+      "2022(ND)"
+    ],
+    "year": "2021",
+    "marks": 8,
+    "frequency": 4,
+    "priority": "high",
+    "type": "application",
+    "text": "What are static members? Write a C++ program to explain static members."
   },
   {
     "id": "ppl-q4.3.2",
-    "unit": null,
-    "unitName": "UNIT IV: OOP CONCEPTS-I",
-    "topic": "Classes and Objects",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
+    "unit": 4,
+    "unitName": "OOP CONCEPTS-I (C++)",
+    "topic": "Static Members & this Pointer",
+    "years": [
+      "2022(ND)"
+    ],
+    "year": "2022",
+    "marks": 8,
+    "frequency": 4,
+    "priority": "high",
     "type": "application",
-    "text": "Write C++ programs demonstrating class definition and object creation."
+    "text": "What is a static member? Write a program to demonstrate it."
   },
   {
     "id": "ppl-q4.3.3",
-    "unit": null,
-    "unitName": "UNIT IV: OOP CONCEPTS-I",
-    "topic": "Classes and Objects",
-    "years": [],
-    "year": "",
+    "unit": 4,
+    "unitName": "OOP CONCEPTS-I (C++)",
+    "topic": "Static Members & this Pointer",
+    "years": [
+      "2020(ND)"
+    ],
+    "year": "2020",
+    "marks": 8,
+    "frequency": 4,
+    "priority": "high",
+    "type": "application",
+    "text": "What are Static members in a class? Write a program in C++ to demonstrate the use of static members in a class."
+  },
+  {
+    "id": "ppl-q4.3.4",
+    "unit": 4,
+    "unitName": "OOP CONCEPTS-I (C++)",
+    "topic": "Static Members & this Pointer",
+    "years": [
+      "2021(AM)",
+      "2021(ND)"
+    ],
+    "year": "2021",
+    "marks": 8,
+    "frequency": 3,
+    "priority": "high",
+    "type": "application",
+    "text": "What is this pointer? Demonstrate its use with a C++ program."
+  },
+  {
+    "id": "ppl-q4.3.5",
+    "unit": 4,
+    "unitName": "OOP CONCEPTS-I (C++)",
+    "topic": "Static Members & this Pointer",
+    "years": [
+      "2024(AM)"
+    ],
+    "year": "2024",
+    "marks": 4,
+    "frequency": 3,
+    "priority": "high",
+    "type": "theory",
+    "text": "Explain this pointer with example."
+  },
+  {
+    "id": "ppl-q4.3.6",
+    "unit": 4,
+    "unitName": "OOP CONCEPTS-I (C++)",
+    "topic": "Static Members & this Pointer",
+    "years": [
+      "2024(AM)"
+    ],
+    "year": "2024",
+    "marks": 8,
     "frequency": 1,
     "priority": "medium",
     "type": "theory",
-    "text": "Explain member functions and data members."
+    "text": "Explain const and static keywords with suitable example."
   },
   {
     "id": "ppl-q4.4.1",
-    "unit": null,
-    "unitName": "UNIT IV: OOP CONCEPTS-I",
-    "topic": "Access Specifiers",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
+    "unit": 4,
+    "unitName": "OOP CONCEPTS-I (C++)",
+    "topic": "Pointers vs Reference Variables",
+    "years": [
+      "2021(AM)"
+    ],
+    "year": "2021",
+    "marks": 8,
+    "frequency": 3,
+    "priority": "high",
     "type": "theory",
-    "text": "What are access specifiers in C++? Explain public, private, and protected with examples."
+    "text": "What are pointers? How do they differ from reference variables?"
   },
   {
     "id": "ppl-q4.4.2",
-    "unit": null,
-    "unitName": "UNIT IV: OOP CONCEPTS-I",
-    "topic": "Access Specifiers",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
+    "unit": 4,
+    "unitName": "OOP CONCEPTS-I (C++)",
+    "topic": "Pointers vs Reference Variables",
+    "years": [
+      "2022(AM)"
+    ],
+    "year": "2022",
+    "marks": 10,
+    "frequency": 3,
+    "priority": "high",
     "type": "theory",
-    "text": "Explain data hiding using access specifiers."
+    "text": "Differentiate: Pointers and reference variables."
   },
   {
     "id": "ppl-q4.4.3",
-    "unit": null,
-    "unitName": "UNIT IV: OOP CONCEPTS-I",
-    "topic": "Access Specifiers",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "application",
-    "text": "Write C++ programs demonstrating access control."
+    "unit": 4,
+    "unitName": "OOP CONCEPTS-I (C++)",
+    "topic": "Pointers vs Reference Variables",
+    "years": [
+      "2023(ND)"
+    ],
+    "year": "2023",
+    "marks": 8,
+    "frequency": 3,
+    "priority": "high",
+    "type": "theory",
+    "text": "What do you mean by pointer? Write a comparison between pointer and reference variable."
   },
   {
     "id": "ppl-q4.5.1",
-    "unit": null,
-    "unitName": "UNIT IV: OOP CONCEPTS-I",
-    "topic": "Inheritance",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
+    "unit": 4,
+    "unitName": "OOP CONCEPTS-I (C++)",
+    "topic": "new & delete Operators",
+    "years": [
+      "2021(AM)",
+      "2023(AM)"
+    ],
+    "year": "2021",
+    "marks": 4,
+    "frequency": 4,
+    "priority": "high",
     "type": "theory",
-    "text": "Explain inheritance in C++. Discuss types of inheritance with examples."
+    "text": "Compare new and delete operator."
   },
   {
     "id": "ppl-q4.5.2",
-    "unit": null,
-    "unitName": "UNIT IV: OOP CONCEPTS-I",
-    "topic": "Inheritance",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "application",
-    "text": "Write C++ programs demonstrating single, multiple, multilevel inheritance."
+    "unit": 4,
+    "unitName": "OOP CONCEPTS-I (C++)",
+    "topic": "new & delete Operators",
+    "years": [
+      "2022(AM)"
+    ],
+    "year": "2022",
+    "marks": 10,
+    "frequency": 4,
+    "priority": "high",
+    "type": "theory",
+    "text": "Differentiate: new and delete operators."
   },
   {
     "id": "ppl-q4.5.3",
-    "unit": null,
-    "unitName": "UNIT IV: OOP CONCEPTS-I",
-    "topic": "Inheritance",
-    "years": [],
-    "year": "",
+    "unit": 4,
+    "unitName": "OOP CONCEPTS-I (C++)",
+    "topic": "new & delete Operators",
+    "years": [
+      "2020(ND)",
+      "2022(ND)"
+    ],
+    "year": "2020",
+    "marks": 8,
+    "frequency": 4,
+    "priority": "high",
+    "type": "application",
+    "text": "Write a C++ program to demonstrate the use of new and delete operators."
+  },
+  {
+    "id": "ppl-q4.5.4",
+    "unit": 4,
+    "unitName": "OOP CONCEPTS-I (C++)",
+    "topic": "new & delete Operators",
+    "years": [
+      "2023(AM)"
+    ],
+    "year": "2023",
+    "marks": 8,
     "frequency": 1,
-    "priority": "medium",
+    "priority": "low",
     "type": "theory",
-    "text": "Explain virtual base class and its use in diamond problem."
+    "text": "Write short notes on: (i) Nested class (ii) Static member (iii) C++ compiler."
+  },
+  {
+    "id": "ppl-q4.5.5",
+    "unit": 4,
+    "unitName": "OOP CONCEPTS-I (C++)",
+    "topic": "new & delete Operators",
+    "years": [
+      "2020(ND)"
+    ],
+    "year": "2020",
+    "marks": 8,
+    "frequency": 1,
+    "priority": "low",
+    "type": "application",
+    "text": "What are Nested classes? Write a program to demonstrate the use of Nested class."
   },
   {
     "id": "ppl-q4.6.1",
-    "unit": null,
-    "unitName": "UNIT IV: OOP CONCEPTS-I",
-    "topic": "Polymorphism",
-    "years": [],
-    "year": "",
+    "unit": 4,
+    "unitName": "OOP CONCEPTS-I (C++)",
+    "topic": "Inheritance & Polymorphism (C++)",
+    "years": [
+      "2022(ND)"
+    ],
+    "year": "2022",
+    "marks": 8,
     "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "What is polymorphism? Explain compile-time and runtime polymorphism with examples."
+    "priority": "high",
+    "type": "application",
+    "text": "Explain inheritance with a C++ program."
   },
   {
     "id": "ppl-q4.6.2",
-    "unit": null,
-    "unitName": "UNIT IV: OOP CONCEPTS-I",
-    "topic": "Polymorphism",
-    "years": [],
-    "year": "",
+    "unit": 4,
+    "unitName": "OOP CONCEPTS-I (C++)",
+    "topic": "Inheritance & Polymorphism (C++)",
+    "years": [
+      "2024(ND)"
+    ],
+    "year": "2024",
+    "marks": 8,
     "frequency": 1,
-    "priority": "medium",
+    "priority": "high",
     "type": "theory",
-    "text": "Explain function overloading as compile-time polymorphism."
-  },
-  {
-    "id": "ppl-q4.6.3",
-    "unit": null,
-    "unitName": "UNIT IV: OOP CONCEPTS-I",
-    "topic": "Polymorphism",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "Explain virtual functions as runtime polymorphism."
-  },
-  {
-    "id": "ppl-q4.7.1",
-    "unit": null,
-    "unitName": "UNIT IV: OOP CONCEPTS-I",
-    "topic": "Pointers and References",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "Explain pointers in C++. What is the difference between pointers and references?"
-  },
-  {
-    "id": "ppl-q4.7.2",
-    "unit": null,
-    "unitName": "UNIT IV: OOP CONCEPTS-I",
-    "topic": "Pointers and References",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "application",
-    "text": "Write C++ programs demonstrating pointer operations."
-  },
-  {
-    "id": "ppl-q4.7.3",
-    "unit": null,
-    "unitName": "UNIT IV: OOP CONCEPTS-I",
-    "topic": "Pointers and References",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "Explain this pointer in C++."
-  },
-  {
-    "id": "ppl-q4.8.1",
-    "unit": null,
-    "unitName": "UNIT IV: OOP CONCEPTS-I",
-    "topic": "Memory Management (new/delete)",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "Explain new and delete operators in C++. How do they differ from malloc and free?"
-  },
-  {
-    "id": "ppl-q4.8.2",
-    "unit": null,
-    "unitName": "UNIT IV: OOP CONCEPTS-I",
-    "topic": "Memory Management (new/delete)",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "application",
-    "text": "Write C++ programs using dynamic memory allocation."
-  },
-  {
-    "id": "ppl-q4.8.3",
-    "unit": null,
-    "unitName": "UNIT IV: OOP CONCEPTS-I",
-    "topic": "Memory Management (new/delete)",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "Explain memory leaks and how to prevent them."
-  },
-  {
-    "id": "ppl-q4.9.1",
-    "unit": null,
-    "unitName": "UNIT IV: OOP CONCEPTS-I",
-    "topic": "Inline Functions",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "What are inline functions in C++? Explain their advantages and disadvantages."
-  },
-  {
-    "id": "ppl-q4.9.2",
-    "unit": null,
-    "unitName": "UNIT IV: OOP CONCEPTS-I",
-    "topic": "Inline Functions",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "When should you use inline functions?"
-  },
-  {
-    "id": "ppl-q4.9.3",
-    "unit": null,
-    "unitName": "UNIT IV: OOP CONCEPTS-I",
-    "topic": "Inline Functions",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "Write C++ examples demonstrating inline functions."
-  },
-  {
-    "id": "ppl-q4.10.1",
-    "unit": null,
-    "unitName": "UNIT IV: OOP CONCEPTS-I",
-    "topic": "Static Members",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "Explain static data members and static member functions in C++."
-  },
-  {
-    "id": "ppl-q4.10.2",
-    "unit": null,
-    "unitName": "UNIT IV: OOP CONCEPTS-I",
-    "topic": "Static Members",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "application",
-    "text": "Write C++ programs demonstrating static members."
-  },
-  {
-    "id": "ppl-q4.10.3",
-    "unit": null,
-    "unitName": "UNIT IV: OOP CONCEPTS-I",
-    "topic": "Static Members",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "What is the difference between static and non-static members?"
-  },
-  {
-    "id": "ppl-q4.11.1",
-    "unit": null,
-    "unitName": "UNIT IV: OOP CONCEPTS-I",
-    "topic": "Const Keyword",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "Explain the use of const keyword in C++: const variables, const functions, const parameters."
-  },
-  {
-    "id": "ppl-q4.11.2",
-    "unit": null,
-    "unitName": "UNIT IV: OOP CONCEPTS-I",
-    "topic": "Const Keyword",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "What are const member functions?"
-  },
-  {
-    "id": "ppl-q4.11.3",
-    "unit": null,
-    "unitName": "UNIT IV: OOP CONCEPTS-I",
-    "topic": "Const Keyword",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "Explain mutable keyword in C++."
-  },
-  {
-    "id": "ppl-q4.12.1",
-    "unit": null,
-    "unitName": "UNIT IV: OOP CONCEPTS-I",
-    "topic": "Scope Resolution",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "Explain scope resolution operator (::) in C++."
-  },
-  {
-    "id": "ppl-q4.12.2",
-    "unit": null,
-    "unitName": "UNIT IV: OOP CONCEPTS-I",
-    "topic": "Scope Resolution",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "application",
-    "text": "Write C++ programs demonstrating scope resolution."
-  },
-  {
-    "id": "ppl-q4.12.3",
-    "unit": null,
-    "unitName": "UNIT IV: OOP CONCEPTS-I",
-    "topic": "Scope Resolution",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "Explain namespace and scope resolution."
-  },
-  {
-    "id": "ppl-q4.13.1",
-    "unit": null,
-    "unitName": "UNIT IV: OOP CONCEPTS-I",
-    "topic": "Namespaces",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "What are namespaces in C++? Explain with examples."
-  },
-  {
-    "id": "ppl-q4.13.2",
-    "unit": null,
-    "unitName": "UNIT IV: OOP CONCEPTS-I",
-    "topic": "Namespaces",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "How do namespaces prevent name collision?"
-  },
-  {
-    "id": "ppl-q4.13.3",
-    "unit": null,
-    "unitName": "UNIT IV: OOP CONCEPTS-I",
-    "topic": "Namespaces",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "Explain using directive and using declaration."
-  },
-  {
-    "id": "ppl-q4.14.1",
-    "unit": null,
-    "unitName": "UNIT IV: OOP CONCEPTS-I",
-    "topic": "Arrays and Strings in C++",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "Explain array handling in C++."
-  },
-  {
-    "id": "ppl-q4.14.2",
-    "unit": null,
-    "unitName": "UNIT IV: OOP CONCEPTS-I",
-    "topic": "Arrays and Strings in C++",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "What is the string class in C++?"
-  },
-  {
-    "id": "ppl-q4.14.3",
-    "unit": null,
-    "unitName": "UNIT IV: OOP CONCEPTS-I",
-    "topic": "Arrays and Strings in C++",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "application",
-    "text": "Write C++ programs for string manipulation."
-  },
-  {
-    "id": "ppl-q4.15.1",
-    "unit": null,
-    "unitName": "UNIT IV: OOP CONCEPTS-I",
-    "topic": "Type Casting",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "Explain type casting in C++: static_cast, dynamic_cast, const_cast, reinterpret_cast."
-  },
-  {
-    "id": "ppl-q4.15.2",
-    "unit": null,
-    "unitName": "UNIT IV: OOP CONCEPTS-I",
-    "topic": "Type Casting",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "What is the difference between C-style and C++ style casting?"
-  },
-  {
-    "id": "ppl-q4.15.3",
-    "unit": null,
-    "unitName": "UNIT IV: OOP CONCEPTS-I",
-    "topic": "Type Casting",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "Write C++ examples demonstrating type casting."
-  },
-  {
-    "id": "ppl-q4.16.1",
-    "unit": null,
-    "unitName": "UNIT IV: OOP CONCEPTS-I",
-    "topic": "OOP General Concepts",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "application",
-    "text": "Explain the benefits of object-oriented programming."
-  },
-  {
-    "id": "ppl-q4.16.2",
-    "unit": null,
-    "unitName": "UNIT IV: OOP CONCEPTS-I",
-    "topic": "OOP General Concepts",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "application",
-    "text": "Compare procedural and object-oriented programming."
-  },
-  {
-    "id": "ppl-q4.16.3",
-    "unit": null,
-    "unitName": "UNIT IV: OOP CONCEPTS-I",
-    "topic": "OOP General Concepts",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "application",
-    "text": "What are the principles of good OOP design?"
+    "text": "Discuss the different types of inheritance available in C++ with example."
   },
   {
     "id": "ppl-q5.1.1",
-    "unit": null,
-    "unitName": "UNIT V: OOP CONCEPTS-II",
-    "topic": "Constructors and Destructors",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
+    "unit": 5,
+    "unitName": "OOP CONCEPTS-II (C++)",
+    "topic": "Constructors & Destructors",
+    "years": [
+      "2021(ND)",
+      "2022(ND)"
+    ],
+    "year": "2021",
+    "marks": 4,
+    "frequency": 3,
+    "priority": "high",
     "type": "application",
-    "text": "Explain constructors and destructors in C++. Discuss their types and uses."
+    "text": "Explain constructor and destructor in C++."
   },
   {
     "id": "ppl-q5.1.2",
-    "unit": null,
-    "unitName": "UNIT V: OOP CONCEPTS-II",
-    "topic": "Constructors and Destructors",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
+    "unit": 5,
+    "unitName": "OOP CONCEPTS-II (C++)",
+    "topic": "Constructors & Destructors",
+    "years": [
+      "2023(ND)"
+    ],
+    "year": "2023",
+    "marks": 4,
+    "frequency": 3,
+    "priority": "high",
     "type": "application",
-    "text": "Write C++ programs demonstrating default, parameterized, and copy constructors."
+    "text": "Define the constructor and explain."
   },
   {
     "id": "ppl-q5.1.3",
-    "unit": null,
-    "unitName": "UNIT V: OOP CONCEPTS-II",
-    "topic": "Constructors and Destructors",
-    "years": [],
-    "year": "",
+    "unit": 5,
+    "unitName": "OOP CONCEPTS-II (C++)",
+    "topic": "Constructors & Destructors",
+    "years": [
+      "2024(ND)"
+    ],
+    "year": "2024",
+    "marks": 8,
     "frequency": 1,
-    "priority": "medium",
+    "priority": "high",
     "type": "application",
-    "text": "Explain constructor overloading with examples."
+    "text": "Write C++ program demonstrating constructor overloading with different parameter types."
   },
   {
     "id": "ppl-q5.1.4",
-    "unit": null,
-    "unitName": "UNIT V: OOP CONCEPTS-II",
-    "topic": "Constructors and Destructors",
-    "years": [],
-    "year": "",
+    "unit": 5,
+    "unitName": "OOP CONCEPTS-II (C++)",
+    "topic": "Constructors & Destructors",
+    "years": [
+      "2024(AM)"
+    ],
+    "year": "2024",
+    "marks": 4,
+    "frequency": 1,
+    "priority": "high",
+    "type": "theory",
+    "text": "Explain destructor with example."
+  },
+  {
+    "id": "ppl-q5.1.5",
+    "unit": 5,
+    "unitName": "OOP CONCEPTS-II (C++)",
+    "topic": "Constructors & Destructors",
+    "years": [
+      "2023(AM)"
+    ],
+    "year": "2023",
+    "marks": 8,
     "frequency": 1,
     "priority": "medium",
-    "type": "theory",
-    "text": "What is a destructor? When is it called?"
+    "type": "application",
+    "text": "Write short notes on: (i) Constructor with types — Explain it. (ii) How the destructor is important?"
   },
   {
     "id": "ppl-q5.2.1",
-    "unit": null,
-    "unitName": "UNIT V: OOP CONCEPTS-II",
-    "topic": "Operator Overloading",
-    "years": [],
-    "year": "",
+    "unit": 5,
+    "unitName": "OOP CONCEPTS-II (C++)",
+    "topic": "Function & Operator Overloading",
+    "years": [
+      "2023(ND)"
+    ],
+    "year": "2023",
+    "marks": 8,
     "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "What is operator overloading in C++? Explain with examples (binary and unary)."
+    "priority": "high",
+    "type": "application",
+    "text": "What do you mean by constructor? Explain function overloading with suitable program."
   },
   {
     "id": "ppl-q5.2.2",
-    "unit": null,
-    "unitName": "UNIT V: OOP CONCEPTS-II",
-    "topic": "Operator Overloading",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "application",
-    "text": "Write C++ programs overloading arithmetic operators (+, -, *, /)."
+    "unit": 5,
+    "unitName": "OOP CONCEPTS-II (C++)",
+    "topic": "Function & Operator Overloading",
+    "years": [
+      "2022(AM)",
+      "2022(ND)"
+    ],
+    "year": "2022",
+    "marks": 10,
+    "frequency": 3,
+    "priority": "high",
+    "type": "theory",
+    "text": "Explain operator overloading with suitable example."
   },
   {
     "id": "ppl-q5.2.3",
-    "unit": null,
-    "unitName": "UNIT V: OOP CONCEPTS-II",
-    "topic": "Operator Overloading",
-    "years": [],
-    "year": "",
+    "unit": 5,
+    "unitName": "OOP CONCEPTS-II (C++)",
+    "topic": "Function & Operator Overloading",
+    "years": [
+      "2024(ND)"
+    ],
+    "year": "2024",
+    "marks": 8,
     "frequency": 1,
-    "priority": "medium",
+    "priority": "high",
     "type": "theory",
-    "text": "Explain overloading of increment/decrement operators."
+    "text": "What is operator overloading in C++ and its benefits for customizing the behaviour of existing operators for user-defined objects? Provide an example of overloading the ++ operator for adding two complex numbers."
   },
   {
     "id": "ppl-q5.2.4",
-    "unit": null,
-    "unitName": "UNIT V: OOP CONCEPTS-II",
-    "topic": "Operator Overloading",
-    "years": [],
-    "year": "",
+    "unit": 5,
+    "unitName": "OOP CONCEPTS-II (C++)",
+    "topic": "Function & Operator Overloading",
+    "years": [
+      "2024(AM)"
+    ],
+    "year": "2024",
+    "marks": 8,
+    "frequency": 1,
+    "priority": "high",
+    "type": "application",
+    "text": "What is operator overloading? Write a program to overload unary minus operator."
+  },
+  {
+    "id": "ppl-q5.2.5",
+    "unit": 5,
+    "unitName": "OOP CONCEPTS-II (C++)",
+    "topic": "Function & Operator Overloading",
+    "years": [
+      "2023(AM)"
+    ],
+    "year": "2023",
+    "marks": 8,
     "frequency": 1,
     "priority": "medium",
     "type": "theory",
-    "text": "Can all operators be overloaded? Explain."
+    "text": "What is Operators? Explain different types of operators."
   },
   {
     "id": "ppl-q5.3.1",
-    "unit": null,
-    "unitName": "UNIT V: OOP CONCEPTS-II",
-    "topic": "Friend Functions and Classes",
-    "years": [],
-    "year": "",
+    "unit": 5,
+    "unitName": "OOP CONCEPTS-II (C++)",
+    "topic": "Friend Functions & Classes",
+    "years": [
+      "2021(ND)"
+    ],
+    "year": "2021",
+    "marks": 8,
     "frequency": 1,
-    "priority": "medium",
+    "priority": "high",
     "type": "theory",
-    "text": "Explain friend functions and friend classes in C++. What are their uses?"
+    "text": "Explain following: Friend function and Abstract class."
   },
   {
     "id": "ppl-q5.3.2",
-    "unit": null,
-    "unitName": "UNIT V: OOP CONCEPTS-II",
-    "topic": "Friend Functions and Classes",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "application",
-    "text": "Write C++ programs demonstrating friend functions accessing private members."
+    "unit": 5,
+    "unitName": "OOP CONCEPTS-II (C++)",
+    "topic": "Friend Functions & Classes",
+    "years": [
+      "2022(AM)"
+    ],
+    "year": "2022",
+    "marks": 10,
+    "frequency": 4,
+    "priority": "high",
+    "type": "theory",
+    "text": "Explain the Friend function with an example."
   },
   {
     "id": "ppl-q5.3.3",
-    "unit": null,
-    "unitName": "UNIT V: OOP CONCEPTS-II",
-    "topic": "Friend Functions and Classes",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "What are the advantages and disadvantages of friend functions?"
+    "unit": 5,
+    "unitName": "OOP CONCEPTS-II (C++)",
+    "topic": "Friend Functions & Classes",
+    "years": [
+      "2022(ND)"
+    ],
+    "year": "2022",
+    "marks": 8,
+    "frequency": 4,
+    "priority": "high",
+    "type": "application",
+    "text": "Write a program in C++ to demonstrate the use of a friend function."
   },
   {
     "id": "ppl-q5.3.4",
-    "unit": null,
-    "unitName": "UNIT V: OOP CONCEPTS-II",
-    "topic": "Friend Functions and Classes",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
+    "unit": 5,
+    "unitName": "OOP CONCEPTS-II (C++)",
+    "topic": "Friend Functions & Classes",
+    "years": [
+      "2023(ND)"
+    ],
+    "year": "2023",
+    "marks": 8,
+    "frequency": 4,
+    "priority": "high",
+    "type": "application",
+    "text": "Define friend function. Write a C++ program demonstrating friend function and class."
+  },
+  {
+    "id": "ppl-q5.3.5",
+    "unit": 5,
+    "unitName": "OOP CONCEPTS-II (C++)",
+    "topic": "Friend Functions & Classes",
+    "years": [
+      "2024(AM)"
+    ],
+    "year": "2024",
+    "marks": 8,
+    "frequency": 4,
+    "priority": "high",
     "type": "theory",
-    "text": "Explain friend functions for operator overloading."
+    "text": "What is friend function? Explain its characteristics with suitable example."
+  },
+  {
+    "id": "ppl-q5.3.6",
+    "unit": 5,
+    "unitName": "OOP CONCEPTS-II (C++)",
+    "topic": "Friend Functions & Classes",
+    "years": [
+      "2023(AM)"
+    ],
+    "year": "2023",
+    "marks": 8,
+    "frequency": 1,
+    "priority": "high",
+    "type": "application",
+    "text": "What are the friend functions? Write a program to demonstrate the use of a member function of one class as a friend of another class."
   },
   {
     "id": "ppl-q5.4.1",
-    "unit": null,
-    "unitName": "UNIT V: OOP CONCEPTS-II",
-    "topic": "Function Overloading",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
+    "unit": 5,
+    "unitName": "OOP CONCEPTS-II (C++)",
+    "topic": "Abstract Classes & Inheritance",
+    "years": [
+      "2021(AM)"
+    ],
+    "year": "2021",
+    "marks": 4,
+    "frequency": 2,
+    "priority": "high",
     "type": "theory",
-    "text": "What is function overloading in C++? Explain with examples."
+    "text": "Which classes are called abstract?"
   },
   {
     "id": "ppl-q5.4.2",
-    "unit": null,
-    "unitName": "UNIT V: OOP CONCEPTS-II",
-    "topic": "Function Overloading",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
+    "unit": 5,
+    "unitName": "OOP CONCEPTS-II (C++)",
+    "topic": "Abstract Classes & Inheritance",
+    "years": [
+      "2020(ND)"
+    ],
+    "year": "2020",
+    "marks": 8,
+    "frequency": 2,
+    "priority": "high",
     "type": "application",
-    "text": "Write C++ programs demonstrating function overloading."
+    "text": "Explain Abstract class in C++. Write a program to create an Abstract class in C++."
   },
   {
     "id": "ppl-q5.4.3",
-    "unit": null,
-    "unitName": "UNIT V: OOP CONCEPTS-II",
-    "topic": "Function Overloading",
-    "years": [],
-    "year": "",
+    "unit": 5,
+    "unitName": "OOP CONCEPTS-II (C++)",
+    "topic": "Abstract Classes & Inheritance",
+    "years": [
+      "2023(ND)"
+    ],
+    "year": "2023",
+    "marks": 8,
     "frequency": 1,
-    "priority": "medium",
+    "priority": "high",
     "type": "theory",
-    "text": "Explain function overloading resolution rules."
+    "text": "Write short note on: (i) Abstract class (ii) Inheritance."
   },
   {
     "id": "ppl-q5.4.4",
-    "unit": null,
-    "unitName": "UNIT V: OOP CONCEPTS-II",
-    "topic": "Function Overloading",
-    "years": [],
-    "year": "",
+    "unit": 5,
+    "unitName": "OOP CONCEPTS-II (C++)",
+    "topic": "Abstract Classes & Inheritance",
+    "years": [
+      "2021(AM)"
+    ],
+    "year": "2021",
+    "marks": 8,
     "frequency": 1,
     "priority": "medium",
     "type": "theory",
-    "text": "What is the difference between function overloading and function overriding?"
+    "text": "How does a private member of one class be accessed by another class?"
+  },
+  {
+    "id": "ppl-q5.4.5",
+    "unit": 5,
+    "unitName": "OOP CONCEPTS-II (C++)",
+    "topic": "Abstract Classes & Inheritance",
+    "years": [
+      "2020(ND)"
+    ],
+    "year": "2020",
+    "marks": 8,
+    "frequency": 1,
+    "priority": "medium",
+    "type": "application",
+    "text": "Explain Hybrid inheritance in C++. Write a program in C++ to demonstrate Hybrid inheritance."
   },
   {
     "id": "ppl-q5.5.1",
-    "unit": null,
-    "unitName": "UNIT V: OOP CONCEPTS-II",
-    "topic": "Virtual Functions",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "Explain virtual functions and pure virtual functions. Discuss their role in polymorphism."
+    "unit": 5,
+    "unitName": "OOP CONCEPTS-II (C++)",
+    "topic": "Virtual Functions & Dynamic Binding",
+    "years": [
+      "2021(AM)"
+    ],
+    "year": "2021",
+    "marks": 8,
+    "frequency": 2,
+    "priority": "high",
+    "type": "application",
+    "text": "What is Dynamic binding? How does C++ implement it?"
   },
   {
     "id": "ppl-q5.5.2",
-    "unit": null,
-    "unitName": "UNIT V: OOP CONCEPTS-II",
-    "topic": "Virtual Functions",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "application",
-    "text": "Write C++ programs demonstrating virtual functions."
+    "unit": 5,
+    "unitName": "OOP CONCEPTS-II (C++)",
+    "topic": "Virtual Functions & Dynamic Binding",
+    "years": [
+      "2021(ND)",
+      "2022(ND)"
+    ],
+    "year": "2021",
+    "marks": 8,
+    "frequency": 3,
+    "priority": "high",
+    "type": "theory",
+    "text": "Explain virtual function with example."
   },
   {
     "id": "ppl-q5.5.3",
-    "unit": null,
-    "unitName": "UNIT V: OOP CONCEPTS-II",
-    "topic": "Virtual Functions",
-    "years": [],
-    "year": "",
+    "unit": 5,
+    "unitName": "OOP CONCEPTS-II (C++)",
+    "topic": "Virtual Functions & Dynamic Binding",
+    "years": [
+      "2024(AM)"
+    ],
+    "year": "2024",
+    "marks": 8,
     "frequency": 1,
-    "priority": "medium",
+    "priority": "high",
     "type": "theory",
-    "text": "Explain virtual table (vtable) mechanism."
+    "text": "Differentiate virtual function and pure virtual function with proper example."
   },
   {
     "id": "ppl-q5.5.4",
-    "unit": null,
-    "unitName": "UNIT V: OOP CONCEPTS-II",
-    "topic": "Virtual Functions",
-    "years": [],
-    "year": "",
+    "unit": 5,
+    "unitName": "OOP CONCEPTS-II (C++)",
+    "topic": "Virtual Functions & Dynamic Binding",
+    "years": [
+      "2022(ND)"
+    ],
+    "year": "2022",
+    "marks": 8,
     "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "What is a virtual destructor? When is it needed?"
+    "priority": "high",
+    "type": "application",
+    "text": "Build a C++ program showing the use of virtual function."
   },
   {
     "id": "ppl-q5.6.1",
-    "unit": null,
-    "unitName": "UNIT V: OOP CONCEPTS-II",
-    "topic": "Abstract Classes and Interfaces",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
+    "unit": 5,
+    "unitName": "OOP CONCEPTS-II (C++)",
+    "topic": "Exception Handling",
+    "years": [
+      "2021(AM)"
+    ],
+    "year": "2021",
+    "marks": 8,
+    "frequency": 3,
+    "priority": "high",
     "type": "theory",
-    "text": "What are abstract classes in C++? How do they differ from interfaces?"
+    "text": "What are exceptions? How does C++ language handle exceptions?"
   },
   {
     "id": "ppl-q5.6.2",
-    "unit": null,
-    "unitName": "UNIT V: OOP CONCEPTS-II",
-    "topic": "Abstract Classes and Interfaces",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "application",
-    "text": "Write C++ programs demonstrating abstract classes."
+    "unit": 5,
+    "unitName": "OOP CONCEPTS-II (C++)",
+    "topic": "Exception Handling",
+    "years": [
+      "2021(ND)"
+    ],
+    "year": "2021",
+    "marks": 8,
+    "frequency": 3,
+    "priority": "high",
+    "type": "theory",
+    "text": "Explain Exception Handling for a class with an example."
   },
   {
     "id": "ppl-q5.6.3",
-    "unit": null,
-    "unitName": "UNIT V: OOP CONCEPTS-II",
-    "topic": "Abstract Classes and Interfaces",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
+    "unit": 5,
+    "unitName": "OOP CONCEPTS-II (C++)",
+    "topic": "Exception Handling",
+    "years": [
+      "2022(AM)"
+    ],
+    "year": "2022",
+    "marks": 10,
+    "frequency": 3,
+    "priority": "high",
     "type": "theory",
-    "text": "Explain the concept of interface in C++."
-  },
-  {
-    "id": "ppl-q5.6.4",
-    "unit": null,
-    "unitName": "UNIT V: OOP CONCEPTS-II",
-    "topic": "Abstract Classes and Interfaces",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "When should you use abstract classes?"
+    "text": "How exceptions are handled in C++? Explain in brief."
   },
   {
     "id": "ppl-q5.7.1",
-    "unit": null,
-    "unitName": "UNIT V: OOP CONCEPTS-II",
-    "topic": "Exception Handling",
-    "years": [],
-    "year": "",
+    "unit": 5,
+    "unitName": "OOP CONCEPTS-II (C++)",
+    "topic": "Templates",
+    "years": [
+      "2023(AM)"
+    ],
+    "year": "2023",
+    "marks": 4,
     "frequency": 1,
     "priority": "medium",
     "type": "theory",
-    "text": "Explain exception handling in C++ (try, catch, throw). Provide examples."
+    "text": "What are Templates? Write the features of templates."
   },
   {
     "id": "ppl-q5.7.2",
-    "unit": null,
-    "unitName": "UNIT V: OOP CONCEPTS-II",
-    "topic": "Exception Handling",
-    "years": [],
-    "year": "",
+    "unit": 5,
+    "unitName": "OOP CONCEPTS-II (C++)",
+    "topic": "Templates",
+    "years": [
+      "2020(ND)"
+    ],
+    "year": "2020",
+    "marks": 8,
     "frequency": 1,
     "priority": "medium",
-    "type": "theory",
-    "text": "How do you create custom exception classes?"
+    "type": "application",
+    "text": "Explain function templates with code example in C++."
   },
   {
     "id": "ppl-q5.7.3",
-    "unit": null,
-    "unitName": "UNIT V: OOP CONCEPTS-II",
-    "topic": "Exception Handling",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "application",
-    "text": "Write C++ program demonstrating exception handling with multiple catch blocks."
-  },
-  {
-    "id": "ppl-q5.7.4",
-    "unit": null,
-    "unitName": "UNIT V: OOP CONCEPTS-II",
-    "topic": "Exception Handling",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "Explain exception specification and noexcept."
-  },
-  {
-    "id": "ppl-q5.8.1",
-    "unit": null,
-    "unitName": "UNIT V: OOP CONCEPTS-II",
+    "unit": 5,
+    "unitName": "OOP CONCEPTS-II (C++)",
     "topic": "Templates",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "Explain function templates and class templates in C++ with examples."
-  },
-  {
-    "id": "ppl-q5.8.2",
-    "unit": null,
-    "unitName": "UNIT V: OOP CONCEPTS-II",
-    "topic": "Templates",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "What are template specializations? Explain full and partial specialization."
-  },
-  {
-    "id": "ppl-q5.8.3",
-    "unit": null,
-    "unitName": "UNIT V: OOP CONCEPTS-II",
-    "topic": "Templates",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "Write a C++ generic sort template function."
-  },
-  {
-    "id": "ppl-q5.8.4",
-    "unit": null,
-    "unitName": "UNIT V: OOP CONCEPTS-II",
-    "topic": "Templates",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "Explain variadic templates in C++11."
-  },
-  {
-    "id": "ppl-q5.9.1",
-    "unit": null,
-    "unitName": "UNIT V: OOP CONCEPTS-II",
-    "topic": "STL (Standard Template Library)",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "Explain Standard Template Library (STL) components: containers, iterators, algorithms."
-  },
-  {
-    "id": "ppl-q5.9.2",
-    "unit": null,
-    "unitName": "UNIT V: OOP CONCEPTS-II",
-    "topic": "STL (Standard Template Library)",
-    "years": [],
-    "year": "",
+    "years": [
+      "2020(ND)"
+    ],
+    "year": "2020",
+    "marks": 8,
     "frequency": 1,
     "priority": "medium",
     "type": "application",
-    "text": "Write C++ programs using STL vectors, lists, maps."
-  },
-  {
-    "id": "ppl-q5.9.3",
-    "unit": null,
-    "unitName": "UNIT V: OOP CONCEPTS-II",
-    "topic": "STL (Standard Template Library)",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "Explain STL algorithms (sort, find, binary_search)."
-  },
-  {
-    "id": "ppl-q5.9.4",
-    "unit": null,
-    "unitName": "UNIT V: OOP CONCEPTS-II",
-    "topic": "STL (Standard Template Library)",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "What are iterators in STL? Explain different types."
-  },
-  {
-    "id": "ppl-q5.10.1",
-    "unit": null,
-    "unitName": "UNIT V: OOP CONCEPTS-II",
-    "topic": "File Handling in C++",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "Explain file handling in C++: fstream, ifstream, ofstream."
-  },
-  {
-    "id": "ppl-q5.10.2",
-    "unit": null,
-    "unitName": "UNIT V: OOP CONCEPTS-II",
-    "topic": "File Handling in C++",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "application",
-    "text": "Write C++ programs for reading and writing files."
-  },
-  {
-    "id": "ppl-q5.10.3",
-    "unit": null,
-    "unitName": "UNIT V: OOP CONCEPTS-II",
-    "topic": "File Handling in C++",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "Explain file modes and file operations."
-  },
-  {
-    "id": "ppl-q5.10.4",
-    "unit": null,
-    "unitName": "UNIT V: OOP CONCEPTS-II",
-    "topic": "File Handling in C++",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "How do you handle binary files in C++?"
-  },
-  {
-    "id": "ppl-q5.11.1",
-    "unit": null,
-    "unitName": "UNIT V: OOP CONCEPTS-II",
-    "topic": "Multiple Inheritance & Diamond Problem",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "Explain multiple inheritance and diamond problem in C++."
-  },
-  {
-    "id": "ppl-q5.11.2",
-    "unit": null,
-    "unitName": "UNIT V: OOP CONCEPTS-II",
-    "topic": "Multiple Inheritance & Diamond Problem",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "How is the diamond problem resolved using virtual base class?"
-  },
-  {
-    "id": "ppl-q5.11.3",
-    "unit": null,
-    "unitName": "UNIT V: OOP CONCEPTS-II",
-    "topic": "Multiple Inheritance & Diamond Problem",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "application",
-    "text": "Write C++ programs demonstrating multiple inheritance."
-  },
-  {
-    "id": "ppl-q5.12.1",
-    "unit": null,
-    "unitName": "UNIT V: OOP CONCEPTS-II",
-    "topic": "Copy Constructor & Assignment",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "application",
-    "text": "Explain copy constructor and copy assignment operator in C++."
-  },
-  {
-    "id": "ppl-q5.12.2",
-    "unit": null,
-    "unitName": "UNIT V: OOP CONCEPTS-II",
-    "topic": "Copy Constructor & Assignment",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "What is shallow copy vs deep copy?"
-  },
-  {
-    "id": "ppl-q5.12.3",
-    "unit": null,
-    "unitName": "UNIT V: OOP CONCEPTS-II",
-    "topic": "Copy Constructor & Assignment",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "application",
-    "text": "Explain move constructor and move semantics (C++11)."
-  },
-  {
-    "id": "ppl-q5.13.1",
-    "unit": null,
-    "unitName": "UNIT V: OOP CONCEPTS-II",
-    "topic": "Smart Pointers (C++11)",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "Explain smart pointers in C++: unique_ptr, shared_ptr, weak_ptr."
-  },
-  {
-    "id": "ppl-q5.13.2",
-    "unit": null,
-    "unitName": "UNIT V: OOP CONCEPTS-II",
-    "topic": "Smart Pointers (C++11)",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "theory",
-    "text": "Why are smart pointers better than raw pointers?"
-  },
-  {
-    "id": "ppl-q5.13.3",
-    "unit": null,
-    "unitName": "UNIT V: OOP CONCEPTS-II",
-    "topic": "Smart Pointers (C++11)",
-    "years": [],
-    "year": "",
-    "frequency": 1,
-    "priority": "medium",
-    "type": "application",
-    "text": "Write C++ programs using smart pointers."
+    "text": "Explain class templates with code example in C++."
   }
 ];
 
