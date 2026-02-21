@@ -37,8 +37,8 @@ jobs:
         working-directory: ui
         run: npm run build
         env:
-          # Vite uses this to set the base path for assets
-          CNAME: /Question-Intelligence/
+          # Base path is / because we're serving from the root domain shubhdev.me
+          VITE_BASE_PATH: /
 
       # Copy static question-bank files alongside the React build
       - name: Copy subjects/ into dist
@@ -51,6 +51,10 @@ jobs:
       # Requests to unknown paths return 404.html which redirects back to the app
       - name: Create 404.html for SPA routing
         run: cp ui/dist/index.html ui/dist/404.html
+
+      # This tells GitHub Pages to serve on shubhdev.me custom domain
+      - name: Add CNAME for custom domain
+        run: echo "shubhdev.me" > ui/dist/CNAME
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
