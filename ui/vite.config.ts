@@ -24,4 +24,20 @@ export default defineConfig({
 
   // File types to support raw imports. Never add .css, .tsx, or .ts files to this.
   assetsInclude: ['**/*.svg', '**/*.csv'],
+
+  build: {
+    // Split vendor chunks to improve long-term caching and parallelise loading.
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          'vendor-react': ['react', 'react-dom'],
+          'vendor-router': ['react-router'],
+          'vendor-motion': ['motion/react'],
+          'vendor-icons': ['lucide-react'],
+        },
+      },
+    },
+    // Raise the warning limit slightly — our main chunk is intentionally large.
+    chunkSizeWarningLimit: 600,
+  },
 })

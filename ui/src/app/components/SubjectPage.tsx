@@ -224,6 +224,7 @@ function QuestionItem({
       }}
     >
       <div
+        className="qi-row"
         style={{
           display: "grid",
           gridTemplateColumns: "1fr auto",
@@ -1545,6 +1546,12 @@ export function SubjectPage() {
           header {
             padding: 0.75rem 1rem !important;
             gap: 1rem !important;
+          }
+          /* Stack question meta badges below text on very small screens */
+          .qi-row {
+            display: flex !important;
+            flex-direction: column;
+            gap: 0.5rem;
           }
         }
       `}</style>

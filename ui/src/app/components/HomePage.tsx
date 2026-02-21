@@ -229,19 +229,21 @@ export function HomePage() {
         </svg>
       </div>
 
-      {/* Floating gradient orbs */}
+      {/* Floating gradient orbs — sizes use clamp() for mobile-first scaling */}
       <div
         className="fixed pointer-events-none z-0"
         style={{
           top: "5%",
           left: "10%",
-          width: "600px",
-          height: "600px",
+          width: "clamp(200px, 50vw, 600px)",
+          height: "clamp(200px, 50vw, 600px)",
           borderRadius: "50%",
           background:
             "radial-gradient(circle, rgba(0, 80, 255, 0.07) 0%, transparent 70%)",
           filter: "blur(80px)",
           animation: "float-1 20s ease-in-out infinite",
+          willChange: "transform",
+          contain: "paint",
         }}
       />
       <div
@@ -249,13 +251,15 @@ export function HomePage() {
         style={{
           top: "40%",
           right: "5%",
-          width: "500px",
-          height: "500px",
+          width: "clamp(160px, 40vw, 500px)",
+          height: "clamp(160px, 40vw, 500px)",
           borderRadius: "50%",
           background:
             "radial-gradient(circle, rgba(100, 60, 255, 0.05) 0%, transparent 70%)",
           filter: "blur(70px)",
           animation: "float-2 25s ease-in-out infinite",
+          willChange: "transform",
+          contain: "paint",
         }}
       />
       <div
@@ -263,13 +267,15 @@ export function HomePage() {
         style={{
           bottom: "10%",
           left: "30%",
-          width: "450px",
-          height: "450px",
+          width: "clamp(150px, 35vw, 450px)",
+          height: "clamp(150px, 35vw, 450px)",
           borderRadius: "50%",
           background:
             "radial-gradient(circle, rgba(0, 200, 255, 0.04) 0%, transparent 70%)",
           filter: "blur(60px)",
           animation: "float-3 22s ease-in-out infinite",
+          willChange: "transform",
+          contain: "paint",
         }}
       />
 

@@ -62,3 +62,15 @@
   0%, 100% { transform: translate(-50%, -50%) scale(1) rotate(-12deg); }
   50% { transform: translate(-50%, -50%) scale(1.02) rotate(-10deg); }
 }
+
+/* ── Accessibility: respect user reduced-motion preference ── */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

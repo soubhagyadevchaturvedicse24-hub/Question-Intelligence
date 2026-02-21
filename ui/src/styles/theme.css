@@ -122,10 +122,27 @@
 @layer base {
   * {
     @apply border-border outline-ring/50;
+    box-sizing: border-box;
+  }
+
+  html {
+    font-size: var(--font-size);
+    /* Prevent horizontal scrollbar from fixed/absolute elements */
+    overflow-x: hidden;
   }
 
   body {
     @apply bg-background text-foreground;
+    overflow-x: hidden;
+    /* Improve text rendering on mobile */
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+  }
+
+  /* Ensure images never blow out their containers */
+  img,
+  svg {
+    max-width: 100%;
   }
 
   /**
