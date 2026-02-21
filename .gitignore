@@ -1,0 +1,43 @@
+# ── Dependencies ──────────────────────────────────────────
+node_modules/
+
+# ── Build outputs ─────────────────────────────────────────
+ui/dist/
+dist/
+build/
+.vercel/
+
+# ── Logs ──────────────────────────────────────────────────
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ── OS / Editor files ─────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# ── Python ────────────────────────────────────────────────
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# ── Large binary / source PDFs ────────────────────────────
+# These are reference exam papers (too large for git)
+*.pdf
+
+# ── Extracted/generated text ──────────────────────────────
+os_extracted.txt
+
+# ── Backup files ──────────────────────────────────────────
+*.bak
+*~
+*.orig
