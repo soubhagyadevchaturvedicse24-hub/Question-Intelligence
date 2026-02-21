@@ -38,7 +38,7 @@ jobs:
         run: npm run build
         env:
           # Vite uses this to set the base path for assets
-          VITE_BASE_PATH: /Question-Intelligence/
+          CNAME: /Question-Intelligence/
 
       # Copy static question-bank files alongside the React build
       - name: Copy subjects/ into dist
