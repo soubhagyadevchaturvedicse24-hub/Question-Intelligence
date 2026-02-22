@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Cyan glow filter -->
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <!-- Stronger glow for orbit ring -->
+    <filter id="orbitGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <!-- Brain gradient: cyan to blue -->
+    <linearGradient id="brainGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00c8ff"/>
+      <stop offset="100%" stop-color="#0055ee"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Dark navy rounded-square background -->
+  <rect width="512" height="512" rx="20%" ry="20%" fill="#0a0e1a"/>
+
+  <!-- Orbit / ellipse ring around the brain -->
+  <ellipse cx="256" cy="256" rx="155" ry="60" fill="none"
+           stroke="#00c8ff" stroke-width="8" opacity="0.85"
+           filter="url(#orbitGlow)"
+           transform="rotate(-30 256 256)"/>
+
+  <!-- Brain shape (simplified two-hemisphere blob) -->
+  <g filter="url(#glow)" fill="url(#brainGrad)">
+    <!-- Left hemisphere -->
+    <path d="
+      M 256 170
+      C 230 165, 195 168, 178 188
+      C 158 210, 155 235, 162 258
+      C 168 278, 180 292, 196 300
+      C 210 308, 230 310, 245 305
+      L 245 175
+      Z
+    "/>
+    <!-- Right hemisphere -->
+    <path d="
+      M 256 170
+      C 282 165, 317 168, 334 188
+      C 354 210, 357 235, 350 258
+      C 344 278, 332 292, 316 300
+      C 302 308, 282 310, 267 305
+      L 267 175
+      Z
+    "/>
+    <!-- Top connector (corpus callosum area) -->
+    <ellipse cx="256" cy="172" rx="32" ry="10" fill="url(#brainGrad)"/>
+    <!-- Bottom connector -->
+    <ellipse cx="256" cy="302" rx="22" ry="8" fill="url(#brainGrad)"/>
+    <!-- Brain fold lines (decorative grooves) -->
+    <path d="M 215 210 Q 225 220 215 235" fill="none" stroke="#0a1a3a" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 200 248 Q 212 256 200 268" fill="none" stroke="#0a1a3a" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 297 210 Q 287 220 297 235" fill="none" stroke="#0a1a3a" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 312 248 Q 300 256 312 268" fill="none" stroke="#0a1a3a" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- Question mark overlaid on the brain -->
+  <text x="256" y="320"
+        font-family="Arial Black, Arial, sans-serif"
+        font-size="145"
+        font-weight="900"
+        text-anchor="middle"
+        dominant-baseline="auto"
+        fill="#00e5ff"
+        opacity="0.95"
+        filter="url(#glow)">?</text>
+</svg>
